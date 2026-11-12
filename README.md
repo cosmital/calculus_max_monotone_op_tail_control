@@ -7,8 +7,6 @@ Lean companion to Cosme Louart's *A calculus of scalar maximally monotone operat
 
 This package contains formal proofs for the scalar operator calculus, Hardy aggregation bounds, and concentration inequalities with random Lipschitz controls. It includes 335 mathematical modules and 2,480 indexed public declarations, with proof mappings for 62 numbered manuscript items and 56 supplemental claims.
 
-**Manuscript version.** The proof dictionary is tied to the bundled [45-page PDF](manuscript/monotone_calculus.pdf), frozen on 9 November 2026 under the earlier title *Order and integration of scalar maximal monotone operators, with applications to tail bounds*. Use that PDF's result numbers and pages when following the links. Later revisions to the submission are not automatically covered by this snapshot. Exact hashes are recorded in [MANUSCRIPT_VERSION.json](docs/MANUSCRIPT_VERSION.json).
-
 ## Read the proofs without installing Lean
 
 1. Open the [bundled article PDF](manuscript/monotone_calculus.pdf).
