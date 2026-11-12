@@ -1,0 +1,19 @@
+name = "scalarMonotone"
+version = "0.1.0"
+# The core, extensions, and manuscript-facing reader are default targets.
+# A successful build is NOT a whole-paper coverage certificate.
+defaultTargets = ["MonotoneOperators", "EndOfPaper", "Paper"]
+
+[[lean_lib]]
+name = "MonotoneOperators"
+
+[[lean_lib]]
+name = "EndOfPaper"
+
+[[lean_lib]]
+name = "Paper"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "c44e0c8ee63ca166450922a373c7409c5d26b00b"

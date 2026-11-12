@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying article and this Lean verification package. See the PDF-numbered result dictionary for correspondence."
+title: "A calculus of scalar maximally monotone operators for aggregation and tail control — Lean verification"
+repository-code: "https://github.com/cosmital/calculus_max_monotone_op_tail_control"
+url: "https://github.com/cosmital/calculus_max_monotone_op_tail_control"
+authors:
+  - family-names: "Louart"
+    given-names: "Cosme"
+version: "0.1.0"
+type: software

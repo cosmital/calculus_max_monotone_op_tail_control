@@ -1,0 +1,1447 @@
+{
+  "date": "2026-11-12",
+  "author_authorization": "Author requested synchronization of PDF page links and recorded hashes, and upload of the current final PDF; author confirmed the numbered results and their Lean correspondence are unchanged.",
+  "previous_pdf_sha256": "84c1f27956d69c9ae457d4c5a98a40514f9af8fd1fb635c1bda7f96d4eafeb51",
+  "pdf_sha256": "5fec3a621fa4d5379f3e55516217d5a0a1f18bce88ab45bfeda7a7506431352f",
+  "previous_source_sha256": "14a9d74000faf266992fe0dafea8e575efd95c4408aba2528fa66bf6a5830f0f",
+  "source_sha256": "bf18a00da823e5a059a5e725cb368e82b937417a1cb2666eaceb14cb7c4dfbc8",
+  "page_count": 66,
+  "numbered_results_checked": 62,
+  "supplemental_claims_checked": 56,
+  "numbered_result_numbers_unchanged": true,
+  "lean_sources_unchanged": true,
+  "correspondence_declarations_unchanged": true,
+  "statement_check": "All 62 numbered statements and 56 supplemental excerpts compared with the accepted snapshot. Differences are spacing/alignment, explicit multiplication replacing juxtaposition, citations, and a proof-location cross-reference. Mathematical claims and declaration mappings are unchanged.",
+  "presentation_changes": "Elsevier template, title, abstract and introduction revisions, updated literature citations and end matter, one appendix with five proof subsections, and relocation of the odd-median proof. Its two equations are now (A.1) and (A.2). Removed the obsolete archived-version footnote and synchronized PDF title metadata.",
+  "introductory_equivalence": "Equation (0.1) restates Lemma 1.17 (lem:survivalcomparison); its existing mapping applies. It introduces no independent new result.",
+  "review_preservation": "The author acceptance recorded on 2026-11-09 is retained for unchanged mathematical claims and exact Lean sources. PDF/page bindings are migrated after the documented comparison; no new independent semantic review or compiler run is claimed.",
+  "changed_excerpt_keys": [
+    "def:intervalextrema",
+    "prop:mediantransform",
+    "prop:local-network",
+    "example:subgaussian_concentration_and_depth",
+    "example:power_tails",
+    "eq:superadditivetransform",
+    "note:moment_lower_constant_optimality",
+    "note:network_power_geometric_bound",
+    "note:interval_extrema_hulls"
+  ],
+  "locations": [
+    {
+      "key": "statement:1.1",
+      "previous": {
+        "pdf_page": 4,
+        "pdf_reference": "Definition 1.1"
+      },
+      "current": {
+        "pdf_page": 6,
+        "pdf_reference": "Definition 1.1"
+      },
+      "location_evidence": "Extracted PDF heading"
+    },
+    {
+      "key": "prop:minty",
+      "previous": {
+        "pdf_page": 4,
+        "pdf_reference": "Proposition 1.2"
+      },
+      "current": {
+        "pdf_page": 6,
+        "pdf_reference": "Proposition 1.2"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "prop:pointwisemaximality",
+      "previous": {
+        "pdf_page": 5,
+        "pdf_reference": "Proposition 1.3"
+      },
+      "current": {
+        "pdf_page": 7,
+        "pdf_reference": "Proposition 1.3"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "def:completedrestriction",
+      "previous": {
+        "pdf_page": 5,
+        "pdf_reference": "Definition 1.4"
+      },
+      "current": {
+        "pdf_page": 7,
+        "pdf_reference": "Definition 1.4"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "ex:survival",
+      "previous": {
+        "pdf_page": 6,
+        "pdf_reference": "Example 1.5"
+      },
+      "current": {
+        "pdf_page": 8,
+        "pdf_reference": "Example 1.5"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "prop:sums",
+      "previous": {
+        "pdf_page": 6,
+        "pdf_reference": "Proposition 1.6"
+      },
+      "current": {
+        "pdf_page": 8,
+        "pdf_reference": "Proposition 1.6"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "prop:composition",
+      "previous": {
+        "pdf_page": 7,
+        "pdf_reference": "Proposition 1.7"
+      },
+      "current": {
+        "pdf_page": 9,
+        "pdf_reference": "Proposition 1.7"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "lem:logmaximal",
+      "previous": {
+        "pdf_page": 7,
+        "pdf_reference": "Lemma 1.8"
+      },
+      "current": {
+        "pdf_page": 10,
+        "pdf_reference": "Lemma 1.8"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "prop:products",
+      "previous": {
+        "pdf_page": 8,
+        "pdf_reference": "Proposition 1.9"
+      },
+      "current": {
+        "pdf_page": 10,
+        "pdf_reference": "Proposition 1.9"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "ex:zero",
+      "previous": {
+        "pdf_page": 8,
+        "pdf_reference": "Example 1.10"
+      },
+      "current": {
+        "pdf_page": 12,
+        "pdf_reference": "Example 1.10"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "def:order",
+      "previous": {
+        "pdf_page": 9,
+        "pdf_reference": "Definition 1.11"
+      },
+      "current": {
+        "pdf_page": 12,
+        "pdf_reference": "Definition 1.11"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "prop:comparison",
+      "previous": {
+        "pdf_page": 9,
+        "pdf_reference": "Proposition 1.12"
+      },
+      "current": {
+        "pdf_page": 12,
+        "pdf_reference": "Proposition 1.12"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "lem:resolventvalue",
+      "previous": {
+        "pdf_page": 9,
+        "pdf_reference": "Lemma 1.13"
+      },
+      "current": {
+        "pdf_page": 13,
+        "pdf_reference": "Lemma 1.13"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "def:intervalorder",
+      "previous": {
+        "pdf_page": 10,
+        "pdf_reference": "Definition 1.14"
+      },
+      "current": {
+        "pdf_page": 14,
+        "pdf_reference": "Definition 1.14"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "prop:orderdomains",
+      "previous": {
+        "pdf_page": 10,
+        "pdf_reference": "Proposition 1.15"
+      },
+      "current": {
+        "pdf_page": 14,
+        "pdf_reference": "Proposition 1.15"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "prop:inversion",
+      "previous": {
+        "pdf_page": 11,
+        "pdf_reference": "Proposition 1.16"
+      },
+      "current": {
+        "pdf_page": 15,
+        "pdf_reference": "Proposition 1.16"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "lem:survivalcomparison",
+      "previous": {
+        "pdf_page": 11,
+        "pdf_reference": "Lemma 1.17"
+      },
+      "current": {
+        "pdf_page": 16,
+        "pdf_reference": "Lemma 1.17"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "thm:lattice",
+      "previous": {
+        "pdf_page": 12,
+        "pdf_reference": "Theorem 1.18"
+      },
+      "current": {
+        "pdf_page": 16,
+        "pdf_reference": "Theorem 1.18"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "lem:inverseextrema",
+      "previous": {
+        "pdf_page": 12,
+        "pdf_reference": "Lemma 1.19"
+      },
+      "current": {
+        "pdf_page": 17,
+        "pdf_reference": "Lemma 1.19"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "prop:extremaoperations",
+      "previous": {
+        "pdf_page": 12,
+        "pdf_reference": "Proposition 1.20"
+      },
+      "current": {
+        "pdf_page": 17,
+        "pdf_reference": "Proposition 1.20"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "def:intervalextrema",
+      "previous": {
+        "pdf_page": 13,
+        "pdf_reference": "Definition 1.21"
+      },
+      "current": {
+        "pdf_page": 18,
+        "pdf_reference": "Definition 1.21"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "prop:finitevalues",
+      "previous": {
+        "pdf_page": 13,
+        "pdf_reference": "Proposition 1.22"
+      },
+      "current": {
+        "pdf_page": 19,
+        "pdf_reference": "Proposition 1.22"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "prop:latticemedian",
+      "previous": {
+        "pdf_page": 14,
+        "pdf_reference": "Proposition 1.23"
+      },
+      "current": {
+        "pdf_page": 21,
+        "pdf_reference": "Proposition 1.23"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "prop:finiteextremaoperations",
+      "previous": {
+        "pdf_page": 15,
+        "pdf_reference": "Proposition 1.24"
+      },
+      "current": {
+        "pdf_page": 21,
+        "pdf_reference": "Proposition 1.24"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "prop:extremacomposition",
+      "previous": {
+        "pdf_page": 16,
+        "pdf_reference": "Proposition 1.25"
+      },
+      "current": {
+        "pdf_page": 22,
+        "pdf_reference": "Proposition 1.25"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "prop:probability",
+      "previous": {
+        "pdf_page": 18,
+        "pdf_reference": "Proposition 1.26"
+      },
+      "current": {
+        "pdf_page": 25,
+        "pdf_reference": "Proposition 1.26"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "cor:centered",
+      "previous": {
+        "pdf_page": 18,
+        "pdf_reference": "Corollary 1.27"
+      },
+      "current": {
+        "pdf_page": 26,
+        "pdf_reference": "Corollary 1.27"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "prop:envelopes",
+      "previous": {
+        "pdf_page": 19,
+        "pdf_reference": "Proposition 1.28"
+      },
+      "current": {
+        "pdf_page": 26,
+        "pdf_reference": "Proposition 1.28"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "ex:productmultilevel",
+      "previous": {
+        "pdf_page": 19,
+        "pdf_reference": "Example 1.29"
+      },
+      "current": {
+        "pdf_page": 27,
+        "pdf_reference": "Example 1.29"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "def:aumannintegral",
+      "previous": {
+        "pdf_page": 20,
+        "pdf_reference": "Definition 1.30"
+      },
+      "current": {
+        "pdf_page": 28,
+        "pdf_reference": "Definition 1.30"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "def:area",
+      "previous": {
+        "pdf_page": 21,
+        "pdf_reference": "Definition 1.31"
+      },
+      "current": {
+        "pdf_page": 29,
+        "pdf_reference": "Definition 1.31"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "prop:area",
+      "previous": {
+        "pdf_page": 21,
+        "pdf_reference": "Proposition 1.32"
+      },
+      "current": {
+        "pdf_page": 29,
+        "pdf_reference": "Proposition 1.32"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "cor:moments",
+      "previous": {
+        "pdf_page": 21,
+        "pdf_reference": "Corollary 1.33"
+      },
+      "current": {
+        "pdf_page": 30,
+        "pdf_reference": "Corollary 1.33"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "prop:pivots",
+      "previous": {
+        "pdf_page": 22,
+        "pdf_reference": "Corollary 1.34"
+      },
+      "current": {
+        "pdf_page": 30,
+        "pdf_reference": "Corollary 1.34"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "def:familyintegral",
+      "previous": {
+        "pdf_page": 22,
+        "pdf_reference": "Definition 1.35"
+      },
+      "current": {
+        "pdf_page": 31,
+        "pdf_reference": "Definition 1.35"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "thm:familyintegral",
+      "previous": {
+        "pdf_page": 22,
+        "pdf_reference": "Proposition 1.36"
+      },
+      "current": {
+        "pdf_page": 31,
+        "pdf_reference": "Proposition 1.36"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "def:hardytransform",
+      "previous": {
+        "pdf_page": 23,
+        "pdf_reference": "Definition 2.1"
+      },
+      "current": {
+        "pdf_page": 32,
+        "pdf_reference": "Definition 2.1"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "prop:hardycalculus",
+      "previous": {
+        "pdf_page": 23,
+        "pdf_reference": "Proposition 2.2"
+      },
+      "current": {
+        "pdf_page": 33,
+        "pdf_reference": "Proposition 2.2"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "lem:hardyconvexity",
+      "previous": {
+        "pdf_page": 24,
+        "pdf_reference": "Lemma 2.3"
+      },
+      "current": {
+        "pdf_page": 33,
+        "pdf_reference": "Lemma 2.3"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "lem:hardyvariational",
+      "previous": {
+        "pdf_page": 24,
+        "pdf_reference": "Lemma 2.4"
+      },
+      "current": {
+        "pdf_page": 34,
+        "pdf_reference": "Lemma 2.4"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "ex:normtransform",
+      "previous": {
+        "pdf_page": 25,
+        "pdf_reference": "Example 2.5"
+      },
+      "current": {
+        "pdf_page": 36,
+        "pdf_reference": "Example 2.5"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "prop:mediantransform",
+      "previous": {
+        "pdf_page": 26,
+        "pdf_reference": "Proposition 2.6"
+      },
+      "current": {
+        "pdf_page": 37,
+        "pdf_reference": "Proposition 2.6"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "lem:aggregationarea",
+      "previous": {
+        "pdf_page": 27,
+        "pdf_reference": "Lemma 2.7"
+      },
+      "current": {
+        "pdf_page": 37,
+        "pdf_reference": "Lemma 2.7"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "prop:hardytailaggregation",
+      "previous": {
+        "pdf_page": 28,
+        "pdf_reference": "Proposition 2.8"
+      },
+      "current": {
+        "pdf_page": 38,
+        "pdf_reference": "Proposition 2.8"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "prop:hardyprofiles",
+      "previous": {
+        "pdf_page": 29,
+        "pdf_reference": "Proposition 2.9"
+      },
+      "current": {
+        "pdf_page": 40,
+        "pdf_reference": "Proposition 2.9"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "prop:convextransforms",
+      "previous": {
+        "pdf_page": 29,
+        "pdf_reference": "Proposition 2.10"
+      },
+      "current": {
+        "pdf_page": 40,
+        "pdf_reference": "Proposition 2.10"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "thm:hardytailaggregationsharp",
+      "previous": {
+        "pdf_page": 30,
+        "pdf_reference": "Theorem 2.11"
+      },
+      "current": {
+        "pdf_page": 41,
+        "pdf_reference": "Theorem 2.11"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "cor:hardymedian",
+      "previous": {
+        "pdf_page": 31,
+        "pdf_reference": "Corollary 2.12"
+      },
+      "current": {
+        "pdf_page": 42,
+        "pdf_reference": "Corollary 2.12"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "ex:heterogeneousestimators",
+      "previous": {
+        "pdf_page": 31,
+        "pdf_reference": "Example 2.13"
+      },
+      "current": {
+        "pdf_page": 43,
+        "pdf_reference": "Example 2.13"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "prop:hardyoptimality",
+      "previous": {
+        "pdf_page": 32,
+        "pdf_reference": "Proposition 2.14"
+      },
+      "current": {
+        "pdf_page": 44,
+        "pdf_reference": "Proposition 2.14"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "def:geometrichardytransform",
+      "previous": {
+        "pdf_page": 33,
+        "pdf_reference": "Definition 3.1"
+      },
+      "current": {
+        "pdf_page": 46,
+        "pdf_reference": "Definition 3.1"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "ex:local-geometric-zero-jump",
+      "previous": {
+        "pdf_page": 34,
+        "pdf_reference": "Example 3.2"
+      },
+      "current": {
+        "pdf_page": 47,
+        "pdf_reference": "Example 3.2"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "lem:hardy-geometric-comparison",
+      "previous": {
+        "pdf_page": 35,
+        "pdf_reference": "Lemma 3.3"
+      },
+      "current": {
+        "pdf_page": 48,
+        "pdf_reference": "Lemma 3.3"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "lem:local-polya-knopp",
+      "previous": {
+        "pdf_page": 35,
+        "pdf_reference": "Lemma 3.4"
+      },
+      "current": {
+        "pdf_page": 49,
+        "pdf_reference": "Lemma 3.4"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "lem:local-endpoint",
+      "previous": {
+        "pdf_page": 36,
+        "pdf_reference": "Lemma 3.5"
+      },
+      "current": {
+        "pdf_page": 49,
+        "pdf_reference": "Lemma 3.5"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "the:concentration_bounded_variations",
+      "previous": {
+        "pdf_page": 37,
+        "pdf_reference": "Theorem 3.6"
+      },
+      "current": {
+        "pdf_page": 50,
+        "pdf_reference": "Theorem 3.6"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "prop:local-moment-sharpness",
+      "previous": {
+        "pdf_page": 37,
+        "pdf_reference": "Proposition 3.7"
+      },
+      "current": {
+        "pdf_page": 51,
+        "pdf_reference": "Proposition 3.7"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "remark:centering_and_unequal_probability_levels",
+      "previous": {
+        "pdf_page": 39,
+        "pdf_reference": "Remark 3.8"
+      },
+      "current": {
+        "pdf_page": 54,
+        "pdf_reference": "Remark 3.8"
+      },
+      "location_evidence": "Extracted PDF heading"
+    },
+    {
+      "key": "prop:local-network",
+      "previous": {
+        "pdf_page": 40,
+        "pdf_reference": "Proposition 3.9"
+      },
+      "current": {
+        "pdf_page": 55,
+        "pdf_reference": "Proposition 3.9"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "example:subgaussian_concentration_and_depth",
+      "previous": {
+        "pdf_page": 40,
+        "pdf_reference": "Example 3.10"
+      },
+      "current": {
+        "pdf_page": 56,
+        "pdf_reference": "Example 3.10"
+      },
+      "location_evidence": "Extracted PDF heading"
+    },
+    {
+      "key": "example:power_tails",
+      "previous": {
+        "pdf_page": 41,
+        "pdf_reference": "Example 3.11"
+      },
+      "current": {
+        "pdf_page": 56,
+        "pdf_reference": "Example 3.11"
+      },
+      "location_evidence": "Extracted PDF heading"
+    },
+    {
+      "key": "lem:powergeometric",
+      "previous": {
+        "pdf_page": 41,
+        "pdf_reference": "Lemma A.1"
+      },
+      "current": {
+        "pdf_page": 58,
+        "pdf_reference": "Lemma A.1"
+      },
+      "location_evidence": "AUX label and extracted PDF heading"
+    },
+    {
+      "key": "note:graph_topology",
+      "previous": {
+        "pdf_page": 5,
+        "pdf_reference": "After Proposition 1.2"
+      },
+      "current": {
+        "pdf_page": 6,
+        "pdf_reference": "After Proposition 1.2"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "eq:parallel",
+      "previous": {
+        "pdf_page": 17,
+        "pdf_reference": "Equation (1.33)"
+      },
+      "current": {
+        "pdf_page": 24,
+        "pdf_reference": "Equation (1.33)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "note:distributive_lattice",
+      "previous": {
+        "pdf_page": 12,
+        "pdf_reference": "After Lemma 1.19"
+      },
+      "current": {
+        "pdf_page": 17,
+        "pdf_reference": "After Lemma 1.19"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "note:extrema_examples",
+      "previous": {
+        "pdf_page": 14,
+        "pdf_reference": "After Proposition 1.22"
+      },
+      "current": {
+        "pdf_page": 20,
+        "pdf_reference": "After Proposition 1.22"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "eq:expectationarea",
+      "previous": {
+        "pdf_page": 21,
+        "pdf_reference": "Equation (1.44)"
+      },
+      "current": {
+        "pdf_page": 30,
+        "pdf_reference": "Equation (1.44)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "eq:superadditivetransform",
+      "previous": {
+        "pdf_page": 25,
+        "pdf_reference": "Equation (2.4)"
+      },
+      "current": {
+        "pdf_page": 35,
+        "pdf_reference": "Equation (2.4)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "eq:hardyaggregation",
+      "previous": {
+        "pdf_page": 28,
+        "pdf_reference": "Equation (2.11)"
+      },
+      "current": {
+        "pdf_page": 38,
+        "pdf_reference": "Equation (2.9)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "eq:hardytailtransform",
+      "previous": {
+        "pdf_page": 28,
+        "pdf_reference": "Equation (2.14)"
+      },
+      "current": {
+        "pdf_page": 38,
+        "pdf_reference": "Equation (2.12)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "eq:tailaggregation",
+      "previous": {
+        "pdf_page": 28,
+        "pdf_reference": "Equation (2.15)"
+      },
+      "current": {
+        "pdf_page": 39,
+        "pdf_reference": "Equation (2.13)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "eq:commontailaggregation",
+      "previous": {
+        "pdf_page": 29,
+        "pdf_reference": "Equation (2.16)"
+      },
+      "current": {
+        "pdf_page": 39,
+        "pdf_reference": "Equation (2.14)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "eq:hardytailsum",
+      "previous": {
+        "pdf_page": 29,
+        "pdf_reference": "Equation (2.17)"
+      },
+      "current": {
+        "pdf_page": 39,
+        "pdf_reference": "Equation (2.15)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "note:comonotone_quantile",
+      "previous": {
+        "pdf_page": 30,
+        "pdf_reference": "After Proposition 2.10"
+      },
+      "current": {
+        "pdf_page": 41,
+        "pdf_reference": "After Proposition 2.10"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "eq:comonotonequantilesharp",
+      "previous": {
+        "pdf_page": 30,
+        "pdf_reference": "Equation (2.23)"
+      },
+      "current": {
+        "pdf_page": 41,
+        "pdf_reference": "Equation (2.21)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "note:replication_counterexample",
+      "previous": {
+        "pdf_page": 33,
+        "pdf_reference": "After Proposition 2.14"
+      },
+      "current": {
+        "pdf_page": 45,
+        "pdf_reference": "After Proposition 2.14"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "eq:hardyprofileidentities",
+      "previous": {
+        "pdf_page": 29,
+        "pdf_reference": "Equation (2.18)"
+      },
+      "current": {
+        "pdf_page": 39,
+        "pdf_reference": "Equation (2.16)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "eq:hardyregularizedprofiles",
+      "previous": {
+        "pdf_page": 29,
+        "pdf_reference": "Equation (2.19)"
+      },
+      "current": {
+        "pdf_page": 39,
+        "pdf_reference": "Equation (2.17)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "note:log_power_convexity_limit",
+      "previous": {
+        "pdf_page": 41,
+        "pdf_reference": "After Example 3.11"
+      },
+      "current": {
+        "pdf_page": 57,
+        "pdf_reference": "After Example 3.11"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "note:constant_limit_e",
+      "previous": {
+        "pdf_page": 41,
+        "pdf_reference": "After Example 3.11"
+      },
+      "current": {
+        "pdf_page": 57,
+        "pdf_reference": "After Example 3.11"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "eq:productcompatibility",
+      "previous": {
+        "pdf_page": 8,
+        "pdf_reference": "Equation (1.9)"
+      },
+      "current": {
+        "pdf_page": 11,
+        "pdf_reference": "Equation (1.9)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "eq:hull_p_m",
+      "previous": {
+        "pdf_page": 9,
+        "pdf_reference": "Equation (1.13)"
+      },
+      "current": {
+        "pdf_page": 13,
+        "pdf_reference": "Equation (1.13)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "eq:universal_property_sup",
+      "previous": {
+        "pdf_page": 12,
+        "pdf_reference": "Equation (1.23)"
+      },
+      "current": {
+        "pdf_page": 17,
+        "pdf_reference": "Equation (1.23)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "eq:rangeenvelopes",
+      "previous": {
+        "pdf_page": 14,
+        "pdf_reference": "Equation (1.29)"
+      },
+      "current": {
+        "pdf_page": 19,
+        "pdf_reference": "Equation (1.29)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "eq:moment",
+      "previous": {
+        "pdf_page": 21,
+        "pdf_reference": "Equation (1.46)"
+      },
+      "current": {
+        "pdf_page": 30,
+        "pdf_reference": "Equation (1.46)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "eq:independentcopy",
+      "previous": {
+        "pdf_page": 22,
+        "pdf_reference": "Equation (1.48)"
+      },
+      "current": {
+        "pdf_page": 31,
+        "pdf_reference": "Equation (1.48)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "eq:hardy",
+      "previous": {
+        "pdf_page": 23,
+        "pdf_reference": "Equation (2.2)"
+      },
+      "current": {
+        "pdf_page": 32,
+        "pdf_reference": "Equation (2.2)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "eq:medianlinearupper",
+      "previous": {
+        "pdf_page": 26,
+        "pdf_reference": "Equation (2.8)"
+      },
+      "current": {
+        "pdf_page": 61,
+        "pdf_reference": "Equation (A.1)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "eq:mediantruncation",
+      "previous": {
+        "pdf_page": 27,
+        "pdf_reference": "Equation (2.9)"
+      },
+      "current": {
+        "pdf_page": 61,
+        "pdf_reference": "Equation (A.2)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "eq:hardytailvariational",
+      "previous": {
+        "pdf_page": 28,
+        "pdf_reference": "Equation (2.13)"
+      },
+      "current": {
+        "pdf_page": 38,
+        "pdf_reference": "Equation (2.11)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "eq:hardy-geometric-product",
+      "previous": {
+        "pdf_page": 35,
+        "pdf_reference": "Equation (3.3)"
+      },
+      "current": {
+        "pdf_page": 49,
+        "pdf_reference": "Equation (3.3)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "eq:hardy-geometric-dilation",
+      "previous": {
+        "pdf_page": 35,
+        "pdf_reference": "Equation (3.4)"
+      },
+      "current": {
+        "pdf_page": 49,
+        "pdf_reference": "Equation (3.4)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "eq:local-logarithmic-mean",
+      "previous": {
+        "pdf_page": 38,
+        "pdf_reference": "Equation (3.13)"
+      },
+      "current": {
+        "pdf_page": 52,
+        "pdf_reference": "Equation (3.13)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "eq:local-two-parameter",
+      "previous": {
+        "pdf_page": 38,
+        "pdf_reference": "Equation (3.14)"
+      },
+      "current": {
+        "pdf_page": 53,
+        "pdf_reference": "Equation (3.14)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "eq:local-optimized",
+      "previous": {
+        "pdf_page": 38,
+        "pdf_reference": "Equation (3.15)"
+      },
+      "current": {
+        "pdf_page": 53,
+        "pdf_reference": "Equation (3.15)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "eq:local-sharper",
+      "previous": {
+        "pdf_page": 38,
+        "pdf_reference": "Equation (3.16)"
+      },
+      "current": {
+        "pdf_page": 53,
+        "pdf_reference": "Equation (3.16)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "eq:local-network",
+      "previous": {
+        "pdf_page": 39,
+        "pdf_reference": "Equation (3.19)"
+      },
+      "current": {
+        "pdf_page": 55,
+        "pdf_reference": "Equation (3.19)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "eq:local-network-two-point",
+      "previous": {
+        "pdf_page": 40,
+        "pdf_reference": "Equation (3.21)"
+      },
+      "current": {
+        "pdf_page": 55,
+        "pdf_reference": "Equation (3.21)"
+      },
+      "location_evidence": "AUX label and extracted PDF equation number"
+    },
+    {
+      "key": "note:composition_self_counterexample",
+      "previous": {
+        "pdf_page": 7,
+        "pdf_reference": "After Proposition 1.7"
+      },
+      "current": {
+        "pdf_page": 10,
+        "pdf_reference": "After Proposition 1.7"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "note:vertical_orientation_incompatibility",
+      "previous": {
+        "pdf_page": 9,
+        "pdf_reference": "After Definition 1.11"
+      },
+      "current": {
+        "pdf_page": 12,
+        "pdf_reference": "After Definition 1.11"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "note:interval_order_examples",
+      "previous": {
+        "pdf_page": 10,
+        "pdf_reference": "After Definition 1.14"
+      },
+      "current": {
+        "pdf_page": 14,
+        "pdf_reference": "After Definition 1.14"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "note:continuous_scalar_order",
+      "previous": {
+        "pdf_page": 10,
+        "pdf_reference": "After Lemma 1.13"
+      },
+      "current": {
+        "pdf_page": 14,
+        "pdf_reference": "After Lemma 1.13"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "note:log_zero_exception",
+      "previous": {
+        "pdf_page": 7,
+        "pdf_reference": "After Lemma 1.8"
+      },
+      "current": {
+        "pdf_page": 10,
+        "pdf_reference": "After Lemma 1.8"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "note:family_hardy_dilations",
+      "previous": {
+        "pdf_page": 22,
+        "pdf_reference": "After Proposition 1.36"
+      },
+      "current": {
+        "pdf_page": 32,
+        "pdf_reference": "After Proposition 1.36"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "note:locally_integrable_hardy",
+      "previous": {
+        "pdf_page": 23,
+        "pdf_reference": "After Definition 2.1"
+      },
+      "current": {
+        "pdf_page": 32,
+        "pdf_reference": "After Definition 2.1"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "note:aggregation_constructor",
+      "previous": {
+        "pdf_page": 27,
+        "pdf_reference": "After Proposition 2.6"
+      },
+      "current": {
+        "pdf_page": 37,
+        "pdf_reference": "After Proposition 2.6"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "note:quasinorm_superadditivity",
+      "previous": {
+        "pdf_page": 26,
+        "pdf_reference": "In Example 2.5"
+      },
+      "current": {
+        "pdf_page": 36,
+        "pdf_reference": "In Example 2.5"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "note:exponential_boundary_counterexample",
+      "previous": {
+        "pdf_page": 33,
+        "pdf_reference": "After Proposition 2.14"
+      },
+      "current": {
+        "pdf_page": 46,
+        "pdf_reference": "After Proposition 2.14"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "note:moment_lower_constant_optimality",
+      "previous": {
+        "pdf_page": 37,
+        "pdf_reference": "After Proposition 3.7"
+      },
+      "current": {
+        "pdf_page": 51,
+        "pdf_reference": "After Proposition 3.7"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "note:gaussian_input_profile",
+      "previous": {
+        "pdf_page": 3,
+        "pdf_reference": "Introduction"
+      },
+      "current": {
+        "pdf_page": 4,
+        "pdf_reference": "Introduction"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "note:network_power_geometric_bound",
+      "previous": {
+        "pdf_page": 41,
+        "pdf_reference": "In Example 3.11"
+      },
+      "current": {
+        "pdf_page": 57,
+        "pdf_reference": "In Example 3.11"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "note:finite_extrema_graph_union",
+      "previous": {
+        "pdf_page": 12,
+        "pdf_reference": "After Lemma 1.19"
+      },
+      "current": {
+        "pdf_page": 17,
+        "pdf_reference": "After Lemma 1.19"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "note:extrema_orientation_variants",
+      "previous": {
+        "pdf_page": 13,
+        "pdf_reference": "After Proposition 1.20"
+      },
+      "current": {
+        "pdf_page": 18,
+        "pdf_reference": "After Proposition 1.20"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "note:interval_extrema_hulls",
+      "previous": {
+        "pdf_page": 13,
+        "pdf_reference": "After Definition 1.21"
+      },
+      "current": {
+        "pdf_page": 18,
+        "pdf_reference": "After Definition 1.21"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "note:convex_selection_singleton",
+      "previous": {
+        "pdf_page": 23,
+        "pdf_reference": "After Proposition 2.2"
+      },
+      "current": {
+        "pdf_page": 33,
+        "pdf_reference": "After Proposition 2.2"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "note:shortfall_one_sided_derivatives",
+      "previous": {
+        "pdf_page": 24,
+        "pdf_reference": "After Lemma 2.4"
+      },
+      "current": {
+        "pdf_page": 34,
+        "pdf_reference": "After Lemma 2.4"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "note:shortfall_subdifferential",
+      "previous": {
+        "pdf_page": 24,
+        "pdf_reference": "After Lemma 2.4"
+      },
+      "current": {
+        "pdf_page": 34,
+        "pdf_reference": "After Lemma 2.4"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    },
+    {
+      "key": "note:hypersimplex_vertices",
+      "previous": {
+        "pdf_page": 27,
+        "pdf_reference": "After Proposition 2.6"
+      },
+      "current": {
+        "pdf_page": 62,
+        "pdf_reference": "Appendix A.5, proof of Proposition 2.6"
+      },
+      "location_evidence": "SyncTeX source-to-PDF location"
+    }
+  ]
+}

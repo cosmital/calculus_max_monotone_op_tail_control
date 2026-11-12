@@ -1,0 +1,17 @@
+{
+  "source": "../monotone_calculus.tex",
+  "source_sha256": "bf18a00da823e5a059a5e725cb368e82b937417a1cb2666eaceb14cb7c4dfbc8",
+  "private_source_snapshot": "manuscript/monotone_calculus.tex",
+  "private_source_distributed": false,
+  "pdf": "manuscript/monotone_calculus.pdf",
+  "pdf_snapshot": "manuscript/monotone_calculus.pdf",
+  "pdf_sha256": "5fec3a621fa4d5379f3e55516217d5a0a1f18bce88ab45bfeda7a7506431352f",
+  "pdf_page_count": 66,
+  "pdf_numbered_headings_checked": 62,
+  "pdf_index_sha256": "e650c0bdb369d22a0f3340ce33d0c2842e561c0a5310d0d1cbb385b706df1403",
+  "statement_inventory_sha256": "63d861239baa1568109bfe695f11c3744583841cf5b333ba2b56e94145bab491",
+  "previous_source_sha256": "14a9d74000faf266992fe0dafea8e575efd95c4408aba2528fa66bf6a5830f0f",
+  "previous_pdf_sha256": "84c1f27956d69c9ae457d4c5a98a40514f9af8fd1fb635c1bda7f96d4eafeb51",
+  "revision": "2026-11-12: final submission PDF synchronized; result numbers and Lean sources unchanged; appendix proof locations and equation references updated.",
+  "source_pdf_difference": "The distributed final PDF was rebuilt from the recorded private source. All 62 numbered headings and 56 supplemental locations were reconciled; see MANUSCRIPT_SYNC.json. Private TeX and bibliography sources are excluded from distribution."
+}

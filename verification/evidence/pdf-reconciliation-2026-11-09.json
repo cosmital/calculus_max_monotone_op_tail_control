@@ -1,0 +1,9 @@
+{
+  "pdf_sha256": "84c1f27956d69c9ae457d4c5a98a40514f9af8fd1fb635c1bda7f96d4eafeb51",
+  "source_sha256": "14a9d74000faf266992fe0dafea8e575efd95c4408aba2528fa66bf6a5830f0f",
+  "numbered_pdf_headings_checked": 62,
+  "supplemental_claims": 56,
+  "article_change": "Only the authorized n>=1 clarification; the author’s other current revisions are retained exactly.",
+  "lean_change": "One stale documentation comment; all mathematical tokens unchanged.",
+  "compiler_evidence_note": "2026-11-08 fresh evidence is historical; the post-preparation gate is recorded separately."
+}

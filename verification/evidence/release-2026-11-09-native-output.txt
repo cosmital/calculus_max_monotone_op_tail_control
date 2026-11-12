@@ -1,0 +1,1334 @@
+$ C:\Users\cosme\AppData\Local\Programs\Python\Python313\python.exe tools/verify.py --release
+METADATA_ONLY_OK
+$ C:\Users\cosme\.elan\bin\lake.EXE env lean --version
+Lean (version 4.19.0, x86_64-w64-windows-gnu, commit 6caaee842e94, Release)
+$ C:\Users\cosme\.elan\bin\lake.EXE build MonotoneOperators EndOfPaper Paper
+⚠ [6666/6824] Replayed EndOfPaper.ConvexTransforms
+warning: .\.\.\.\EndOfPaper\ConvexTransforms.lean:132:64: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+warning: .\.\.\.\EndOfPaper\ConvexTransforms.lean:132:64: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [6667/6824] Replayed EndOfPaper.PowerGeometric
+info: .\.\.\.\EndOfPaper\PowerGeometric.lean:66:37: Try this: ring_nf
+warning: .\.\.\.\EndOfPaper\PowerGeometric.lean:62:24: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\PowerGeometric.lean:66:33: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6674/6938] Replayed EndOfPaper.LogPowerConvexity
+warning: .\.\.\.\EndOfPaper\LogPowerConvexity.lean:32:30: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6678/6938] Replayed EndOfPaper.ChainMetricAlgebra
+warning: .\.\.\.\EndOfPaper\ChainMetricAlgebra.lean:15:32: unused variable `hP`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6683/6991] Replayed EndOfPaper.QuasiNormTransform
+warning: .\.\.\.\EndOfPaper\QuasiNormTransform.lean:60:21: unused variable `c`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+warning: .\.\.\.\EndOfPaper\QuasiNormTransform.lean:60:26: unused variable `x`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+warning: .\.\.\.\EndOfPaper\QuasiNormTransform.lean:94:43: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6700/6993] Replayed EndOfPaper.GaussianSquareLaplace
+warning: .\.\.\.\EndOfPaper\GaussianSquareLaplace.lean:47:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6703/6993] Replayed EndOfPaper.GaussianSoftmax
+warning: .\.\.\.\EndOfPaper\GaussianSoftmax.lean:85:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6718/6993] Replayed EndOfPaper.LogZeroCounterexample
+warning: .\.\.\.\EndOfPaper\LogZeroCounterexample.lean:27:2: try 'simp at hv' instead of 'simpa using hv'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [6726/6993] Replayed EndOfPaper.GaussianSquareChernoff
+warning: .\.\.\.\EndOfPaper\GaussianSquareChernoff.lean:21:42: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+warning: .\.\.\.\EndOfPaper\GaussianSquareChernoff.lean:21:42: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+warning: .\.\.\.\EndOfPaper\GaussianSquareChernoff.lean:69:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\GaussianSquareChernoff.lean:74:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6727/6993] Replayed EndOfPaper.PositiveDensityMidpoint
+warning: .\.\.\.\EndOfPaper\PositiveDensityMidpoint.lean:27:0: automatically included section variable(s) unused in theorem 'ScalarMonotone.EndOfPaper.density_midpoint_jacobian_positive':
+  hf
+  hfi
+  hfmass
+  hg
+  hgi
+  hgmass
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hf hfi hfmass hg hgi hgmass in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [6733/6993] Replayed EndOfPaper.ZeroRampScalar
+warning: .\.\.\.\EndOfPaper\ZeroRampScalar.lean:39:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\ZeroRampScalar.lean:51:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6736/6993] Replayed MonotoneOperators.IntervalExtrema
+warning: .\.\.\.\MonotoneOperators\IntervalExtrema.lean:79:41: try 'simp' instead of 'simpa'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: .\.\.\.\MonotoneOperators\IntervalExtrema.lean:80:45: try 'simp' instead of 'simpa'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: .\.\.\.\MonotoneOperators\IntervalExtrema.lean:82:0: automatically included section variable(s) unused in theorem 'ScalarMonotone.lowerHull_intervalInf':
+  hI
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hI in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: .\.\.\.\MonotoneOperators\IntervalExtrema.lean:98:0: automatically included section variable(s) unused in theorem 'ScalarMonotone.upperHull_intervalSup':
+  hI
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hI in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: .\.\.\.\MonotoneOperators\IntervalExtrema.lean:129:45: try 'simp' instead of 'simpa'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: .\.\.\.\MonotoneOperators\IntervalExtrema.lean:130:41: try 'simp' instead of 'simpa'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [6740/6993] Replayed EndOfPaper.Aumann
+warning: .\.\.\.\EndOfPaper\Aumann.lean:87:35: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\Aumann.lean:94:5: unused variable `h₁`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+warning: .\.\.\.\EndOfPaper\Aumann.lean:94:24: unused variable `h₂`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+warning: .\.\.\.\EndOfPaper\Aumann.lean:147:4: try 'simp at ha' instead of 'simpa using ha'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: .\.\.\.\EndOfPaper\Aumann.lean:150:4: try 'simp at hb' instead of 'simpa using hb'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [6741/6993] Replayed EndOfPaper.Moments
+warning: .\.\.\.\EndOfPaper\Moments.lean:27:26: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+warning: .\.\.\.\EndOfPaper\Moments.lean:27:26: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+warning: .\.\.\.\EndOfPaper\Moments.lean:69:30: unused variable `ω`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6742/6993] Replayed EndOfPaper.Shortfall
+warning: .\.\.\.\EndOfPaper\Shortfall.lean:81:28: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+warning: .\.\.\.\EndOfPaper\Shortfall.lean:81:28: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+warning: .\.\.\.\EndOfPaper\Shortfall.lean:96:27: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+warning: .\.\.\.\EndOfPaper\Shortfall.lean:96:27: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+warning: .\.\.\.\EndOfPaper\Shortfall.lean:102:0: automatically included section variable(s) unused in theorem 'ScalarMonotone.EndOfPaper.quantileWeight_bounds':
+  [MeasurableSpace Ω]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace Ω] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: .\.\.\.\EndOfPaper\Shortfall.lean:114:0: automatically included section variable(s) unused in theorem 'ScalarMonotone.EndOfPaper.quantileWeight_excess':
+  [MeasurableSpace Ω]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace Ω] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: .\.\.\.\EndOfPaper\Shortfall.lean:197:28: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+warning: .\.\.\.\EndOfPaper\Shortfall.lean:197:28: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+warning: .\.\.\.\EndOfPaper\Shortfall.lean:218:0: automatically included section variable(s) unused in theorem 'ScalarMonotone.EndOfPaper.pointwise_mean_pivot':
+  [MeasurableSpace Ω]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace Ω] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [6743/6993] Replayed EndOfPaper.Profiles
+warning: .\.\.\.\EndOfPaper\Profiles.lean:27:27: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\Profiles.lean:43:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\Profiles.lean:45:50: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\Profiles.lean:66:22: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\Profiles.lean:85:48: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6744/6993] Replayed EndOfPaper.ProductPolynomial
+warning: .\.\.\.\EndOfPaper\ProductPolynomial.lean:102:65: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+warning: .\.\.\.\EndOfPaper\ProductPolynomial.lean:102:65: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+warning: .\.\.\.\EndOfPaper\ProductPolynomial.lean:113:7: unused variable `r`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6747/6993] Replayed EndOfPaper.MidpointPrekopaLeindler
+warning: .\.\.\.\EndOfPaper\MidpointPrekopaLeindler.lean:22:58: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6750/6993] Replayed EndOfPaper.GaussianOperatorUnitPairs
+warning: .\.\.\.\EndOfPaper\GaussianOperatorUnitPairs.lean:82:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6751/6993] Replayed MonotoneOperators.Extrema
+warning: .\.\.\.\MonotoneOperators\Extrema.lean:144:0: automatically included section variable(s) unused in theorem 'ScalarMonotone.incFamily_boundedAbove_J':
+  [Nonempty ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty ι] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: .\.\.\.\MonotoneOperators\Extrema.lean:151:0: automatically included section variable(s) unused in theorem 'ScalarMonotone.incFamily_boundedBelow_J':
+  [Nonempty ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty ι] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: .\.\.\.\MonotoneOperators\Extrema.lean:158:0: automatically included section variable(s) unused in theorem 'ScalarMonotone.decFamily_boundedBelow_J':
+  [Nonempty ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty ι] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: .\.\.\.\MonotoneOperators\Extrema.lean:165:0: automatically included section variable(s) unused in theorem 'ScalarMonotone.decFamily_boundedAbove_J':
+  [Nonempty ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty ι] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [6755/6993] Replayed EndOfPaper.QuantileArea
+warning: .\.\.\.\EndOfPaper\QuantileArea.lean:36:5: unused variable `hμ`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+warning: .\.\.\.\EndOfPaper\QuantileArea.lean:70:15: unused variable `hp`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+warning: .\.\.\.\EndOfPaper\QuantileArea.lean:124:24: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6757/6993] Replayed EndOfPaper.CutoffLayerIntegral
+warning: .\.\.\.\EndOfPaper\CutoffLayerIntegral.lean:79:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6761/6993] Replayed EndOfPaper.StrictTailLimits
+warning: .\.\.\.\EndOfPaper\StrictTailLimits.lean:74:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6765/6993] Replayed MonotoneOperators.ExtremaComplete
+warning: .\.\.\.\MonotoneOperators\ExtremaComplete.lean:141:0: automatically included section variable(s) unused in theorem 'ScalarMonotone.IncGraph.bddAbove_inv_iff':
+  [Nonempty ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty ι] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: .\.\.\.\MonotoneOperators\ExtremaComplete.lean:155:0: automatically included section variable(s) unused in theorem 'ScalarMonotone.IncGraph.bddBelow_inv_iff':
+  [Nonempty ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty ι] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: .\.\.\.\MonotoneOperators\ExtremaComplete.lean:169:0: automatically included section variable(s) unused in theorem 'ScalarMonotone.DecGraph.bddAbove_inv_iff':
+  [Nonempty ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty ι] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: .\.\.\.\MonotoneOperators\ExtremaComplete.lean:183:0: automatically included section variable(s) unused in theorem 'ScalarMonotone.DecGraph.bddBelow_inv_iff':
+  [Nonempty ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty ι] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [6773/6993] Replayed EndOfPaper.GaussianIntegrationByParts
+warning: .\.\.\.\EndOfPaper\GaussianIntegrationByParts.lean:16:64: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\GaussianIntegrationByParts.lean:16:86: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\GaussianIntegrationByParts.lean:21:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6780/6993] Replayed EndOfPaper.FamilyIntegral
+warning: .\.\.\.\EndOfPaper\FamilyIntegral.lean:282:4: try 'simp at hw' instead of 'simpa using hw'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: .\.\.\.\EndOfPaper\FamilyIntegral.lean:480:9: unused variable `x`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6784/6993] Replayed EndOfPaper.ShortfallDerivatives
+warning: .\.\.\.\EndOfPaper\ShortfallDerivatives.lean:40:52: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+warning: .\.\.\.\EndOfPaper\ShortfallDerivatives.lean:40:52: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+warning: .\.\.\.\EndOfPaper\ShortfallDerivatives.lean:57:52: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+warning: .\.\.\.\EndOfPaper\ShortfallDerivatives.lean:57:52: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+warning: .\.\.\.\EndOfPaper\ShortfallDerivatives.lean:126:43: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: .\.\.\.\EndOfPaper\ShortfallDerivatives.lean:142:103: Try this: ring_nf
+info: .\.\.\.\EndOfPaper\ShortfallDerivatives.lean:149:104: Try this: ring_nf
+warning: .\.\.\.\EndOfPaper\ShortfallDerivatives.lean:142:99: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\ShortfallDerivatives.lean:149:100: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\ShortfallDerivatives.lean:253:28: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+warning: .\.\.\.\EndOfPaper\ShortfallDerivatives.lean:253:28: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [6801/6993] Replayed EndOfPaper.GaussianLinearProcess
+warning: .\.\.\.\EndOfPaper\GaussianLinearProcess.lean:67:28: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\GaussianLinearProcess.lean:67:79: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6808/6993] Replayed EndOfPaper.MedianBounds
+warning: .\.\.\.\EndOfPaper\MedianBounds.lean:102:21: unused variable `c`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6809/6993] Replayed EndOfPaper.MedianTransform
+warning: .\.\.\.\EndOfPaper\MedianTransform.lean:102:18: try 'simp' instead of 'simpa'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [6811/6993] Replayed EndOfPaper.AggregationOperator
+warning: .\.\.\.\EndOfPaper\AggregationOperator.lean:39:6: try 'simp at hv' instead of 'simpa using hv'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: .\.\.\.\EndOfPaper\AggregationOperator.lean:42:6: try 'simp at hw' instead of 'simpa using hw'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: .\.\.\.\EndOfPaper\AggregationOperator.lean:85:4: try 'simp at hw' instead of 'simpa using hw'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [6818/6993] Replayed EndOfPaper.GaussianNormMedian
+warning: .\.\.\.\EndOfPaper\GaussianNormMedian.lean:79:40: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+warning: .\.\.\.\EndOfPaper\GaussianNormMedian.lean:79:40: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [6820/6993] Replayed EndOfPaper.GaussianInterpolationCovariance
+warning: .\.\.\.\EndOfPaper\GaussianInterpolationCovariance.lean:40:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6825/6993] Replayed EndOfPaper.AggregationArea
+warning: .\.\.\.\EndOfPaper\AggregationArea.lean:61:13: unused variable `hb`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6840/6993] Replayed EndOfPaper.HardyCalculus
+warning: .\.\.\.\EndOfPaper\HardyCalculus.lean:315:7: unused variable `c`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6845/6993] Replayed EndOfPaper.ProductInverse
+warning: .\.\.\.\EndOfPaper\ProductInverse.lean:62:63: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6847/6993] Replayed EndOfPaper.ProductGaussian
+warning: .\.\.\.\EndOfPaper\ProductGaussian.lean:56:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6849/6993] Replayed EndOfPaper.ProfileMomentComparison
+warning: .\.\.\.\EndOfPaper\ProfileMomentComparison.lean:42:47: unused variable `hqi`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6852/6993] Replayed EndOfPaper.CappedOperatorMoments
+warning: .\.\.\.\EndOfPaper\CappedOperatorMoments.lean:53:5: unused variable `hαdom`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+warning: .\.\.\.\EndOfPaper\CappedOperatorMoments.lean:54:5: unused variable `hα0`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6862/6993] Replayed EndOfPaper.LocalHardy
+warning: .\.\.\.\EndOfPaper\LocalHardy.lean:202:7: unused variable `c`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6863/6993] Replayed EndOfPaper.CompletedProfiles
+warning: .\.\.\.\EndOfPaper\CompletedProfiles.lean:97:66: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+warning: .\.\.\.\EndOfPaper\CompletedProfiles.lean:97:66: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+warning: .\.\.\.\EndOfPaper\CompletedProfiles.lean:231:4: 'change (C * (κ / (κ - 1)) ^ κ) ^ (1 / κ) * p ^ ((-1 : ℝ) / κ) = _' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+warning: .\.\.\.\EndOfPaper\CompletedProfiles.lean:249:4: 'change Real.log (C * Real.exp 1) - Real.log p = _' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [6864/6993] Replayed EndOfPaper.FiniteStepProfiles
+warning: .\.\.\.\EndOfPaper\FiniteStepProfiles.lean:160:36: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+warning: .\.\.\.\EndOfPaper\FiniteStepProfiles.lean:164:26: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\FiniteStepProfiles.lean:160:36: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [6865/6993] Replayed EndOfPaper.HardySharpness
+warning: .\.\.\.\EndOfPaper\HardySharpness.lean:73:24: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\HardySharpness.lean:133:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\HardySharpness.lean:133:40: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\HardySharpness.lean:139:37: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6866/6993] Replayed EndOfPaper.NormExamples
+warning: .\.\.\.\EndOfPaper\NormExamples.lean:222:9: unused variable `a`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6871/6993] Replayed EndOfPaper.ExponentialCompletion
+warning: .\.\.\.\EndOfPaper\ExponentialCompletion.lean:27:4: try 'simp at hu' instead of 'simpa using hu'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: .\.\.\.\EndOfPaper\ExponentialCompletion.lean:43:4: try 'simp at hu' instead of 'simpa using hu'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [6872/6993] Replayed EndOfPaper.LogGeometricDomain
+warning: .\.\.\.\EndOfPaper\LogGeometricDomain.lean:25:2: try 'simp' instead of 'simpa'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [6878/6993] Replayed EndOfPaper.KnoppWeightedJensen
+warning: .\.\.\.\EndOfPaper\KnoppWeightedJensen.lean:41:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\KnoppWeightedJensen.lean:57:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6881/6993] Replayed EndOfPaper.GaussianNormMGF
+warning: .\.\.\.\EndOfPaper\GaussianNormMGF.lean:69:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\GaussianNormMGF.lean:74:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6888/6993] Replayed EndOfPaper.MedianHardy
+warning: .\.\.\.\EndOfPaper\MedianHardy.lean:200:54: unused variable `p`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+warning: .\.\.\.\EndOfPaper\MedianHardy.lean:200:59: unused variable `a`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+warning: .\.\.\.\EndOfPaper\MedianHardy.lean:222:13: unused variable `hp`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6890/6993] Replayed EndOfPaper.EstimatorScalar
+warning: .\.\.\.\EndOfPaper\EstimatorScalar.lean:121:38: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\EstimatorScalar.lean:126:38: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\EstimatorScalar.lean:143:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\EstimatorScalar.lean:143:36: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\EstimatorScalar.lean:150:13: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6891/6993] Replayed EndOfPaper.HeterogeneousEstimators
+warning: .\.\.\.\EndOfPaper\HeterogeneousEstimators.lean:127:79: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+warning: .\.\.\.\EndOfPaper\HeterogeneousEstimators.lean:125:55: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\HeterogeneousEstimators.lean:127:79: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [6905/6993] Replayed EndOfPaper.GeometricLogExcess
+warning: .\.\.\.\EndOfPaper\GeometricLogExcess.lean:43:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6908/6993] Replayed EndOfPaper.AffinePowerGeometric
+warning: .\.\.\.\EndOfPaper\AffinePowerGeometric.lean:70:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6909/6993] Replayed EndOfPaper.SqrtLogHardy
+warning: .\.\.\.\EndOfPaper\SqrtLogHardy.lean:59:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6912/6993] Replayed EndOfPaper.ReplicatedHardyValues
+warning: .\.\.\.\EndOfPaper\ReplicatedHardyValues.lean:64:8: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6914/6993] Replayed EndOfPaper.ProductRootMaps
+warning: .\.\.\.\EndOfPaper\ProductRootMaps.lean:31:6: try 'simp at h' instead of 'simpa using h'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: .\.\.\.\EndOfPaper\ProductRootMaps.lean:34:6: try 'simp at h' instead of 'simpa using h'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: .\.\.\.\EndOfPaper\ProductRootMaps.lean:44:4: try 'simp at hu' instead of 'simpa using hu'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: .\.\.\.\EndOfPaper\ProductRootMaps.lean:55:8: try 'simp at ht' instead of 'simpa using ht'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: .\.\.\.\EndOfPaper\ProductRootMaps.lean:62:8: try 'simp at hu' instead of 'simpa using hu'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [6916/6993] Replayed EndOfPaper.ReplicationNecessity
+warning: .\.\.\.\EndOfPaper\ReplicationNecessity.lean:70:8: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+warning: .\.\.\.\EndOfPaper\ReplicationNecessity.lean:70:8: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+warning: .\.\.\.\EndOfPaper\ReplicationNecessity.lean:131:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6918/6993] Replayed EndOfPaper.ZeroRampModel
+warning: .\.\.\.\EndOfPaper\ZeroRampModel.lean:118:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\ZeroRampModel.lean:142:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6919/6993] Replayed EndOfPaper.PolyaKnopp
+warning: .\.\.\.\EndOfPaper\PolyaKnopp.lean:53:5: unused variable `ha`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+warning: .\.\.\.\EndOfPaper\PolyaKnopp.lean:114:5: unused variable `hi`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6920/6993] Replayed EndOfPaper.GeometricDilation
+warning: .\.\.\.\EndOfPaper\GeometricDilation.lean:46:6: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+warning: .\.\.\.\EndOfPaper\GeometricDilation.lean:46:6: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [6922/6993] Replayed EndOfPaper.GeometricProduct
+warning: .\.\.\.\EndOfPaper\GeometricProduct.lean:57:39: unused variable `ha`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+warning: .\.\.\.\EndOfPaper\GeometricProduct.lean:57:52: unused variable `hb`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6930/6993] Replayed EndOfPaper.ProfileLawTails
+warning: .\.\.\.\EndOfPaper\ProfileLawTails.lean:54:13: unused variable `ht`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6950/6993] Replayed EndOfPaper.PrescribedLowerModel
+warning: .\.\.\.\EndOfPaper\PrescribedLowerModel.lean:12:51: unused variable `hn`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+warning: .\.\.\.\EndOfPaper\PrescribedLowerModel.lean:19:5: unused variable `hP`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6951/6993] Replayed EndOfPaper.UnitProfileBernoulli
+warning: .\.\.\.\EndOfPaper\UnitProfileBernoulli.lean:103:8: unused variable `u`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6952/6993] Replayed EndOfPaper.UnitProfileOptimality
+warning: .\.\.\.\EndOfPaper\UnitProfileOptimality.lean:22:48: unused variable `hn`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6961/6993] Replayed EndOfPaper.SqrtLogProfile
+warning: .\.\.\.\EndOfPaper\SqrtLogProfile.lean:37:42: unused variable `x`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+warning: .\.\.\.\EndOfPaper\SqrtLogProfile.lean:37:47: unused variable `y`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6963/6993] Replayed EndOfPaper.SqrtLogNetworkMajorant
+warning: .\.\.\.\EndOfPaper\SqrtLogNetworkMajorant.lean:55:45: unused variable `hM`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+warning: .\.\.\.\EndOfPaper\SqrtLogNetworkMajorant.lean:55:58: unused variable `hk`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6964/6993] Replayed EndOfPaper.NetworkEqualWidth
+warning: .\.\.\.\EndOfPaper\NetworkEqualWidth.lean:22:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6965/6993] Replayed EndOfPaper.NetworkRateDimensions
+info: .\.\.\.\EndOfPaper\NetworkRateDimensions.lean:19:31: Try this: ring_nf
+warning: .\.\.\.\EndOfPaper\NetworkRateDimensions.lean:19:27: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: .\.\.\.\EndOfPaper\NetworkRateDimensions.lean:19:36: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6971/6993] Replayed EndOfPaper.RandomizedUnequalBound
+warning: .\.\.\.\EndOfPaper\RandomizedUnequalBound.lean:43:0: automatically included section variable(s) unused in theorem 'ScalarMonotone.EndOfPaper.randomized_lipschitz_unequal_bound':
+  hn
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hn in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [6975/6993] Replayed EndOfPaper.NetworkTailGeometry
+info: .\.\.\.\EndOfPaper\NetworkTailGeometry.lean:62:6: Try this: ring_nf
+info: .\.\.\.\EndOfPaper\NetworkTailGeometry.lean:73:6: Try this: ring_nf
+warning: .\.\.\.\EndOfPaper\NetworkTailGeometry.lean:19:46: unused variable `hmw`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+warning: .\.\.\.\EndOfPaper\NetworkTailGeometry.lean:61:6: 'congr 1' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+warning: .\.\.\.\EndOfPaper\NetworkTailGeometry.lean:72:6: 'congr 1' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [6988/6993] Replayed EndOfPaper.GaussianMatrixMedian
+warning: .\.\.\.\EndOfPaper\GaussianMatrixMedian.lean:46:45: unused variable `s`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+✔ [6992/6993] Built Paper
+Build completed successfully.
+$ C:\Users\cosme\.elan\bin\lake.EXE env lean EndSmokeTests.lean
+$ C:\Users\cosme\.elan\bin\lake.EXE env lean AxiomAudit.lean
+Public source declarations checked: 827
+Audited safe kernel declarations: 1136
+Compiler-only unsafe auxiliaries excluded: 117
+Transitive axiom dependencies: [propext, Classical.choice, Quot.sound]
+PASS: all safe kernel declarations, including private helpers and generated instances, use only the permitted standard axioms.
+$ C:\Users\cosme\.elan\bin\lake.EXE env lean AxiomAuditEnd.lean
+Public source declarations checked: 1653
+Audited safe kernel declarations: 2089
+Compiler-only unsafe auxiliaries excluded: 432
+Transitive axiom dependencies: [propext, Classical.choice, Quot.sound]
+PASS: all audited declarations use only the permitted standard axioms. See END_COVERAGE.md for manuscript correspondence.
+$ C:\Users\cosme\.elan\bin\lake.EXE env lean PaperChecks.lean
+'ScalarMonotone.EndOfPaper.gaussian_matrix_operator_norm_mgf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ScalarMonotone.EndOfPaper.gaussian_matrix_operator_norm_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ScalarMonotone.EndOfPaper.gaussian_square_matrix_normalized_operator_median' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ScalarMonotone.EndOfPaper.gaussian_network_norm_medians' depends on axioms: [propext, Classical.choice, Quot.sound]
+PaperChecks.lean:2277:5: warning: unused variable `hα`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+PaperChecks.lean:2277:32: warning: unused variable `hDom`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+PaperChecks.lean:2315:5: warning: unused variable `hProfile`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+PaperChecks.lean:2361:5: warning: unused variable `ha`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+PaperChecks.lean:2421:8: warning: unused variable `k`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+PaperChecks.lean:2467:36: warning: unused variable `hOpen`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+PaperChecks.lean:2468:5: warning: unused variable `hCont`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+PaperChecks.lean:2486:36: warning: unused variable `hOpen`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+PaperChecks.lean:2487:5: warning: unused variable `hCont`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+PaperChecks.lean:2510:17: warning: unused variable `hn`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+PaperChecks.lean:2511:5: warning: unused variable `ha`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+PaperChecks.lean:2511:25: warning: unused variable `hσ`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+PaperChecks.lean:2511:53: warning: unused variable `hr`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+ScalarMonotone.Increasing (f : Operator) : Prop
+ScalarMonotone.Decreasing (f : Operator) : Prop
+ScalarMonotone.MaximalIncreasing (f : Operator) : Prop
+ScalarMonotone.MaximalDecreasing (f : Operator) : Prop
+ScalarMonotone.maximal_iff_no_extension {f : Operator} :
+  MaximalIncreasing f ↔ Increasing f ∧ ∀ (g : Operator), Increasing g → f ≤ g → f = g
+ScalarMonotone.maximal_iff_negative_witness {f : Operator} :
+  MaximalIncreasing f ↔ Increasing f ∧ ∀ (x u : ℝ), u ∉ f x → ∃ y, ∃ v ∈ f y, (x - y) * (u - v) < 0
+ScalarMonotone.maximalDecreasing_iff_no_extension {f : Operator} :
+  MaximalDecreasing f ↔ Decreasing f ∧ ∀ (g : Operator), Decreasing g → f ≤ g → f = g
+ScalarMonotone.maximalDecreasing_iff_positive_witness {f : Operator} :
+  MaximalDecreasing f ↔ Decreasing f ∧ ∀ (x u : ℝ), u ∉ f x → ∃ y, ∃ v ∈ f y, 0 < (x - y) * (u - v)
+ScalarMonotone.maximal_iff_minty {f : Operator} (hf : Increasing f) : MaximalIncreasing f ↔ ∀ (s : ℝ), ∃ x, s - x ∈ f x
+ScalarMonotone.maximal_iff_resolvent {f : Operator} :
+  MaximalIncreasing f ↔ ∃ J, Monotone J ∧ LipschitzWith 1 J ∧ ∀ (x u : ℝ), u ∈ f x ↔ J (x + u) = x
+ScalarMonotone.maximal_decreasing_iff_resolvent {f : Operator} :
+  MaximalDecreasing f ↔ ∃ J, Monotone J ∧ LipschitzWith 1 J ∧ ∀ (x u : ℝ), u ∈ f x ↔ J (x - u) = x
+ScalarMonotone.mintyHomeomorph (f : Operator) (hf : MaximalIncreasing f) : ℝ ≃ₜ ↑(graph f)
+ScalarMonotone.decreasingMintyHomeomorph (f : Operator) (hf : MaximalDecreasing f) : ℝ ≃ₜ ↑(graph f)
+ScalarMonotone.inverse_identity_add_eq_resolvent {f : Operator} (hf : MaximalIncreasing f) :
+  inverse (add identity f) = ofFun (ScalarMonotone.resolvent f hf)
+ScalarMonotone.inverse_identity_sub_eq_decreasingResolvent {f : Operator} (hf : MaximalDecreasing f) :
+  inverse (add identity (negOut f)) = ofFun (decreasingResolvent f hf)
+ScalarMonotone.firmly_nonexpansive_iff_monotone_lipschitz (J : ℝ → ℝ) :
+  (∀ (x y : ℝ), (J x - J y) ^ 2 ≤ (J x - J y) * (x - y)) ↔ Monotone J ∧ LipschitzWith 1 J
+ScalarMonotone.maximal_iff_fibers {f : Operator} (hf : Increasing f) :
+  MaximalIncreasing f ↔
+    ∀ (x u : ℝ), u ∈ f x ↔ (∀ ⦃y v : ℝ⦄, v ∈ f y → y < x → v ≤ u) ∧ ∀ ⦃y v : ℝ⦄, v ∈ f y → x < y → u ≤ v
+ScalarMonotone.maximal_fiber_eq_extended_interval {f : Operator} (hf : MaximalIncreasing f) (x : ℝ) :
+  f x = {u | lowerEndpoint f x ≤ ↑u ∧ ↑u ≤ upperEndpoint f x}
+ScalarMonotone.unique_maximal_completion {I : Set ℝ} {f : Operator} (hI : I.OrdConnected) (hne : I.Nonempty)
+  (hf : Increasing f) (hd : dom f = I) : ∃! g, MaximalIncreasing g ∧ f ≤ g ∧ dom g ⊆ closure I
+ScalarMonotone.unique_maximal_decreasing_completion {I : Set ℝ} {f : Operator} (hI : I.OrdConnected) (hne : I.Nonempty)
+  (hf : Decreasing f) (hd : dom f = I) : ∃! g, MaximalDecreasing g ∧ f ≤ g ∧ dom g ⊆ closure I
+ScalarMonotone.unique_completion_of_monotoneOn {φ : ℝ → ℝ} {I : Set ℝ} (hφ : MonotoneOn φ I) (hI : I.OrdConnected)
+  (hne : I.Nonempty) : ∃! g, MaximalIncreasing g ∧ restrictOperator (ofFun φ) I ≤ g ∧ dom g ⊆ closure I
+ScalarMonotone.unique_completed_restriction {f : Operator} (hf : MaximalIncreasing f) {I : Set ℝ} (hI : I.OrdConnected)
+  (hne : I.Nonempty) (hdom : I ⊆ dom f) : ∃! g, MaximalIncreasing g ∧ restrictOperator f I ≤ g ∧ dom g ⊆ closure I
+ScalarMonotone.completion_Ioo_left_of_finite_limit {φ : ℝ → ℝ} {a b l : ℝ} (hab : a < b) (hφ : MonotoneOn φ (Ioo a b))
+  (hl : Tendsto φ (𝓝[>] a) (𝓝 l)) : completion (Ioo a b) (restrictOperator (ofFun φ) (Ioo a b)) a = Iic l
+ScalarMonotone.completion_Ioo_right_of_finite_limit {φ : ℝ → ℝ} {a b r : ℝ} (hab : a < b) (hφ : MonotoneOn φ (Ioo a b))
+  (hr : Tendsto φ (𝓝[<] b) (𝓝 r)) : completion (Ioo a b) (restrictOperator (ofFun φ) (Ioo a b)) b = Ici r
+ScalarMonotone.completion_Ioo_left_of_infinite_limit {φ : ℝ → ℝ} {a b : ℝ} (hab : a < b) (hφ : MonotoneOn φ (Ioo a b))
+  (hl : Tendsto φ (𝓝[>] a) atBot) : completion (Ioo a b) (restrictOperator (ofFun φ) (Ioo a b)) a = ∅
+ScalarMonotone.completion_Ioo_right_of_infinite_limit {φ : ℝ → ℝ} {a b : ℝ} (hab : a < b) (hφ : MonotoneOn φ (Ioo a b))
+  (hr : Tendsto φ (𝓝[<] b) atTop) : completion (Ioo a b) (restrictOperator (ofFun φ) (Ioo a b)) b = ∅
+ScalarMonotone.completion_Ioo_interior_of_limits {φ : ℝ → ℝ} {a b x l r : ℝ} (hφ : MonotoneOn φ (Ioo a b))
+  (hx : x ∈ Ioo a b) (hl : Tendsto φ (𝓝[<] x) (𝓝 l)) (hr : Tendsto φ (𝓝[>] x) (𝓝 r)) :
+  completion (Ioo a b) (restrictOperator (ofFun φ) (Ioo a b)) x = Icc l r
+ScalarMonotone.completion_Ioo_interior_limits {φ : ℝ → ℝ} {a b x : ℝ} (hφ : MonotoneOn φ (Ioo a b)) (hx : x ∈ Ioo a b) :
+  ∃ l r,
+    Tendsto φ (𝓝[<] x) (𝓝 l) ∧
+      Tendsto φ (𝓝[>] x) (𝓝 r) ∧ completion (Ioo a b) (restrictOperator (ofFun φ) (Ioo a b)) x = Icc l r
+ScalarMonotone.completion_Ioi_left_of_finite_limit {φ : ℝ → ℝ} {a l : ℝ} (hφ : MonotoneOn φ (Ioi a))
+  (hl : Tendsto φ (𝓝[>] a) (𝓝 l)) : completion (Ioi a) (restrictOperator (ofFun φ) (Ioi a)) a = Iic l
+ScalarMonotone.completion_Ioi_left_of_infinite_limit {φ : ℝ → ℝ} {a : ℝ} (hφ : MonotoneOn φ (Ioi a))
+  (hl : Tendsto φ (𝓝[>] a) atBot) : completion (Ioi a) (restrictOperator (ofFun φ) (Ioi a)) a = ∅
+ScalarMonotone.completion_Iio_right_of_finite_limit {φ : ℝ → ℝ} {b r : ℝ} (hφ : MonotoneOn φ (Iio b))
+  (hr : Tendsto φ (𝓝[<] b) (𝓝 r)) : completion (Iio b) (restrictOperator (ofFun φ) (Iio b)) b = Ici r
+ScalarMonotone.completion_Iio_right_of_infinite_limit {φ : ℝ → ℝ} {b : ℝ} (hφ : MonotoneOn φ (Iio b))
+  (hr : Tendsto φ (𝓝[<] b) atTop) : completion (Iio b) (restrictOperator (ofFun φ) (Iio b)) b = ∅
+ScalarMonotone.survival_maximal (μ : Measure ℝ) [IsProbabilityMeasure μ] : MaximalDecreasing (survival μ)
+ScalarMonotone.tailQuantile_maximal (μ : Measure ℝ) [IsProbabilityMeasure μ] : MaximalDecreasing (tailQuantile μ)
+ScalarMonotone.tailQuantile_symmetricBernoulli_half : tailQuantile symmetricBernoulli (1 / 2) = Icc 0 1
+ScalarMonotone.tailQuantile_selection_law (μ : Measure ℝ) [IsProbabilityMeasure μ] {q : ℝ → ℝ} (hq : Measurable q)
+  (hsel : ∀ p ∈ Ioo 0 1, q p ∈ tailQuantile μ p) : Measure.map q unitUniform = μ
+ScalarMonotone.tailQuantile_selection_uniform_argument.{u_1} {Ω : Type u_1} [MeasurableSpace Ω] (ν : Measure Ω)
+  (μ : Measure ℝ) [IsProbabilityMeasure μ] {U : Ω → ℝ} {q : ℝ → ℝ} (hU : Measurable U) (hq : Measurable q)
+  (hUlaw : Measure.map U ν = unitUniform) (hsel : ∀ p ∈ Ioo 0 1, q p ∈ tailQuantile μ p) : Measure.map (q ∘ U) ν = μ
+ScalarMonotone.tailQuantile_selection_law_ae (μ : Measure ℝ) [IsProbabilityMeasure μ] {q : ℝ → ℝ}
+  (hq : AEMeasurable q unitUniform) (hsel : ∀ p ∈ Ioo 0 1, q p ∈ tailQuantile μ p) : Measure.map q unitUniform = μ
+ScalarMonotone.tailQuantile_fiber_eq (μ : Measure ℝ) [IsProbabilityMeasure μ] (p : ℝ) :
+  tailQuantile μ p = inverse (completedStieltjes (cdf μ)) (1 - p)
+ScalarMonotone.tailQuantile_fiber_closed (μ : Measure ℝ) [IsProbabilityMeasure μ] (p : ℝ) : IsClosed (tailQuantile μ p)
+ScalarMonotone.tailQuantile_fiber_ordConnected (μ : Measure ℝ) [IsProbabilityMeasure μ] (p : ℝ) :
+  (tailQuantile μ p).OrdConnected
+ScalarMonotone.tailQuantile_fiber_nonempty (μ : Measure ℝ) [IsProbabilityMeasure μ] {p : ℝ} (hp : p ∈ Ioo 0 1) :
+  (tailQuantile μ p).Nonempty
+ScalarMonotone.tailQuantile_fiber_bounded (μ : Measure ℝ) [IsProbabilityMeasure μ] {p : ℝ} (hp : p ∈ Ioo 0 1) :
+  ∃ a b, tailQuantile μ p ⊆ Icc a b
+ScalarMonotone.tailQuantile_fiber_compact (μ : Measure ℝ) [IsProbabilityMeasure μ] {p : ℝ} (hp : p ∈ Ioo 0 1) :
+  IsCompact (tailQuantile μ p)
+ScalarMonotone.add_maximal {f g : Operator} (hf : MaximalIncreasing f) (hg : MaximalIncreasing g)
+  (hfg : (dom f ∩ dom g).Nonempty) : MaximalIncreasing (add f g)
+ScalarMonotone.add_maximal_decreasing {f g : Operator} (hf : MaximalDecreasing f) (hg : MaximalDecreasing g)
+  (hfg : (dom f ∩ dom g).Nonempty) : MaximalDecreasing (add f g)
+ScalarMonotone.ran_add_eq {f g : Operator} (hf : MaximalIncreasing f) (hg : MaximalIncreasing g)
+  (hfg : (dom f ∩ dom g).Nonempty) : ran (add f g) = setAdd (ran f) (ran g)
+ScalarMonotone.ran_add_eq_decreasing {f g : Operator} (hf : MaximalDecreasing f) (hg : MaximalDecreasing g)
+  (hfg : (dom f ∩ dom g).Nonempty) : ran (add f g) = setAdd (ran f) (ran g)
+ScalarMonotone.parallelAdd_maximal {f g : Operator} (hf : MaximalIncreasing f) (hg : MaximalIncreasing g)
+  (hfg : (ran f ∩ ran g).Nonempty) : MaximalIncreasing (parallelAdd f g)
+ScalarMonotone.parallelAdd_maximal_decreasing {f g : Operator} (hf : MaximalDecreasing f) (hg : MaximalDecreasing g)
+  (hfg : (ran f ∩ ran g).Nonempty) : MaximalDecreasing (parallelAdd f g)
+ScalarMonotone.dom_parallelAdd_eq {f g : Operator} (hf : MaximalIncreasing f) (hg : MaximalIncreasing g)
+  (hfg : (ran f ∩ ran g).Nonempty) : dom (parallelAdd f g) = setAdd (dom f) (dom g)
+ScalarMonotone.dom_parallelAdd_eq_decreasing {f g : Operator} (hf : MaximalDecreasing f) (hg : MaximalDecreasing g)
+  (hfg : (ran f ∩ ran g).Nonempty) : dom (parallelAdd f g) = setAdd (dom f) (dom g)
+ScalarMonotone.maximal_iff_domain_range {f : Operator} (hf : Increasing f) :
+  MaximalIncreasing f ↔ (ran (add f identity)).OrdConnected ∧ setAdd (ran f) (dom f) = univ
+ScalarMonotone.maximalDecreasing_iff_domain_range {f : Operator} (hf : Decreasing f) :
+  MaximalDecreasing f ↔ (ran (add f (negOut identity))).OrdConnected ∧ setAdd (ran f) (setNeg (dom f)) = univ
+ScalarMonotone.mul_maximal_iff {f g : Operator} (hf : MaximalIncreasing f) (hg : MaximalIncreasing g)
+  (hf₀ : Nonnegative f) (hg₀ : Nonnegative g) : MaximalIncreasing (mul f g) ↔ dom f ∩ dom g = univ ∨ ran (mul f g) ≠ {0}
+ScalarMonotone.mul_maximal_decreasing_iff {f g : Operator} (hf : MaximalDecreasing f) (hg : MaximalDecreasing g)
+  (hf₀ : Nonnegative f) (hg₀ : Nonnegative g) : MaximalDecreasing (mul f g) ↔ dom f ∩ dom g = univ ∨ ran (mul f g) ≠ {0}
+ScalarMonotone.ran_mul_eq {f g : Operator} (hf : MaximalIncreasing f) (hg : MaximalIncreasing g) (hf₀ : Nonnegative f)
+  (hg₀ : Nonnegative g) (hm : MaximalIncreasing (mul f g)) : ran (mul f g) = setMul (ran f) (ran g)
+ScalarMonotone.ran_mul_eq_decreasing {f g : Operator} (hf : MaximalDecreasing f) (hg : MaximalDecreasing g)
+  (hf₀ : Nonnegative f) (hg₀ : Nonnegative g) (hm : MaximalDecreasing (mul f g)) :
+  ran (mul f g) = setMul (ran f) (ran g)
+ScalarMonotone.parallelMul_maximal_iff {f g : Operator} (hf : MaximalIncreasing f) (hg : MaximalIncreasing g)
+  (hf₀ : dom f ⊆ Ici 0) (hg₀ : dom g ⊆ Ici 0) :
+  MaximalIncreasing (parallelMul f g) ↔ ran f ∩ ran g = univ ∨ dom (parallelMul f g) ≠ {0}
+ScalarMonotone.parallelMul_maximal_decreasing_iff {f g : Operator} (hf : MaximalDecreasing f) (hg : MaximalDecreasing g)
+  (hf₀ : dom f ⊆ Ici 0) (hg₀ : dom g ⊆ Ici 0) :
+  MaximalDecreasing (parallelMul f g) ↔ ran f ∩ ran g = univ ∨ dom (parallelMul f g) ≠ {0}
+ScalarMonotone.dom_parallelMul_eq {f g : Operator} (hf : MaximalIncreasing f) (hg : MaximalIncreasing g)
+  (hf₀ : dom f ⊆ Ici 0) (hg₀ : dom g ⊆ Ici 0) (hm : MaximalIncreasing (parallelMul f g)) :
+  dom (parallelMul f g) = setMul (dom f) (dom g)
+ScalarMonotone.dom_parallelMul_eq_decreasing {f g : Operator} (hf : MaximalDecreasing f) (hg : MaximalDecreasing g)
+  (hf₀ : dom f ⊆ Ici 0) (hg₀ : dom g ⊆ Ici 0) (hm : MaximalDecreasing (parallelMul f g)) :
+  dom (parallelMul f g) = setMul (dom f) (dom g)
+ScalarMonotone.logOp_maximal {f : Operator} (hf : MaximalIncreasing f) (hf₀ : Nonnegative f)
+  (hpos : ∃ c ∈ ran f, 0 < c) : MaximalIncreasing (logOp f)
+ScalarMonotone.logOp_maximal_decreasing {f : Operator} (hf : MaximalDecreasing f) (hf₀ : Nonnegative f)
+  (hpos : ∃ c ∈ ran f, 0 < c) : MaximalDecreasing (logOp f)
+ScalarMonotone.relu : Operator
+ScalarMonotone.relu_nonnegative : Nonnegative relu
+ScalarMonotone.relu_increasing : Increasing relu
+ScalarMonotone.relu_maximal : MaximalIncreasing relu
+ScalarMonotone.relu_mul_reciprocalBarrier : mul relu reciprocalBarrier = fun x => {u | x < 0 ∧ u = 0}
+ScalarMonotone.relu_mul_reciprocalBarrier_not_maximal : ¬MaximalIncreasing (mul relu reciprocalBarrier)
+ScalarMonotone.relu_mul_reciprocalBarrier_range_identity_fails :
+  ran (mul relu reciprocalBarrier) ≠ setMul (ran relu) (ran reciprocalBarrier)
+ScalarMonotone.reciprocalBarrier : Operator
+ScalarMonotone.reciprocalBarrier_nonnegative : Nonnegative reciprocalBarrier
+ScalarMonotone.reciprocalBarrier_input_neg {x u : ℝ} (hu : u ∈ reciprocalBarrier x) : x < 0
+ScalarMonotone.reciprocalBarrier_increasing : Increasing reciprocalBarrier
+ScalarMonotone.reciprocalBarrier_maximal : MaximalIncreasing reciprocalBarrier
+ScalarMonotone.reciprocalBarrier_eq (x : ℝ) : reciprocalBarrier x = {u | x < 0 ∧ u = -1 / x}
+ScalarMonotone.increasing_comp_iff_noRectangle {f g : Operator} (hf : Increasing f) (hg : Increasing g) :
+  Increasing (comp g f) ↔ NoRectangle f g
+ScalarMonotone.comp_maximal_iff_of_increasing_increasing {f g : Operator} (hf : MaximalIncreasing f)
+  (hg : MaximalIncreasing g) (hne : (dom (comp g f)).Nonempty) (hrect : NoRectangle f g) :
+  MaximalIncreasing (comp g f) ↔ setAdd (dom f) (ran g) = univ
+ScalarMonotone.comp_maximal_iff_of_decreasing_decreasing {f g : Operator} (hf : MaximalDecreasing f)
+  (hg : MaximalDecreasing g) (hne : (dom (comp g f)).Nonempty) (hrect : NoRectangle f g) :
+  MaximalIncreasing (comp g f) ↔ setAdd (dom f) (ran g) = univ
+ScalarMonotone.comp_maximal_iff_of_increasing_decreasing {f g : Operator} (hf : MaximalIncreasing f)
+  (hg : MaximalDecreasing g) (hne : (dom (comp g f)).Nonempty) (hrect : NoRectangle f g) :
+  MaximalDecreasing (comp g f) ↔ setAdd (dom f) (setNeg (ran g)) = univ
+ScalarMonotone.comp_maximal_iff_of_decreasing_increasing {f g : Operator} (hf : MaximalDecreasing f)
+  (hg : MaximalIncreasing g) (hne : (dom (comp g f)).Nonempty) (hrect : NoRectangle f g) :
+  MaximalDecreasing (comp g f) ↔ setAdd (dom f) (setNeg (ran g)) = univ
+ScalarMonotone.comp_parallelAdd_le (f g h : Operator) : comp f (parallelAdd g h) ≤ parallelAdd (comp f g) (comp f h)
+ScalarMonotone.comp_parallelMul_le (f g h : Operator) : comp f (parallelMul g h) ≤ parallelMul (comp f g) (comp f h)
+ScalarMonotone.comp_parallelAdd_eq_of_singleValued (f g h : Operator) (hf : SingleValued (inverse f)) :
+  comp f (parallelAdd g h) = parallelAdd (comp f g) (comp f h)
+ScalarMonotone.comp_parallelAdd_eq_of_maximal (f g h : Operator) (hl : MaximalIncreasing (comp f (parallelAdd g h)))
+  (hr : Increasing (parallelAdd (comp f g) (comp f h))) : comp f (parallelAdd g h) = parallelAdd (comp f g) (comp f h)
+ScalarMonotone.comp_parallelAdd_eq_of_maximalDecreasing (f g h : Operator)
+  (hl : MaximalDecreasing (comp f (parallelAdd g h))) (hr : Decreasing (parallelAdd (comp f g) (comp f h))) :
+  comp f (parallelAdd g h) = parallelAdd (comp f g) (comp f h)
+ScalarMonotone.comp_parallelMul_eq_of_singleValued (f g h : Operator) (hf : SingleValued (inverse f)) :
+  comp f (parallelMul g h) = parallelMul (comp f g) (comp f h)
+ScalarMonotone.comp_parallelMul_eq_of_maximal (f g h : Operator) (hl : MaximalIncreasing (comp f (parallelMul g h)))
+  (hr : Increasing (parallelMul (comp f g) (comp f h))) : comp f (parallelMul g h) = parallelMul (comp f g) (comp f h)
+ScalarMonotone.comp_parallelMul_eq_of_maximalDecreasing (f g h : Operator)
+  (hl : MaximalDecreasing (comp f (parallelMul g h))) (hr : Decreasing (parallelMul (comp f g) (comp f h))) :
+  comp f (parallelMul g h) = parallelMul (comp f g) (comp f h)
+ScalarMonotone.parallelMul_parallelAdd (f g h : Operator) (hf : ∀ (u : ℝ), (inverse f u).OrdConnected)
+  (hg : dom g ⊆ Ici 0) (hh : dom h ⊆ Ici 0) :
+  parallelMul f (parallelAdd g h) = parallelAdd (parallelMul f g) (parallelMul f h)
+ScalarMonotone.parallelAdd_translate (f g : Operator) (a b : ℝ) :
+  parallelAdd (comp f (ofFun fun x => x + a)) (comp g (ofFun fun x => x + b)) =
+    comp (parallelAdd f g) (ofFun fun x => x + a + b)
+ScalarMonotone.parallelMul_scale (f g : Operator) {c d : ℝ} (hc : c ≠ 0) (hd : d ≠ 0) :
+  parallelMul (comp f (ofFun fun x => c * x)) (comp g (ofFun fun x => d * x)) =
+    comp (parallelMul f g) (ofFun fun x => c * d * x)
+ScalarMonotone.IncLE (f g : Operator) : Prop
+ScalarMonotone.DecLE (f g : Operator) : Prop
+ScalarMonotone.IncGraph : Type
+ScalarMonotone.DecGraph : Type
+ScalarMonotone.IncGraph.le_iff_J {f g : IncGraph} : f ≤ g ↔ ∀ (s : ℝ), g.J s ≤ f.J s
+ScalarMonotone.DecGraph.le_iff_J {f g : DecGraph} : f ≤ g ↔ ∀ (s : ℝ), f.J s ≤ g.J s
+ScalarMonotone.incLE_vertical_iff (a b : ℝ) : IncLE (vertical a) (vertical b) ↔ b ≤ a
+ScalarMonotone.decLE_vertical_iff (a b : ℝ) : DecLE (vertical a) (vertical b) ↔ a ≤ b
+ScalarMonotone.incLE_iff_resolvent {f g : Operator} (hf : MaximalIncreasing f) (hg : MaximalIncreasing g) :
+  IncLE f g ↔ ∀ (s : ℝ), ScalarMonotone.resolvent g hg s ≤ ScalarMonotone.resolvent f hf s
+ScalarMonotone.decLE_iff_resolvent {f g : Operator} (hf : MaximalDecreasing f) (hg : MaximalDecreasing g) :
+  DecLE f g ↔ ∀ (s : ℝ), decreasingResolvent f hf s ≤ decreasingResolvent g hg s
+ScalarMonotone.resolvent_scale_order_iff {f g : Operator} (hf : MaximalIncreasing f) (hg : MaximalIncreasing g) {c : ℝ}
+  (hc : 0 < c) :
+  (∀ (s : ℝ), ScalarMonotone.resolvent (outputScale c g) ⋯ s ≤ ScalarMonotone.resolvent (outputScale c f) ⋯ s) ↔
+    ∀ (s : ℝ), ScalarMonotone.resolvent g hg s ≤ ScalarMonotone.resolvent f hf s
+ScalarMonotone.decreasingResolvent_scale_order_iff {f g : Operator} (hf : MaximalDecreasing f)
+  (hg : MaximalDecreasing g) {c : ℝ} (hc : 0 < c) :
+  (∀ (s : ℝ), decreasingResolvent (outputScale c f) ⋯ s ≤ decreasingResolvent (outputScale c g) ⋯ s) ↔
+    ∀ (s : ℝ), decreasingResolvent f hf s ≤ decreasingResolvent g hg s
+ScalarMonotone.incLE_fiber_endpoints {f g : Operator} (hf : MaximalIncreasing f) (hg : MaximalIncreasing g)
+  (hfg : IncLE f g) {x : ℝ} (hxf : x ∈ dom f) (hxg : x ∈ dom g) :
+  setLowerEndpoint (f x) ≤ setLowerEndpoint (g x) ∧ setUpperEndpoint (f x) ≤ setUpperEndpoint (g x)
+ScalarMonotone.decLE_fiber_endpoints {f g : Operator} (hf : MaximalDecreasing f) (hg : MaximalDecreasing g)
+  (hfg : DecLE f g) {x : ℝ} (hxf : x ∈ dom f) (hxg : x ∈ dom g) :
+  setLowerEndpoint (f x) ≤ setLowerEndpoint (g x) ∧ setUpperEndpoint (f x) ≤ setUpperEndpoint (g x)
+ScalarMonotone.incLE_iff_endpoints_of_dom_eq {f g : Operator} (hf : MaximalIncreasing f) (hg : MaximalIncreasing g)
+  (hd : dom f = dom g) :
+  IncLE f g ↔
+    ∀ x ∈ dom f, setLowerEndpoint (f x) ≤ setLowerEndpoint (g x) ∧ setUpperEndpoint (f x) ≤ setUpperEndpoint (g x)
+ScalarMonotone.decLE_iff_endpoints_of_dom_eq {f g : Operator} (hf : MaximalDecreasing f) (hg : MaximalDecreasing g)
+  (hd : dom f = dom g) :
+  DecLE f g ↔
+    ∀ x ∈ dom f, setLowerEndpoint (f x) ≤ setLowerEndpoint (g x) ∧ setUpperEndpoint (f x) ≤ setUpperEndpoint (g x)
+ScalarMonotone.resolvent_le_iff_lowerHull {f : Operator} (hf : MaximalIncreasing f) {x u : ℝ} (hx : x ∈ dom f) :
+  ScalarMonotone.resolvent f hf (x + u) ≤ x ↔ u ∈ lowerHull (f x)
+ScalarMonotone.resolvent_ge_iff_upperHull {f : Operator} (hf : MaximalIncreasing f) {x u : ℝ} (hx : x ∈ dom f) :
+  x ≤ ScalarMonotone.resolvent f hf (x + u) ↔ u ∈ upperHull (f x)
+ScalarMonotone.decreasingResolvent_ge_iff_lowerHull {f : Operator} (hf : MaximalDecreasing f) {x u : ℝ}
+  (hx : x ∈ dom f) : x ≤ decreasingResolvent f hf (x - u) ↔ u ∈ lowerHull (f x)
+ScalarMonotone.decreasingResolvent_le_iff_upperHull {f : Operator} (hf : MaximalDecreasing f) {x u : ℝ}
+  (hx : x ∈ dom f) : decreasingResolvent f hf (x - u) ≤ x ↔ u ∈ upperHull (f x)
+ScalarMonotone.IntervalLE (A B : Set ℝ) : Prop
+ScalarMonotone.intervalLE_refl (A : Set ℝ) : IntervalLE A A
+ScalarMonotone.IntervalLE.trans {A B C : Set ℝ} (hAB : IntervalLE A B) (hBC : IntervalLE B C) : IntervalLE A C
+ScalarMonotone.intervalLE_antisymm {A B : Set ℝ} (hA : A.OrdConnected) (hB : B.OrdConnected) (hAB : IntervalLE A B)
+  (hBA : IntervalLE B A) : A = B
+ScalarMonotone.intervalLE_Icc_iff {a b c d : ℝ} (hab : a ≤ b) (hcd : c ≤ d) :
+  IntervalLE (Icc a b) (Icc c d) ↔ a ≤ c ∧ b ≤ d
+ScalarMonotone.lowerHull_eq_setAdd (A : Set ℝ) : lowerHull A = setAdd A (Iic 0)
+ScalarMonotone.upperHull_eq_setAdd (A : Set ℝ) : upperHull A = setAdd A (Ici 0)
+ScalarMonotone.incLE_domains {f g : Operator} (hf : MaximalIncreasing f) (hg : MaximalIncreasing g) (hfg : IncLE f g) :
+  IntervalLE (dom g) (dom f)
+ScalarMonotone.incLE_ranges {f g : Operator} (hf : MaximalIncreasing f) (hg : MaximalIncreasing g) (hfg : IncLE f g) :
+  IntervalLE (ran f) (ran g)
+ScalarMonotone.decLE_domains {f g : Operator} (hf : MaximalDecreasing f) (hg : MaximalDecreasing g) (hfg : DecLE f g) :
+  IntervalLE (dom f) (dom g)
+ScalarMonotone.decLE_ranges {f g : Operator} (hf : MaximalDecreasing f) (hg : MaximalDecreasing g) (hfg : DecLE f g) :
+  IntervalLE (ran f) (ran g)
+ScalarMonotone.incLE_fiber {f g : Operator} (hf : MaximalIncreasing f) (hg : MaximalIncreasing g) (hfg : IncLE f g)
+  {x : ℝ} (hxf : x ∈ dom f) (hxg : x ∈ dom g) : IntervalLE (f x) (g x)
+ScalarMonotone.decLE_fiber {f g : Operator} (hf : MaximalDecreasing f) (hg : MaximalDecreasing g) (hfg : DecLE f g)
+  {x : ℝ} (hxf : x ∈ dom f) (hxg : x ∈ dom g) : IntervalLE (f x) (g x)
+ScalarMonotone.incLE_inverse_iff {f g : Operator} : IncLE (inverse g) (inverse f) ↔ IncLE f g
+ScalarMonotone.decLE_inverse_iff {f g : Operator} : DecLE (inverse f) (inverse g) ↔ DecLE f g
+ScalarMonotone.IncLE.add_right {f g h : Operator} (hfg : IncLE f g) (hh : Increasing h) : IncLE (add f h) (add g h)
+ScalarMonotone.IncLE.add_left {f g h : Operator} (hfg : IncLE f g) (hh : Increasing h) : IncLE (add h f) (add h g)
+ScalarMonotone.DecLE.add_right {f g h : Operator} (hfg : DecLE f g) (hh : Decreasing h) : DecLE (add f h) (add g h)
+ScalarMonotone.DecLE.add_left {f g h : Operator} (hfg : DecLE f g) (hh : Decreasing h) : DecLE (add h f) (add h g)
+ScalarMonotone.IncLE.mul_right {f g h : Operator} (hfg : IncLE f g) (hh : Increasing h) (_hf₀ : Nonnegative f)
+  (hg₀ : Nonnegative g) (hh₀ : Nonnegative h) : IncLE (mul f h) (mul g h)
+ScalarMonotone.IncLE.mul_left {f g h : Operator} (hfg : IncLE f g) (hh : Increasing h) (hf₀ : Nonnegative f)
+  (hg₀ : Nonnegative g) (hh₀ : Nonnegative h) : IncLE (mul h f) (mul h g)
+ScalarMonotone.DecLE.mul_right {f g h : Operator} (hfg : DecLE f g) (hh : Decreasing h) (_hf₀ : Nonnegative f)
+  (hg₀ : Nonnegative g) (hh₀ : Nonnegative h) : DecLE (mul f h) (mul g h)
+ScalarMonotone.DecLE.mul_left {f g h : Operator} (hfg : DecLE f g) (hh : Decreasing h) (hf₀ : Nonnegative f)
+  (hg₀ : Nonnegative g) (hh₀ : Nonnegative h) : DecLE (mul h f) (mul h g)
+ScalarMonotone.IncLE.parallelAdd_right {f g h : Operator} (hfg : IncLE f g) (hh : Increasing h) :
+  IncLE (parallelAdd f h) (parallelAdd g h)
+ScalarMonotone.IncLE.parallelMul_right {f g h : Operator} (hfg : IncLE f g) (hh : Increasing h)
+  (hf₀ : Nonnegative (inverse f)) (hg₀ : Nonnegative (inverse g)) (hh₀ : Nonnegative (inverse h)) :
+  IncLE (parallelMul f h) (parallelMul g h)
+ScalarMonotone.DecLE.parallelAdd_right {f g h : Operator} (hfg : DecLE f g) (hh : Decreasing h) :
+  DecLE (parallelAdd f h) (parallelAdd g h)
+ScalarMonotone.DecLE.parallelMul_right {f g h : Operator} (hfg : DecLE f g) (hh : Decreasing h)
+  (hf₀ : Nonnegative (inverse f)) (hg₀ : Nonnegative (inverse g)) (hh₀ : Nonnegative (inverse h)) :
+  DecLE (parallelMul f h) (parallelMul g h)
+ScalarMonotone.IncLE.comp_right_of_increasing {f g h : Operator} (hfg : IncLE f g) (hf : MaximalIncreasing f)
+  (hh : Increasing h) (hcomp : Increasing (comp f h)) : IncLE (comp f h) (comp g h)
+ScalarMonotone.IncLE.comp_right_of_decreasing {f g h : Operator} (hfg : IncLE f g) (hf : MaximalIncreasing f)
+  (hh : Decreasing h) (hcomp : Decreasing (comp f h)) : DecLE (comp f h) (comp g h)
+ScalarMonotone.IncLE.comp_left_of_increasing {f g h : Operator} (hfg : IncLE f g) (hg : MaximalIncreasing g)
+  (hh : Increasing h) (hcomp : Increasing (comp h g)) : IncLE (comp h f) (comp h g)
+ScalarMonotone.IncLE.comp_left_of_decreasing {f g h : Operator} (hfg : IncLE f g) (hg : MaximalIncreasing g)
+  (hh : Decreasing h) (hcomp : Decreasing (comp h g)) : DecLE (comp h g) (comp h f)
+ScalarMonotone.DecLE.comp_right_of_increasing {f g h : Operator} (hfg : DecLE f g) (hf : MaximalDecreasing f)
+  (hh : Increasing h) (hcomp : Decreasing (comp f h)) : DecLE (comp f h) (comp g h)
+ScalarMonotone.DecLE.comp_right_of_decreasing {f g h : Operator} (hfg : DecLE f g) (hf : MaximalDecreasing f)
+  (hh : Decreasing h) (hcomp : Increasing (comp f h)) : IncLE (comp f h) (comp g h)
+ScalarMonotone.DecLE.comp_left_of_increasing {f g h : Operator} (hfg : DecLE f g) (hf : MaximalDecreasing f)
+  (hh : Increasing h) (hcomp : Decreasing (comp h f)) : DecLE (comp h f) (comp h g)
+ScalarMonotone.DecLE.comp_left_of_decreasing {f g h : Operator} (hfg : DecLE f g) (hf : MaximalDecreasing f)
+  (hh : Decreasing h) (hcomp : Increasing (comp h f)) : IncLE (comp h g) (comp h f)
+ScalarMonotone.survival_comparison_iff (μ : Measure ℝ) [IsProbabilityMeasure μ] (α : Operator) :
+  DecLE (survival μ) α ↔ ∀ ⦃t u : ℝ⦄, u ∈ α t → μ.real (Ioi t) ≤ u
+ScalarMonotone.survival_map_comparison_iff.{u_1} {Ω : Type u_1} [MeasurableSpace Ω] (ν : Measure Ω)
+  [IsProbabilityMeasure ν] {X : Ω → ℝ} (hX : Measurable X) (α : Operator) :
+  DecLE (survival (Measure.map X ν)) α ↔ TailBound ν X α
+ScalarMonotone.survival_le_iff_tailQuantile_le (μ : Measure ℝ) (α : Operator) :
+  DecLE (survival μ) α ↔ DecLE (tailQuantile μ) (inverse α)
+ScalarMonotone.finite_sum_tail_bound.{u_1, u_2} {Ω : Type u_1} {ι : Type u_2} [MeasurableSpace Ω] [Fintype ι]
+  (ν : Measure Ω) [IsProbabilityMeasure ν] (X : ι → Ω → ℝ) (α : ι → Operator) (hX : ∀ (i : ι), TailBound ν (X i) (α i))
+  {t u : ℝ} (htu : u ∈ finiteParallelAdd α t) : ν.real {ω | t < ∑ i, X i ω} ≤ ↑(Fintype.card ι) * u
+ScalarMonotone.finite_product_tail_bound.{u_1, u_2} {Ω : Type u_1} {ι : Type u_2} [MeasurableSpace Ω] [Fintype ι]
+  (ν : Measure Ω) [IsProbabilityMeasure ν] (X : ι → Ω → ℝ) (α : ι → Operator) (hX : ∀ (i : ι), TailBound ν (X i) (α i))
+  (hnonneg : ∀ (i : ι), ∀ᵐ (ω : Ω) ∂ν, 0 ≤ X i ω) {t u : ℝ} (htu : u ∈ finiteParallelMul α t) :
+  ν.real {ω | t < ∏ i, X i ω} ≤ ↑(Fintype.card ι) * u
+ScalarMonotone.survival_finite_sum_bound.{u_1, u_2} {Ω : Type u_1} {ι : Type u_2} [MeasurableSpace Ω] [Fintype ι]
+  [Nonempty ι] (ν : Measure Ω) [IsProbabilityMeasure ν] (X : ι → Ω → ℝ) (α : ι → Operator)
+  (hX : ∀ (i : ι), Measurable (X i)) (hα : ∀ (i : ι), MaximalDecreasing (α i))
+  (hbound : ∀ (i : ι), DecLE (survival (Measure.map (X i) ν)) (α i)) (hcommon : ∃ u, ∀ (i : ι), u ∈ ran (α i)) :
+  MaximalDecreasing (outputScale (↑(Fintype.card ι)) (finiteParallelAdd α)) ∧
+    DecLE (survival (Measure.map (fun ω => ∑ i, X i ω) ν)) (outputScale (↑(Fintype.card ι)) (finiteParallelAdd α))
+ScalarMonotone.survival_finite_product_bound.{u_1, u_2} {Ω : Type u_1} {ι : Type u_2} [MeasurableSpace Ω] [Fintype ι]
+  [Nonempty ι] (ν : Measure Ω) [IsProbabilityMeasure ν] (X : ι → Ω → ℝ) (α : ι → Operator)
+  (hX : ∀ (i : ι), Measurable (X i)) (hbound : ∀ (i : ι), DecLE (survival (Measure.map (X i) ν)) (α i))
+  (hnonneg : ∀ (i : ι), ∀ᵐ (ω : Ω) ∂ν, 0 ≤ X i ω) (hprod : MaximalDecreasing (finiteProduct fun i => inverse (α i))) :
+  MaximalDecreasing (outputScale (↑(Fintype.card ι)) (finiteParallelMul α)) ∧
+    DecLE (survival (Measure.map (fun ω => ∏ i, X i ω) ν)) (outputScale (↑(Fintype.card ι)) (finiteParallelMul α))
+ScalarMonotone.survival_centered_sum_bound.{u_1} {Ω : Type u_1} [MeasurableSpace Ω] (ν : Measure Ω)
+  [IsProbabilityMeasure ν] {X Y : Ω → ℝ} (hX : Measurable X) (hY : Measurable Y) {c d : ℝ} {α β : Operator}
+  (hα : DecLE (survival (Measure.map (fun ω => |X ω - c|) ν)) α)
+  (hβ : DecLE (survival (Measure.map (fun ω => |Y ω - d|) ν)) β) (hm : MaximalDecreasing (parallelAdd α β)) :
+  MaximalDecreasing (outputScale 2 (parallelAdd α β)) ∧
+    DecLE (survival (Measure.map (fun ω => |X ω + Y ω - c - d|) ν)) (outputScale 2 (parallelAdd α β))
+ScalarMonotone.survival_centered_product_bound.{u_1} {Ω : Type u_1} [MeasurableSpace Ω] (ν : Measure Ω)
+  [IsProbabilityMeasure ν] {X Y : Ω → ℝ} (hX : Measurable X) (hY : Measurable Y) {c d : ℝ} {α β : Operator}
+  (hα : DecLE (survival (Measure.map (fun ω => |X ω - c|) ν)) α)
+  (hβ : DecLE (survival (Measure.map (fun ω => |Y ω - d|) ν)) β) (hα₀ : dom α ⊆ Ici 0) (hβ₀ : dom β ⊆ Ici 0)
+  (hm : MaximalDecreasing (centeredProductProfile α β c d)) :
+  MaximalDecreasing (outputScale 2 (centeredProductProfile α β c d)) ∧
+    DecLE (survival (Measure.map (fun ω => |X ω * Y ω - c * d|) ν)) (outputScale 2 (centeredProductProfile α β c d))
+ScalarMonotone.centeredProductProfile_eq_parallel {α β : Operator} {c d : ℝ} (hc : c ≠ 0) (hd : d ≠ 0) :
+  centeredProductProfile α β c d = parallelAdd (parallelAdd (parallelMul α β) (inputDivide |d| α)) (inputDivide |c| β)
+ScalarMonotone.centeredProductProfile_zero_left (α β : Operator) (d : ℝ) :
+  centeredProductProfile α β 0 d = inverse (add (mul (inverse α) (inverse β)) (outputScale |d| (inverse α)))
+ScalarMonotone.centeredProductProfile_zero_right (α β : Operator) (c : ℝ) :
+  centeredProductProfile α β c 0 = inverse (add (mul (inverse α) (inverse β)) (outputScale |c| (inverse β)))
+ScalarMonotone.centeredProductProfile_zero_zero (α β : Operator) : centeredProductProfile α β 0 0 = parallelMul α β
+ScalarMonotone.inc_exists_isGLB_iff.{u_1} {ι : Type u_1} [Nonempty ι] (f : ι → IncGraph) :
+  (∃ g, IsGLB (range f) g) ↔ BddBelow (range f)
+ScalarMonotone.inc_exists_isLUB_iff.{u_1} {ι : Type u_1} [Nonempty ι] (f : ι → IncGraph) :
+  (∃ g, IsLUB (range f) g) ↔ BddAbove (range f)
+ScalarMonotone.dec_exists_isGLB_iff.{u_1} {ι : Type u_1} [Nonempty ι] (f : ι → DecGraph) :
+  (∃ g, IsGLB (range f) g) ↔ BddBelow (range f)
+ScalarMonotone.dec_exists_isLUB_iff.{u_1} {ι : Type u_1} [Nonempty ι] (f : ι → DecGraph) :
+  (∃ g, IsLUB (range f) g) ↔ BddAbove (range f)
+ScalarMonotone.IncGraph.J_iInf.{u_1} {ι : Type u_1} [Nonempty ι] (f : ι → IncGraph) (hb : BddBelow (range f)) (s : ℝ) :
+  (⨅ i, f i).J s = ⨆ i, (f i).J s
+ScalarMonotone.IncGraph.J_iSup.{u_1} {ι : Type u_1} [Nonempty ι] (f : ι → IncGraph) (hb : BddAbove (range f)) (s : ℝ) :
+  (⨆ i, f i).J s = ⨅ i, (f i).J s
+ScalarMonotone.DecGraph.J_iInf.{u_1} {ι : Type u_1} [Nonempty ι] (f : ι → DecGraph) (hb : BddBelow (range f)) (s : ℝ) :
+  (⨅ i, f i).J s = ⨅ i, (f i).J s
+ScalarMonotone.DecGraph.J_iSup.{u_1} {ι : Type u_1} [Nonempty ι] (f : ι → DecGraph) (hb : BddAbove (range f)) (s : ℝ) :
+  (⨆ i, f i).J s = ⨆ i, (f i).J s
+ScalarMonotone.IncGraph.constants_not_bddAbove : ¬BddAbove (range fun n => IncGraph.constant ↑n)
+ScalarMonotone.DecGraph.constants_not_bddAbove : ¬BddAbove (range fun n => DecGraph.constant ↑n)
+ScalarMonotone.IncGraph.inv_iInf.{u_1} {ι : Type u_1} [Nonempty ι] (f : ι → IncGraph) (hb : BddBelow (range f)) :
+  (⨅ i, f i).inv = ⨆ i, (f i).inv
+ScalarMonotone.IncGraph.inv_iSup.{u_1} {ι : Type u_1} [Nonempty ι] (f : ι → IncGraph) (hb : BddAbove (range f)) :
+  (⨆ i, f i).inv = ⨅ i, (f i).inv
+ScalarMonotone.DecGraph.inv_iInf.{u_1} {ι : Type u_1} [Nonempty ι] (f : ι → DecGraph) (hb : BddBelow (range f)) :
+  (⨅ i, f i).inv = ⨅ i, (f i).inv
+ScalarMonotone.DecGraph.inv_iSup.{u_1} {ι : Type u_1} [Nonempty ι] (f : ι → DecGraph) (hb : BddAbove (range f)) :
+  (⨆ i, f i).inv = ⨆ i, (f i).inv
+ScalarMonotone.intervalInf.{u_1} {ι : Type u_1} (I : ι → Set ℝ) : Set ℝ
+ScalarMonotone.intervalSup.{u_1} {ι : Type u_1} (I : ι → Set ℝ) : Set ℝ
+ScalarMonotone.intervalInf_universal.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (I : ι → Set ℝ)
+  (hI : ∀ (i : ι), (I i).Nonempty) {J : Set ℝ} : IntervalLE J (intervalInf I) ↔ ∀ (i : ι), IntervalLE J (I i)
+ScalarMonotone.intervalSup_universal.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (I : ι → Set ℝ)
+  (hI : ∀ (i : ι), (I i).Nonempty) {J : Set ℝ} : IntervalLE (intervalSup I) J ↔ ∀ (i : ι), IntervalLE (I i) J
+ScalarMonotone.upperHull_intervalInf.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (I : ι → Set ℝ)
+  (hI : ∀ (i : ι), (I i).Nonempty) : upperHull (intervalInf I) = ⋃ i, upperHull (I i)
+ScalarMonotone.lowerHull_intervalInf.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (I : ι → Set ℝ)
+  (hI : ∀ (i : ι), (I i).Nonempty) : lowerHull (intervalInf I) = ⋂ i, lowerHull (I i)
+ScalarMonotone.upperHull_intervalSup.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (I : ι → Set ℝ)
+  (hI : ∀ (i : ι), (I i).Nonempty) : upperHull (intervalSup I) = ⋂ i, upperHull (I i)
+ScalarMonotone.lowerHull_intervalSup.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (I : ι → Set ℝ)
+  (hI : ∀ (i : ι), (I i).Nonempty) : lowerHull (intervalSup I) = ⋃ i, lowerHull (I i)
+ScalarMonotone.IncGraph.dom_iInf.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) :
+  dom (⨅ i, f i).val = intervalSup fun i => dom (f i).val
+ScalarMonotone.IncGraph.dom_iSup.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) :
+  dom (⨆ i, f i).val = intervalInf fun i => dom (f i).val
+ScalarMonotone.DecGraph.dom_iInf.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) :
+  dom (⨅ i, f i).val = intervalInf fun i => dom (f i).val
+ScalarMonotone.DecGraph.dom_iSup.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) :
+  dom (⨆ i, f i).val = intervalSup fun i => dom (f i).val
+ScalarMonotone.IncGraph.ran_iInf.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) :
+  ran (⨅ i, f i).val = intervalInf fun i => ran (f i).val
+ScalarMonotone.IncGraph.ran_iSup.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) :
+  ran (⨆ i, f i).val = intervalSup fun i => ran (f i).val
+ScalarMonotone.DecGraph.ran_iInf.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) :
+  ran (⨅ i, f i).val = intervalInf fun i => ran (f i).val
+ScalarMonotone.DecGraph.ran_iSup.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) :
+  ran (⨆ i, f i).val = intervalSup fun i => ran (f i).val
+ScalarMonotone.IncGraph.fiber_iInf.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) {x : ℝ}
+  (hx : ∀ (i : ι), x ∈ dom (f i).val) : (⨅ i, f i).val x = intervalInf fun i => (f i).val x
+ScalarMonotone.IncGraph.fiber_iInf_endpoints.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) {x : ℝ}
+  (hx : ∀ (i : ι), x ∈ dom (f i).val) :
+  (⨅ i, f i).val x = {u | ⨅ i, setLowerEndpoint ((f i).val x) ≤ ↑u ∧ ↑u ≤ ⨅ i, setUpperEndpoint ((f i).val x)}
+ScalarMonotone.IncGraph.fiber_iInf_active.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) {x : ℝ}
+  (hx : x ∈ dom (⨅ i, f i).val) : (⨅ i, f i).val x = intervalInf fun i => (f ↑i).val x
+ScalarMonotone.IncGraph.fiber_iSup.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) {x : ℝ}
+  (hx : ∀ (i : ι), x ∈ dom (f i).val) : (⨆ i, f i).val x = intervalSup fun i => (f i).val x
+ScalarMonotone.IncGraph.fiber_iSup_endpoints.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) {x : ℝ}
+  (hx : ∀ (i : ι), x ∈ dom (f i).val) :
+  (⨆ i, f i).val x = {u | ⨆ i, setLowerEndpoint ((f i).val x) ≤ ↑u ∧ ↑u ≤ ⨆ i, setUpperEndpoint ((f i).val x)}
+ScalarMonotone.IncGraph.fiber_iSup_active.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) {x : ℝ}
+  (hx : x ∈ dom (⨆ i, f i).val) : (⨆ i, f i).val x = intervalSup fun i => (f ↑i).val x
+ScalarMonotone.DecGraph.fiber_iInf.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) {x : ℝ}
+  (hx : ∀ (i : ι), x ∈ dom (f i).val) : (⨅ i, f i).val x = intervalInf fun i => (f i).val x
+ScalarMonotone.DecGraph.fiber_iInf_endpoints.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) {x : ℝ}
+  (hx : ∀ (i : ι), x ∈ dom (f i).val) :
+  (⨅ i, f i).val x = {u | ⨅ i, setLowerEndpoint ((f i).val x) ≤ ↑u ∧ ↑u ≤ ⨅ i, setUpperEndpoint ((f i).val x)}
+ScalarMonotone.DecGraph.fiber_iInf_active.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) {x : ℝ}
+  (hx : x ∈ dom (⨅ i, f i).val) : (⨅ i, f i).val x = intervalInf fun i => (f ↑i).val x
+ScalarMonotone.DecGraph.fiber_iSup.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) {x : ℝ}
+  (hx : ∀ (i : ι), x ∈ dom (f i).val) : (⨆ i, f i).val x = intervalSup fun i => (f i).val x
+ScalarMonotone.DecGraph.fiber_iSup_endpoints.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) {x : ℝ}
+  (hx : ∀ (i : ι), x ∈ dom (f i).val) :
+  (⨆ i, f i).val x = {u | ⨆ i, setLowerEndpoint ((f i).val x) ≤ ↑u ∧ ↑u ≤ ⨆ i, setUpperEndpoint ((f i).val x)}
+ScalarMonotone.DecGraph.fiber_iSup_active.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) {x : ℝ}
+  (hx : x ∈ dom (⨆ i, f i).val) : (⨆ i, f i).val x = intervalSup fun i => (f ↑i).val x
+ScalarMonotone.inc_lattice_median (r : ℕ) (A : Fin (2 * r + 1) → IncGraph) :
+  latticeMedianInfSup r A = latticeMedianSupInf r A
+ScalarMonotone.dec_lattice_median (r : ℕ) (A : Fin (2 * r + 1) → DecGraph) :
+  latticeMedianInfSup r A = latticeMedianSupInf r A
+ScalarMonotone.inc_lattice_median_resolvent_scale (r : ℕ) (A : Fin (2 * r + 1) → IncGraph) (c : ℝ) (hc : 0 < c)
+  (s : ℝ) :
+  ((IncGraph.scaleOrderIso c hc) (latticeMedianInfSup r A)).J s =
+    scalarMedian r fun i => ((IncGraph.scaleOrderIso c hc) (A i)).J s
+ScalarMonotone.dec_lattice_median_resolvent_scale (r : ℕ) (A : Fin (2 * r + 1) → DecGraph) (c : ℝ) (hc : 0 < c)
+  (s : ℝ) :
+  ((DecGraph.scaleOrderIso c hc) (latticeMedianInfSup r A)).J s =
+    scalarMedian r fun i => ((DecGraph.scaleOrderIso c hc) (A i)).J s
+ScalarMonotone.inc_lattice_median_majority (r : ℕ) (A : Fin (2 * r + 1) → IncGraph) {l h : IncGraph}
+  (hm : ∃ I, ∀ i ∈ ↑I, l ≤ A i ∧ A i ≤ h) : l ≤ latticeMedianInfSup r A ∧ latticeMedianInfSup r A ≤ h
+ScalarMonotone.dec_lattice_median_majority (r : ℕ) (A : Fin (2 * r + 1) → DecGraph) {l h : DecGraph}
+  (hm : ∃ I, ∀ i ∈ ↑I, l ≤ A i ∧ A i ≤ h) : l ≤ latticeMedianInfSup r A ∧ latticeMedianInfSup r A ≤ h
+ScalarMonotone.partial_orderPreserving_inf_bound.{u_1, u_2, u_3} {α : Type u_1} {β : Type u_2} {ι : Type u_3}
+  [Preorder α] [Preorder β] {P : α → Prop} (Φ : (x : α) → P x → β) {f : ι → α} (hf : ∀ (i : ι), P (f i)) {F : α}
+  (hF : P F) {G : β} (hΦ : ∀ {x y : α} (hx : P x) (hy : P y), x ≤ y → Φ x hx ≤ Φ y hy) (hi : IsGLB (range f) F)
+  (hG : IsGLB (range fun i => Φ (f i) ⋯) G) : Φ F hF ≤ G
+ScalarMonotone.partial_orderPreserving_sup_bound.{u_1, u_2, u_3} {α : Type u_1} {β : Type u_2} {ι : Type u_3}
+  [Preorder α] [Preorder β] {P : α → Prop} (Φ : (x : α) → P x → β) {f : ι → α} (hf : ∀ (i : ι), P (f i)) {F : α}
+  (hF : P F) {G : β} (hΦ : ∀ {x y : α} (hx : P x) (hy : P y), x ≤ y → Φ x hx ≤ Φ y hy) (hi : IsLUB (range f) F)
+  (hG : IsLUB (range fun i => Φ (f i) ⋯) G) : G ≤ Φ F hF
+ScalarMonotone.partial_orderReversing_inf_bound.{u_1, u_2, u_3} {α : Type u_1} {β : Type u_2} {ι : Type u_3}
+  [Preorder α] [Preorder β] {P : α → Prop} (Φ : (x : α) → P x → β) {f : ι → α} (hf : ∀ (i : ι), P (f i)) {F : α}
+  (hF : P F) {G : β} (hΦ : ∀ {x y : α} (hx : P x) (hy : P y), x ≤ y → Φ y hy ≤ Φ x hx) (hi : IsGLB (range f) F)
+  (hG : IsLUB (range fun i => Φ (f i) ⋯) G) : G ≤ Φ F hF
+ScalarMonotone.partial_orderReversing_sup_bound.{u_1, u_2, u_3} {α : Type u_1} {β : Type u_2} {ι : Type u_3}
+  [Preorder α] [Preorder β] {P : α → Prop} (Φ : (x : α) → P x → β) {f : ι → α} (hf : ∀ (i : ι), P (f i)) {F : α}
+  (hF : P F) {G : β} (hΦ : ∀ {x y : α} (hx : P x) (hy : P y), x ≤ y → Φ y hy ≤ Φ x hx) (hi : IsLUB (range f) F)
+  (hG : IsGLB (range fun i => Φ (f i) ⋯) G) : Φ F hF ≤ G
+ScalarMonotone.inc_add_iInf.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) (h : IncGraph)
+  (hadd : ∀ (a : ι), MaximalIncreasing (add h.val (f a).val)) :
+  add h.val (⨅ a, f a).val = (⨅ a, { val := add h.val (f a).val, property := ⋯ }).val
+ScalarMonotone.inc_add_iSup.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) (h : IncGraph)
+  (hadd : ∀ (a : ι), MaximalIncreasing (add h.val (f a).val)) :
+  add h.val (⨆ a, f a).val = (⨆ a, { val := add h.val (f a).val, property := ⋯ }).val
+ScalarMonotone.dec_add_iInf.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) (h : DecGraph)
+  (hadd : ∀ (a : ι), MaximalDecreasing (add h.val (f a).val)) :
+  add h.val (⨅ a, f a).val = (⨅ a, { val := add h.val (f a).val, property := ⋯ }).val
+ScalarMonotone.dec_add_iSup.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) (h : DecGraph)
+  (hadd : ∀ (a : ι), MaximalDecreasing (add h.val (f a).val)) :
+  add h.val (⨆ a, f a).val = (⨆ a, { val := add h.val (f a).val, property := ⋯ }).val
+ScalarMonotone.inc_mul_iInf.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) (h : IncGraph)
+  (h₀ : ran h.val ⊆ Ici 0) (hmul : ∀ (i : ι), MaximalIncreasing (mul h.val (f i).val)) :
+  mul h.val (⨅ i, f i).val = (⨅ i, { val := mul h.val (f i).val, property := ⋯ }).val
+ScalarMonotone.inc_mul_iSup.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) (h : IncGraph)
+  (h₀ : ran h.val ⊆ Ici 0) (hmul : ∀ (i : ι), MaximalIncreasing (mul h.val (f i).val)) :
+  mul h.val (⨆ i, f i).val = (⨆ i, { val := mul h.val (f i).val, property := ⋯ }).val
+ScalarMonotone.dec_mul_iInf.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) (h : DecGraph)
+  (h₀ : ran h.val ⊆ Ici 0) (hmul : ∀ (i : ι), MaximalDecreasing (mul h.val (f i).val)) :
+  mul h.val (⨅ i, f i).val = (⨅ i, { val := mul h.val (f i).val, property := ⋯ }).val
+ScalarMonotone.dec_mul_iSup.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) (h : DecGraph)
+  (h₀ : ran h.val ⊆ Ici 0) (hmul : ∀ (i : ι), MaximalDecreasing (mul h.val (f i).val)) :
+  mul h.val (⨆ i, f i).val = (⨆ i, { val := mul h.val (f i).val, property := ⋯ }).val
+ScalarMonotone.inc_parallelAdd_iInf.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) (h : IncGraph)
+  (hp : ∀ (a : ι), MaximalIncreasing (parallelAdd h.val (f a).val)) :
+  parallelAdd h.val (⨅ a, f a).val = (⨅ a, { val := parallelAdd h.val (f a).val, property := ⋯ }).val
+ScalarMonotone.inc_parallelAdd_iSup.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) (h : IncGraph)
+  (hp : ∀ (a : ι), MaximalIncreasing (parallelAdd h.val (f a).val)) :
+  parallelAdd h.val (⨆ a, f a).val = (⨆ a, { val := parallelAdd h.val (f a).val, property := ⋯ }).val
+ScalarMonotone.dec_parallelAdd_iInf.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) (h : DecGraph)
+  (hp : ∀ (a : ι), MaximalDecreasing (parallelAdd h.val (f a).val)) :
+  parallelAdd h.val (⨅ a, f a).val = (⨅ a, { val := parallelAdd h.val (f a).val, property := ⋯ }).val
+ScalarMonotone.dec_parallelAdd_iSup.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) (h : DecGraph)
+  (hp : ∀ (a : ι), MaximalDecreasing (parallelAdd h.val (f a).val)) :
+  parallelAdd h.val (⨆ a, f a).val = (⨆ a, { val := parallelAdd h.val (f a).val, property := ⋯ }).val
+ScalarMonotone.inc_parallelMul_iInf.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) (h : IncGraph)
+  (h₀ : dom h.val ⊆ Ici 0) (hp : ∀ (i : ι), MaximalIncreasing (parallelMul h.val (f i).val)) :
+  parallelMul h.val (⨅ i, f i).val = (⨅ i, { val := parallelMul h.val (f i).val, property := ⋯ }).val
+ScalarMonotone.inc_parallelMul_iSup.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) (h : IncGraph)
+  (h₀ : dom h.val ⊆ Ici 0) (hp : ∀ (i : ι), MaximalIncreasing (parallelMul h.val (f i).val)) :
+  parallelMul h.val (⨆ i, f i).val = (⨆ i, { val := parallelMul h.val (f i).val, property := ⋯ }).val
+ScalarMonotone.dec_parallelMul_iInf.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) (h : DecGraph)
+  (h₀ : dom h.val ⊆ Ici 0) (hp : ∀ (i : ι), MaximalDecreasing (parallelMul h.val (f i).val)) :
+  parallelMul h.val (⨅ i, f i).val = (⨅ i, { val := parallelMul h.val (f i).val, property := ⋯ }).val
+ScalarMonotone.dec_parallelMul_iSup.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) (h : DecGraph)
+  (h₀ : dom h.val ⊆ Ici 0) (hp : ∀ (i : ι), MaximalDecreasing (parallelMul h.val (f i).val)) :
+  parallelMul h.val (⨆ i, f i).val = (⨆ i, { val := parallelMul h.val (f i).val, property := ⋯ }).val
+ScalarMonotone.inc_comp_right_iInf_inc.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) (h : IncGraph)
+  (hc : ∀ (a : ι), MaximalIncreasing (comp (f a).val h.val)) :
+  comp (⨅ a, f a).val h.val = (⨅ a, { val := comp (f a).val h.val, property := ⋯ }).val
+ScalarMonotone.inc_comp_right_iSup_inc.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) (h : IncGraph)
+  (hc : ∀ (a : ι), MaximalIncreasing (comp (f a).val h.val)) :
+  comp (⨆ a, f a).val h.val = (⨆ a, { val := comp (f a).val h.val, property := ⋯ }).val
+ScalarMonotone.inc_comp_right_iInf_dec.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) (h : DecGraph)
+  (hc : ∀ (a : ι), MaximalDecreasing (comp (f a).val h.val)) :
+  comp (⨅ a, f a).val h.val = (⨅ a, { val := comp (f a).val h.val, property := ⋯ }).val
+ScalarMonotone.inc_comp_right_iSup_dec.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) (h : DecGraph)
+  (hc : ∀ (a : ι), MaximalDecreasing (comp (f a).val h.val)) :
+  comp (⨆ a, f a).val h.val = (⨆ a, { val := comp (f a).val h.val, property := ⋯ }).val
+ScalarMonotone.dec_comp_right_iInf_inc.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) (h : IncGraph)
+  (hc : ∀ (a : ι), MaximalDecreasing (comp (f a).val h.val)) :
+  comp (⨅ a, f a).val h.val = (⨅ a, { val := comp (f a).val h.val, property := ⋯ }).val
+ScalarMonotone.dec_comp_right_iSup_inc.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) (h : IncGraph)
+  (hc : ∀ (a : ι), MaximalDecreasing (comp (f a).val h.val)) :
+  comp (⨆ a, f a).val h.val = (⨆ a, { val := comp (f a).val h.val, property := ⋯ }).val
+ScalarMonotone.dec_comp_right_iInf_dec.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) (h : DecGraph)
+  (hc : ∀ (a : ι), MaximalIncreasing (comp (f a).val h.val)) :
+  comp (⨅ a, f a).val h.val = (⨅ a, { val := comp (f a).val h.val, property := ⋯ }).val
+ScalarMonotone.dec_comp_right_iSup_dec.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) (h : DecGraph)
+  (hc : ∀ (a : ι), MaximalIncreasing (comp (f a).val h.val)) :
+  comp (⨆ a, f a).val h.val = (⨆ a, { val := comp (f a).val h.val, property := ⋯ }).val
+ScalarMonotone.inc_comp_left_iInf_inc.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) (h : IncGraph)
+  (hc : ∀ (a : ι), MaximalIncreasing (comp h.val (f a).val)) :
+  comp h.val (⨅ a, f a).val = (⨅ a, { val := comp h.val (f a).val, property := ⋯ }).val
+ScalarMonotone.inc_comp_left_iSup_inc.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) (h : IncGraph)
+  (hc : ∀ (a : ι), MaximalIncreasing (comp h.val (f a).val)) :
+  comp h.val (⨆ a, f a).val = (⨆ a, { val := comp h.val (f a).val, property := ⋯ }).val
+ScalarMonotone.inc_comp_left_iInf_dec.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) (h : DecGraph)
+  (hc : ∀ (a : ι), MaximalDecreasing (comp h.val (f a).val)) :
+  comp h.val (⨅ a, f a).val = (⨆ a, { val := comp h.val (f a).val, property := ⋯ }).val
+ScalarMonotone.inc_comp_left_iSup_dec.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → IncGraph) (h : DecGraph)
+  (hc : ∀ (a : ι), MaximalDecreasing (comp h.val (f a).val)) :
+  comp h.val (⨆ a, f a).val = (⨅ a, { val := comp h.val (f a).val, property := ⋯ }).val
+ScalarMonotone.dec_comp_left_iInf_inc.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) (h : IncGraph)
+  (hc : ∀ (a : ι), MaximalDecreasing (comp h.val (f a).val)) :
+  comp h.val (⨅ a, f a).val = (⨅ a, { val := comp h.val (f a).val, property := ⋯ }).val
+ScalarMonotone.dec_comp_left_iSup_inc.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) (h : IncGraph)
+  (hc : ∀ (a : ι), MaximalDecreasing (comp h.val (f a).val)) :
+  comp h.val (⨆ a, f a).val = (⨆ a, { val := comp h.val (f a).val, property := ⋯ }).val
+ScalarMonotone.dec_comp_left_iInf_dec.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) (h : DecGraph)
+  (hc : ∀ (a : ι), MaximalIncreasing (comp h.val (f a).val)) :
+  comp h.val (⨅ a, f a).val = (⨆ a, { val := comp h.val (f a).val, property := ⋯ }).val
+ScalarMonotone.dec_comp_left_iSup_dec.{u_1} {ι : Type u_1} [Finite ι] [Nonempty ι] (f : ι → DecGraph) (h : DecGraph)
+  (hc : ∀ (a : ι), MaximalIncreasing (comp h.val (f a).val)) :
+  comp h.val (⨆ a, f a).val = (⨅ a, { val := comp h.val (f a).val, property := ⋯ }).val
+ScalarMonotone.IncGraph.parallelSum_envelopes.{u_1} {ι : Type u_1} [Fintype ι] [Nonempty ι] (α : ι → IncGraph)
+  {D : Set ℝ} (hD : ∀ (i : ι), ran (α i).val = D) (θ : PositiveWeights ι) :
+  ⨅ i, IncGraph.weightedProfile α θ i ≤ IncGraph.parallelSumGraph α hD ∧
+    IncGraph.parallelSumGraph α hD ≤ ⨆ i, IncGraph.weightedProfile α θ i
+ScalarMonotone.DecGraph.parallelSum_envelopes.{u_1} {ι : Type u_1} [Fintype ι] [Nonempty ι] (α : ι → DecGraph)
+  {D : Set ℝ} (hD : ∀ (i : ι), ran (α i).val = D) (θ : PositiveWeights ι) :
+  ⨅ i, DecGraph.weightedProfile α θ i ≤ DecGraph.parallelSumGraph α hD ∧
+    DecGraph.parallelSumGraph α hD ≤ ⨆ i, DecGraph.weightedProfile α θ i
+ScalarMonotone.IncGraph.optimized_parallelSum_envelopes.{u_1} {ι : Type u_1} [Fintype ι] [Nonempty ι] (α : ι → IncGraph)
+  {D : Set ℝ} (hD : ∀ (i : ι), ran (α i).val = D) (hpos : ∀ u ∈ interior D, ∀ (i : ι), inverse (α i).val u ⊆ Ioi 0) :
+  ⨆ θ, ⨅ i, IncGraph.weightedProfile α θ i = IncGraph.parallelSumGraph α hD ∧
+    ⨅ θ, ⨆ i, IncGraph.weightedProfile α θ i = IncGraph.parallelSumGraph α hD
+ScalarMonotone.DecGraph.optimized_parallelSum_envelopes.{u_1} {ι : Type u_1} [Fintype ι] [Nonempty ι] (α : ι → DecGraph)
+  {D : Set ℝ} (hD : ∀ (i : ι), ran (α i).val = D) (hpos : ∀ u ∈ interior D, ∀ (i : ι), inverse (α i).val u ⊆ Ioi 0) :
+  ⨆ θ, ⨅ i, DecGraph.weightedProfile α θ i = DecGraph.parallelSumGraph α hD ∧
+    ⨅ θ, ⨆ i, DecGraph.weightedProfile α θ i = DecGraph.parallelSumGraph α hD
+ScalarMonotone.cubic_parallel_transformation.{u_1} {Ω : Type u_1} [MeasurableSpace Ω] (ν : Measure Ω)
+  [IsProbabilityMeasure ν] {X : Ω → ℝ} (hmX : Measurable X) {α : Operator} (hα : MaximalDecreasing α)
+  (hdom : dom α = Ici 0) (hbound : ∀ t > 0, α t ⊆ Icc 0 1) (hX : DecLE (survival (Measure.map X ν)) α)
+  (hX₀ : ∀ᵐ (ω : Ω) ∂ν, 0 ≤ X ω) {σ₀ σ₁ σ₂ : ℝ} (h₀ : 0 < σ₀) (h₁ : 0 < σ₁) (h₂ : 0 < σ₂) :
+  DecLE (survival (Measure.map (fun ω => X ω * (σ₀ + X ω * (σ₁ + σ₂ * X ω))) ν))
+      (parallelMul α
+        (parallelAdd (positiveConstantProfile σ₀)
+          (parallelMul α (parallelAdd (positiveConstantProfile σ₁) (inputDivide σ₂ α))))) ∧
+    parallelMul α
+        (parallelAdd (positiveConstantProfile σ₀)
+          (parallelMul α (parallelAdd (positiveConstantProfile σ₁) (inputDivide σ₂ α)))) =
+      parallelAdd (parallelAdd (inputDivide σ₀ α) (monomialProfile α σ₁ 2)) (monomialProfile α σ₂ 3)
+ScalarMonotone.cubic_parallel_terms_maximal {α : Operator} (hα : MaximalDecreasing α) (hdom : dom α = Ici 0)
+  (hbound : ∀ t > 0, α t ⊆ Icc 0 1) {σ₀ σ₁ σ₂ : ℝ} (h₀ : 0 < σ₀) (h₁ : 0 < σ₁) (h₂ : 0 < σ₂) :
+  MaximalDecreasing
+      (parallelMul α
+        (parallelAdd (positiveConstantProfile σ₀)
+          (parallelMul α (parallelAdd (positiveConstantProfile σ₁) (inputDivide σ₂ α))))) ∧
+    MaximalDecreasing (inputDivide σ₀ α) ∧
+      MaximalDecreasing (monomialProfile α σ₁ 2) ∧ MaximalDecreasing (monomialProfile α σ₂ 3)
+ScalarMonotone.cubic_multilevel_bound.{u_1} {Ω : Type u_1} [MeasurableSpace Ω] (ν : Measure Ω) [IsProbabilityMeasure ν]
+  {X : Ω → ℝ} (hmX : Measurable X) {α : Operator} (hX : DecLE (survival (Measure.map X ν)) α)
+  (hX₀ : ∀ᵐ (ω : Ω) ∂ν, 0 ≤ X ω) (hgauss : ∀ r > 0, α r = {Real.exp (-r ^ 2)}) {t σ₀ σ₁ σ₂ u : ℝ} (ht : 0 < t)
+  (h₀ : 0 < σ₀) (h₁ : 0 < σ₁) (h₂ : 0 < σ₂)
+  (hu : u ∈ survival (Measure.map (fun ω => X ω * (σ₀ + X ω * (σ₁ + σ₂ * X ω))) ν) t) :
+  u ≤ Real.exp (-min (t ^ 2 / (9 * σ₀ ^ 2)) (min (t / (3 * σ₁)) ((t / (3 * σ₂)) ^ (2 / 3))))
+ScalarMonotone.positiveConstantProfile_zero {σ : ℝ} (hσ : 0 < σ) : positiveConstantProfile σ 0 = Ici 1
+ScalarMonotone.inverse_positiveConstantProfile_negative {σ u : ℝ} (hσ : 0 < σ) (hu : u < 0) :
+  inverse (positiveConstantProfile σ) u = ∅
+ScalarMonotone.inverse_positiveConstantProfile_zero {σ : ℝ} (hσ : 0 < σ) : inverse (positiveConstantProfile σ) 0 = Ici σ
+ScalarMonotone.inverse_positiveConstantProfile_interior {σ u : ℝ} (hσ : 0 < σ) (hu : 0 < u) (hu1 : u < 1) :
+  inverse (positiveConstantProfile σ) u = {σ}
+ScalarMonotone.inverse_positiveConstantProfile_one {σ : ℝ} (hσ : 0 < σ) :
+  inverse (positiveConstantProfile σ) 1 = Icc 0 σ
+ScalarMonotone.inverse_positiveConstantProfile_above_one {σ u : ℝ} (hσ : 0 < σ) (hu : 1 < u) :
+  inverse (positiveConstantProfile σ) u = {0}
+ScalarMonotone.EndOfPaper.stepArea (n : ℕ) (x c : ℕ → ℝ) : ℝ
+ScalarMonotone.EndOfPaper.split_step_area (a b c h : ℝ) : h * (c - a) = h * (b - a) + h * (c - b)
+ScalarMonotone.EndOfPaper.integral_eq_off_finite {s t : ℝ → ℝ} {I E : Set ℝ} (hE : E.Finite)
+  (heq : ∀ x ∉ E, s x = t x) : ∫ (x : ℝ) in I, s x = ∫ (x : ℝ) in I, t x
+ScalarMonotone.EndOfPaper.integral_step_eq_area (n : ℕ) (x c : ℕ → ℝ) (s : ℝ → ℝ) (hx : ∀ j < n, x j ≤ x (j + 1))
+  (hs : ∀ j < n, IntervalIntegrable s ℙ (x j) (x (j + 1))) (heq : ∀ j < n, ∀ t ∈ Ioo (x j) (x (j + 1)), s t = c j) :
+  ∫ (t : ℝ) in x 0 ..x n, s t = stepArea n x c
+ScalarMonotone.EndOfPaper.integral_partition (n : ℕ) (x : ℕ → ℝ) (s : ℝ → ℝ)
+  (hs : ∀ j < n, IntervalIntegrable s ℙ (x j) (x (j + 1))) :
+  ∫ (t : ℝ) in x 0 ..x n, s t = ∑ j ∈ Finset.range n, ∫ (t : ℝ) in x j..x (j + 1), s t
+ScalarMonotone.EndOfPaper.countable_jumpInputs {f : Operator} (hf : Increasing f) : (jumpInputs f).Countable
+ScalarMonotone.EndOfPaper.fiber_subsingleton_off_jumps (f : Operator) {x : ℝ} (hx : x ∉ jumpInputs f) :
+  (f x).Subsingleton
+ScalarMonotone.EndOfPaper.selections_ae_eq {f : Operator} (hf : Increasing f) {I : Set ℝ} {s t : ℝ → ℝ}
+  (hs : SelectionOn f I s) (ht : SelectionOn f I t) (μ : Measure ℝ) [NoAtoms μ] (hI : MeasurableSet I) :
+  s =ᶠ[ae (μ.restrict I)] t
+ScalarMonotone.EndOfPaper.decreasing_selections_ae_eq {f : Operator} (hf : Decreasing f) {I : Set ℝ} {s t : ℝ → ℝ}
+  (hs : SelectionOn f I s) (ht : SelectionOn f I t) (μ : Measure ℝ) [NoAtoms μ] (hI : MeasurableSet I) :
+  s =ᶠ[ae (μ.restrict I)] t
+ScalarMonotone.EndOfPaper.selection_integral_eq {f : Operator} (hf : Increasing f) {I : Set ℝ} {s t : ℝ → ℝ}
+  (hs : SelectionOn f I s) (ht : SelectionOn f I t) (μ : Measure ℝ) [NoAtoms μ] (hI : MeasurableSet I) :
+  ∫ (x : ℝ) in I, s x ∂μ = ∫ (x : ℝ) in I, t x ∂μ
+ScalarMonotone.EndOfPaper.decreasing_selection_integral_eq {f : Operator} (hf : Decreasing f) {I : Set ℝ} {s t : ℝ → ℝ}
+  (hs : SelectionOn f I s) (ht : SelectionOn f I t) (μ : Measure ℝ) [NoAtoms μ] (hI : MeasurableSet I) :
+  ∫ (x : ℝ) in I, s x ∂μ = ∫ (x : ℝ) in I, t x ∂μ
+ScalarMonotone.EndOfPaper.selection_intervalIntegrable {f : Operator} (hf : Increasing f) {a b : ℝ} {s : ℝ → ℝ}
+  (hs : SelectionOn f [[a, b]] s) : IntervalIntegrable s ℙ a b
+ScalarMonotone.EndOfPaper.darboux_gap_bound (n : ℕ) (x u : ℕ → ℝ) (mesh : ℝ) (hx : ∀ j < n, 0 ≤ x (j + 1) - x j)
+  (hmesh : ∀ j < n, x (j + 1) - x j ≤ mesh) (hu : ∀ j < n, 0 ≤ u (j + 1) - u j) :
+  0 ≤ ∑ j ∈ Finset.range n, (x (j + 1) - x j) * (u (j + 1) - u j) ∧
+    ∑ j ∈ Finset.range n, (x (j + 1) - x j) * (u (j + 1) - u j) ≤ mesh * (u n - u 0)
+ScalarMonotone.EndOfPaper.stepArea_upper_sub_lower (n : ℕ) (x u : ℕ → ℝ) :
+  (stepArea n x fun j => u (j + 1)) - stepArea n x u = ∑ j ∈ Finset.range n, (x (j + 1) - x j) * (u (j + 1) - u j)
+ScalarMonotone.EndOfPaper.moment_tail_area.{u_1} {Ω : Type u_1} [MeasurableSpace Ω] (μ : Measure Ω) {Y : Ω → ℝ}
+  (hY : AEMeasurable Y μ) (hY0 : 0 ≤ᶠ[ae μ] Y) {r : ℝ} (hr : 0 < r) :
+  ∫⁻ (ω : Ω), ENNReal.ofReal (Y ω ^ r) ∂μ = ∫⁻ (t : ℝ) in Ioi 0, μ {ω | t < Y ω} * ENNReal.ofReal (r * t ^ (r - 1))
+ScalarMonotone.EndOfPaper.moment_le_capped_tail_area.{u_1} {Ω : Type u_1} [MeasurableSpace Ω] (μ : Measure Ω)
+  [IsProbabilityMeasure μ] {Y : Ω → ℝ} {b : ℝ → ℝ≥0∞} (hY : AEMeasurable Y μ) (hY0 : 0 ≤ᶠ[ae μ] Y) {r : ℝ} (hr : 0 < r)
+  (hb : ∀ t > 0, μ {ω | t < Y ω} ≤ b t) :
+  ∫⁻ (ω : Ω), ENNReal.ofReal (Y ω ^ r) ∂μ ≤ ∫⁻ (t : ℝ) in Ioi 0, min (b t) 1 * ENNReal.ofReal (r * t ^ (r - 1))
+ScalarMonotone.EndOfPaper.centered_moment_le_capped_tail_area.{u_1} {Ω : Type u_1} [MeasurableSpace Ω] (μ : Measure Ω)
+  [IsProbabilityMeasure μ] {X : Ω → ℝ} (hX : AEMeasurable X μ) (c : ℝ) {b : ℝ → ℝ≥0∞} {r : ℝ} (hr : 0 < r)
+  (hb : ∀ t > 0, μ {ω | t < |X ω - c|} ≤ b t) :
+  ∫⁻ (ω : Ω), ENNReal.ofReal (|X ω - c| ^ r) ∂μ ≤ ∫⁻ (t : ℝ) in Ioi 0, min (b t) 1 * ENNReal.ofReal (r * t ^ (r - 1))
+ScalarMonotone.EndOfPaper.mean_pivot_distance.{u_1} {Ω : Type u_1} [MeasurableSpace Ω] {μ : Measure Ω}
+  [IsProbabilityMeasure μ] {X : Ω → ℝ} (hX : Integrable X μ) (c : ℝ) : |∫ (ω : Ω), X ω ∂μ - c| ≤ ∫ (ω : Ω), |X ω - c| ∂μ
+ScalarMonotone.EndOfPaper.pointwise_mean_pivot.{u_1} {Ω : Type u_1} [MeasurableSpace Ω] (X : Ω → ℝ) (m c M : ℝ)
+  (hmc : |m - c| ≤ M) (ω : Ω) : |X ω - m| ≤ |X ω - c| + M
+ScalarMonotone.EndOfPaper.integratedFiberGraph.{u_1} {Θ : Type u_1} [MeasurableSpace Θ] (μ : Measure Θ) (I : Set ℝ)
+  (l u : Θ → ℝ → ℝ) : Operator
+ScalarMonotone.EndOfPaper.integratedFiberGraph_dom.{u_1} {Θ : Type u_1} [MeasurableSpace Θ] (μ : Measure Θ) (I : Set ℝ)
+  (l u : Θ → ℝ → ℝ) (hl : ∀ x ∈ I, Integrable (fun θ => l θ x) μ) (hu : ∀ x ∈ I, Integrable (fun θ => u θ x) μ)
+  (hlu : ∀ x ∈ I, ∀ᵐ (θ : Θ) ∂μ, l θ x ≤ u θ x) : dom (integratedFiberGraph μ I l u) = I
+ScalarMonotone.EndOfPaper.integratedFiberGraph_increasing.{u_1} {Θ : Type u_1} [MeasurableSpace Θ] (μ : Measure Θ)
+  (I : Set ℝ) (l u : Θ → ℝ → ℝ) (hl : ∀ x ∈ I, Integrable (fun θ => l θ x) μ)
+  (hu : ∀ x ∈ I, Integrable (fun θ => u θ x) μ) (hsep : ∀ x ∈ I, ∀ y ∈ I, x < y → ∀ᵐ (θ : Θ) ∂μ, u θ x ≤ l θ y) :
+  Increasing (integratedFiberGraph μ I l u)
+ScalarMonotone.EndOfPaper.integratedFiberGraph_has_maximal_completion.{u_1} {Θ : Type u_1} [MeasurableSpace Θ]
+  (μ : Measure Θ) (I : Set ℝ) (l u : Θ → ℝ → ℝ) (hI : I.OrdConnected) (hne : I.Nonempty)
+  (hl : ∀ x ∈ I, Integrable (fun θ => l θ x) μ) (hu : ∀ x ∈ I, Integrable (fun θ => u θ x) μ)
+  (hlu : ∀ x ∈ I, ∀ᵐ (θ : Θ) ∂μ, l θ x ≤ u θ x) (hsep : ∀ x ∈ I, ∀ y ∈ I, x < y → ∀ᵐ (θ : Θ) ∂μ, u θ x ≤ l θ y) :
+  MaximalIncreasing (completion I (integratedFiberGraph μ I l u))
+ScalarMonotone.EndOfPaper.increasingFamilyIntegral_unique.{u_1} {Θ : Type u_1} [MeasurableSpace Θ] (μ : Measure Θ)
+  {f : Θ → Operator} (hf : ∀ (θ : Θ), MaximalIncreasing (f θ)) {I : Set ℝ} (hI : IsOpen I) (hord : I.OrdConnected)
+  (hne : I.Nonempty) (hdom : ∀ (θ : Θ), I ⊆ dom (f θ)) (hl : ∀ x ∈ I, Integrable (fun θ => sInf (f θ x)) μ)
+  (hu : ∀ x ∈ I, Integrable (fun θ => sSup (f θ x)) μ) :
+  MaximalIncreasing (increasingFamilyIntegral μ I f) ∧
+    dom (increasingFamilyIntegral μ I f) ⊆ closure I ∧
+      ∀ (g : Operator),
+        MaximalIncreasing g →
+          dom g ⊆ closure I → (∀ x ∈ I, g x = aumannIntegral μ fun θ => f θ x) → g = increasingFamilyIntegral μ I f
+ScalarMonotone.EndOfPaper.decreasingFamilyIntegral_unique.{u_1} {Θ : Type u_1} [MeasurableSpace Θ] (μ : Measure Θ)
+  {f : Θ → Operator} (hf : ∀ (θ : Θ), MaximalDecreasing (f θ)) {I : Set ℝ} (hI : IsOpen I) (hord : I.OrdConnected)
+  (hne : I.Nonempty) (hdom : ∀ (θ : Θ), I ⊆ dom (f θ)) (hl : ∀ x ∈ I, Integrable (fun θ => sInf (f θ x)) μ)
+  (hu : ∀ x ∈ I, Integrable (fun θ => sSup (f θ x)) μ) :
+  MaximalDecreasing (decreasingFamilyIntegral μ I f) ∧
+    dom (decreasingFamilyIntegral μ I f) ⊆ closure I ∧
+      ∀ (g : Operator),
+        MaximalDecreasing g →
+          dom g ⊆ closure I → (∀ x ∈ I, g x = aumannIntegral μ fun θ => f θ x) → g = decreasingFamilyIntegral μ I f
+ScalarMonotone.EndOfPaper.increasingFamilyIntegral_value.{u_1} {Θ : Type u_1} [MeasurableSpace Θ] (μ : Measure Θ)
+  {f : Θ → Operator} (hf : ∀ (θ : Θ), MaximalIncreasing (f θ)) {I : Set ℝ} (hI : IsOpen I)
+  (hdom : ∀ (θ : Θ), I ⊆ dom (f θ)) (hl : ∀ x ∈ I, Integrable (fun θ => sInf (f θ x)) μ)
+  (hu : ∀ x ∈ I, Integrable (fun θ => sSup (f θ x)) μ) {x : ℝ} (hx : x ∈ I) :
+  increasingFamilyIntegral μ I f x = Icc (∫ (θ : Θ), sInf (f θ x) ∂μ) (∫ (θ : Θ), sSup (f θ x) ∂μ)
+ScalarMonotone.EndOfPaper.decreasingFamilyIntegral_value.{u_1} {Θ : Type u_1} [MeasurableSpace Θ] (μ : Measure Θ)
+  {f : Θ → Operator} (hf : ∀ (θ : Θ), MaximalDecreasing (f θ)) {I : Set ℝ} (hI : IsOpen I)
+  (hdom : ∀ (θ : Θ), I ⊆ dom (f θ)) (hl : ∀ x ∈ I, Integrable (fun θ => sInf (f θ x)) μ)
+  (hu : ∀ x ∈ I, Integrable (fun θ => sSup (f θ x)) μ) {x : ℝ} (hx : x ∈ I) :
+  decreasingFamilyIntegral μ I f x = Icc (∫ (θ : Θ), sInf (f θ x) ∂μ) (∫ (θ : Θ), sSup (f θ x) ∂μ)
+ScalarMonotone.EndOfPaper.increasingFamilyIntegral_mono.{u_1} {Θ : Type u_1} [MeasurableSpace Θ] (μ : Measure Θ)
+  {f g : Θ → Operator} (hf : ∀ (θ : Θ), MaximalIncreasing (f θ)) (hg : ∀ (θ : Θ), MaximalIncreasing (g θ)) {I : Set ℝ}
+  (hI : IsOpen I) (hord : I.OrdConnected) (hne : I.Nonempty) (hdf : ∀ (θ : Θ), I ⊆ dom (f θ))
+  (hdg : ∀ (θ : Θ), I ⊆ dom (g θ)) (hfl : ∀ x ∈ I, Integrable (fun θ => sInf (f θ x)) μ)
+  (hfu : ∀ x ∈ I, Integrable (fun θ => sSup (f θ x)) μ) (hgl : ∀ x ∈ I, Integrable (fun θ => sInf (g θ x)) μ)
+  (hgu : ∀ x ∈ I, Integrable (fun θ => sSup (g θ x)) μ) (hfg : ∀ (θ : Θ), IncLE (f θ) (g θ)) :
+  IncLE (increasingFamilyIntegral μ I f) (increasingFamilyIntegral μ I g)
+ScalarMonotone.EndOfPaper.decreasingFamilyIntegral_mono.{u_1} {Θ : Type u_1} [MeasurableSpace Θ] (μ : Measure Θ)
+  {f g : Θ → Operator} (hf : ∀ (θ : Θ), MaximalDecreasing (f θ)) (hg : ∀ (θ : Θ), MaximalDecreasing (g θ)) {I : Set ℝ}
+  (hI : IsOpen I) (hord : I.OrdConnected) (hne : I.Nonempty) (hdf : ∀ (θ : Θ), I ⊆ dom (f θ))
+  (hdg : ∀ (θ : Θ), I ⊆ dom (g θ)) (hfl : ∀ x ∈ I, Integrable (fun θ => sInf (f θ x)) μ)
+  (hfu : ∀ x ∈ I, Integrable (fun θ => sSup (f θ x)) μ) (hgl : ∀ x ∈ I, Integrable (fun θ => sInf (g θ x)) μ)
+  (hgu : ∀ x ∈ I, Integrable (fun θ => sSup (g θ x)) μ) (hfg : ∀ (θ : Θ), DecLE (f θ) (g θ)) :
+  DecLE (decreasingFamilyIntegral μ I f) (decreasingFamilyIntegral μ I g)
+ScalarMonotone.EndOfPaper.increasingFamilyIntegral_add.{u_1} {Θ : Type u_1} [MeasurableSpace Θ] (μ : Measure Θ)
+  {f g : Θ → Operator} (hf : ∀ (θ : Θ), MaximalIncreasing (f θ)) (hg : ∀ (θ : Θ), MaximalIncreasing (g θ)) {I : Set ℝ}
+  (hI : IsOpen I) (hord : I.OrdConnected) (hne : I.Nonempty) (hdf : ∀ (θ : Θ), I ⊆ dom (f θ))
+  (hdg : ∀ (θ : Θ), I ⊆ dom (g θ)) (hfl : ∀ x ∈ I, Integrable (fun θ => sInf (f θ x)) μ)
+  (hfu : ∀ x ∈ I, Integrable (fun θ => sSup (f θ x)) μ) (hgl : ∀ x ∈ I, Integrable (fun θ => sInf (g θ x)) μ)
+  (hgu : ∀ x ∈ I, Integrable (fun θ => sSup (g θ x)) μ) :
+  (increasingFamilyIntegral μ I fun θ => add (f θ) (g θ)) =
+    add (increasingFamilyIntegral μ I f) (increasingFamilyIntegral μ I g)
+ScalarMonotone.EndOfPaper.decreasingFamilyIntegral_add.{u_1} {Θ : Type u_1} [MeasurableSpace Θ] (μ : Measure Θ)
+  {f g : Θ → Operator} (hf : ∀ (θ : Θ), MaximalDecreasing (f θ)) (hg : ∀ (θ : Θ), MaximalDecreasing (g θ)) {I : Set ℝ}
+  (hI : IsOpen I) (hord : I.OrdConnected) (hne : I.Nonempty) (hdf : ∀ (θ : Θ), I ⊆ dom (f θ))
+  (hdg : ∀ (θ : Θ), I ⊆ dom (g θ)) (hfl : ∀ x ∈ I, Integrable (fun θ => sInf (f θ x)) μ)
+  (hfu : ∀ x ∈ I, Integrable (fun θ => sSup (f θ x)) μ) (hgl : ∀ x ∈ I, Integrable (fun θ => sInf (g θ x)) μ)
+  (hgu : ∀ x ∈ I, Integrable (fun θ => sSup (g θ x)) μ) :
+  (decreasingFamilyIntegral μ I fun θ => add (f θ) (g θ)) =
+    add (decreasingFamilyIntegral μ I f) (decreasingFamilyIntegral μ I g)
+ScalarMonotone.EndOfPaper.increasingFamilyIntegral_outputScale.{u_1} {Θ : Type u_1} [MeasurableSpace Θ] (μ : Measure Θ)
+  {f : Θ → Operator} (hf : ∀ (θ : Θ), MaximalIncreasing (f θ)) {I : Set ℝ} (hI : IsOpen I) (hord : I.OrdConnected)
+  (hne : I.Nonempty) (hdom : ∀ (θ : Θ), I ⊆ dom (f θ)) (hl : ∀ x ∈ I, Integrable (fun θ => sInf (f θ x)) μ)
+  (hu : ∀ x ∈ I, Integrable (fun θ => sSup (f θ x)) μ) {c : ℝ} (hc : 0 < c) :
+  (increasingFamilyIntegral μ I fun θ => outputScale c (f θ)) = outputScale c (increasingFamilyIntegral μ I f)
+ScalarMonotone.EndOfPaper.decreasingFamilyIntegral_outputScale.{u_1} {Θ : Type u_1} [MeasurableSpace Θ] (μ : Measure Θ)
+  {f : Θ → Operator} (hf : ∀ (θ : Θ), MaximalDecreasing (f θ)) {I : Set ℝ} (hI : IsOpen I) (hord : I.OrdConnected)
+  (hne : I.Nonempty) (hdom : ∀ (θ : Θ), I ⊆ dom (f θ)) (hl : ∀ x ∈ I, Integrable (fun θ => sInf (f θ x)) μ)
+  (hu : ∀ x ∈ I, Integrable (fun θ => sSup (f θ x)) μ) {c : ℝ} (hc : 0 < c) :
+  (decreasingFamilyIntegral μ I fun θ => outputScale c (f θ)) = outputScale c (decreasingFamilyIntegral μ I f)
+ScalarMonotone.EndOfPaper.aumannInterval.{u_1} {Θ : Type u_1} [MeasurableSpace Θ] (μ : Measure Θ) (l u : Θ → ℝ) : Set ℝ
+ScalarMonotone.EndOfPaper.aumannInterval_eq.{u_1} {Θ : Type u_1} [MeasurableSpace Θ] (μ : Measure Θ) {l u : Θ → ℝ}
+  (hl : Integrable l μ) (hu : Integrable u μ) (hlu : l ≤ᶠ[ae μ] u) :
+  aumannInterval μ l u = Icc (∫ (θ : Θ), l θ ∂μ) (∫ (θ : Θ), u θ ∂μ)
+ScalarMonotone.EndOfPaper.aumannInterval_mono.{u_1} {Θ : Type u_1} [MeasurableSpace Θ] (μ : Measure Θ)
+  {l₁ u₁ l₂ u₂ : Θ → ℝ} (hl₁ : Integrable l₁ μ) (hu₁ : Integrable u₁ μ) (hl₂ : Integrable l₂ μ) (hu₂ : Integrable u₂ μ)
+  (h₁ : l₁ ≤ᶠ[ae μ] u₁) (h₂ : l₂ ≤ᶠ[ae μ] u₂) (hl : l₁ ≤ᶠ[ae μ] l₂) (hu : u₁ ≤ᶠ[ae μ] u₂) :
+  ∫ (θ : Θ), l₁ θ ∂μ ≤ ∫ (θ : Θ), l₂ θ ∂μ ∧ ∫ (θ : Θ), u₁ θ ∂μ ≤ ∫ (θ : Θ), u₂ θ ∂μ
+ScalarMonotone.EndOfPaper.integrated_endpoints_add.{u_1} {Θ : Type u_1} [MeasurableSpace Θ] (μ : Measure Θ)
+  {l₁ u₁ l₂ u₂ : Θ → ℝ} (hl₁ : Integrable l₁ μ) (hu₁ : Integrable u₁ μ) (hl₂ : Integrable l₂ μ)
+  (hu₂ : Integrable u₂ μ) :
+  ∫ (θ : Θ), l₁ θ + l₂ θ ∂μ = ∫ (θ : Θ), l₁ θ ∂μ + ∫ (θ : Θ), l₂ θ ∂μ ∧
+    ∫ (θ : Θ), u₁ θ + u₂ θ ∂μ = ∫ (θ : Θ), u₁ θ ∂μ + ∫ (θ : Θ), u₂ θ ∂μ
+ScalarMonotone.EndOfPaper.integrated_endpoints_scale.{u_1} {Θ : Type u_1} [MeasurableSpace Θ] (μ : Measure Θ)
+  (l u : Θ → ℝ) (c : ℝ) : ∫ (θ : Θ), c * l θ ∂μ = c * ∫ (θ : Θ), l θ ∂μ ∧ ∫ (θ : Θ), c * u θ ∂μ = c * ∫ (θ : Θ), u θ ∂μ
+ScalarMonotone.EndOfPaper.hardyScalar (f : ℝ → ℝ) (p : ℝ) : ℝ
+ScalarMonotone.EndOfPaper.hardyScalar_unique_completion {f : ℝ → ℝ} {L : ℝ} (hL : 0 < L) (hf : AntitoneOn f (Ioo 0 L))
+  (hi : ∀ p ∈ Ioo 0 L, IntervalIntegrable f ℙ 0 p) :
+  ∃! g, MaximalDecreasing g ∧ restrictOperator (ofFun (hardyScalar f)) (Ioo 0 L) ≤ g ∧ dom g ⊆ closure (Ioo 0 L)
+ScalarMonotone.EndOfPaper.hardyScalar_unique_completion_Ioi {f : ℝ → ℝ} (hf : AntitoneOn f (Ioi 0))
+  (hi : ∀ p > 0, IntervalIntegrable f ℙ 0 p) :
+  ∃! g, MaximalDecreasing g ∧ restrictOperator (ofFun (hardyScalar f)) (Ioi 0) ≤ g ∧ dom g ⊆ closure (Ioi 0)
+ScalarMonotone.EndOfPaper.hardyScalar_dilation (f : ℝ → ℝ) {p : ℝ} (hp : 0 < p) :
+  hardyScalar f p = ∫ (r : ℝ) in 0 ..1, f (r * p)
+ScalarMonotone.EndOfPaper.hardyScalar_dilation_integrable {f : ℝ → ℝ} {p : ℝ} (hp : 0 < p)
+  (hf : IntervalIntegrable f ℙ 0 p) : IntervalIntegrable (fun r => f (r * p)) ℙ 0 1
+ScalarMonotone.EndOfPaper.hardyScalar_add {f g : ℝ → ℝ} {p : ℝ} (hf : IntervalIntegrable f ℙ 0 p)
+  (hg : IntervalIntegrable g ℙ 0 p) : hardyScalar (fun x => f x + g x) p = hardyScalar f p + hardyScalar g p
+ScalarMonotone.EndOfPaper.hardyScalar_smul (f : ℝ → ℝ) (c p : ℝ) :
+  hardyScalar (fun x => c * f x) p = c * hardyScalar f p
+ScalarMonotone.EndOfPaper.hardyScalar_mono {f g : ℝ → ℝ} {p : ℝ} (hp : 0 < p) (hf : IntervalIntegrable f ℙ 0 p)
+  (hg : IntervalIntegrable g ℙ 0 p) (hfg : ∀ u ∈ Ioo 0 p, f u ≤ g u) : hardyScalar f p ≤ hardyScalar g p
+ScalarMonotone.EndOfPaper.le_hardyScalar {f : ℝ → ℝ} {L p : ℝ} (hf : AntitoneOn f (Ioo 0 L)) (hp : p ∈ Ioo 0 L)
+  (hi : IntervalIntegrable f ℙ 0 p) : f p ≤ hardyScalar f p
+ScalarMonotone.EndOfPaper.hardyScalar_antitoneOn {f : ℝ → ℝ} {L : ℝ} (hf : AntitoneOn f (Ioo 0 L))
+  (hi : ∀ p ∈ Ioo 0 L, IntervalIntegrable f ℙ 0 p) : AntitoneOn (hardyScalar f) (Ioo 0 L)
+ScalarMonotone.EndOfPaper.hardyScalar_separated {f g : ℝ → ℝ} {Lf Lg p q : ℝ} (hp : p ∈ Ioo 0 Lf) (hq : q ∈ Ioo 0 Lg)
+  (hpq : q < p) (hf : IntervalIntegrable f ℙ 0 p) (hg : IntervalIntegrable g ℙ 0 q)
+  (hfg : ∀ x ∈ Ioo 0 Lf, ∀ y ∈ Ioo 0 Lg, y < x → f x ≤ g y) : hardyScalar f p ≤ hardyScalar g q
+ScalarMonotone.EndOfPaper.hardyScalar_convexOn {f : ℝ → ℝ} {L : ℝ} (hf : ConvexOn ℝ (Ioo 0 L) f)
+  (hi : ∀ p ∈ Ioo 0 L, IntervalIntegrable f ℙ 0 p) : ConvexOn ℝ (Ioo 0 L) (hardyScalar f)
+ScalarMonotone.EndOfPaper.hardyScalar_concaveOn {f : ℝ → ℝ} {L : ℝ} (hf : ConcaveOn ℝ (Ioo 0 L) f)
+  (hi : ∀ p ∈ Ioo 0 L, IntervalIntegrable f ℙ 0 p) : ConcaveOn ℝ (Ioo 0 L) (hardyScalar f)
+ScalarMonotone.EndOfPaper.hardyScalar_convexOn_Ioi {f : ℝ → ℝ} (hf : ConvexOn ℝ (Ioi 0) f)
+  (hi : ∀ p > 0, IntervalIntegrable f ℙ 0 p) : ConvexOn ℝ (Ioi 0) (hardyScalar f)
+ScalarMonotone.EndOfPaper.hardyScalar_concaveOn_Ioi {f : ℝ → ℝ} (hf : ConcaveOn ℝ (Ioi 0) f)
+  (hi : ∀ p > 0, IntervalIntegrable f ℙ 0 p) : ConcaveOn ℝ (Ioi 0) (hardyScalar f)
+ScalarMonotone.EndOfPaper.shortfall_weak_duality.{u_1} {Ω : Type u_1} [MeasurableSpace Ω] {μ : Measure Ω}
+  [IsProbabilityMeasure μ] {X Z : Ω → ℝ} {p : ℝ} (hp : 0 < p) (hX : Integrable X μ) (hZ : AEMeasurable Z μ)
+  (hz : ∀ᵐ (ω : Ω) ∂μ, 0 ≤ Z ω ∧ Z ω ≤ 1) (hmean : ∫ (ω : Ω), Z ω ∂μ = p) (a : ℝ) :
+  (∫ (ω : Ω), X ω * Z ω ∂μ) / p ≤ shortfallObjective μ X p a
+ScalarMonotone.EndOfPaper.exists_atom_fraction {A B p : ℝ} (hB : 0 ≤ B) (hlo : A ≤ p) (hhi : p ≤ A + B) :
+  ∃ η, 0 ≤ η ∧ η ≤ 1 ∧ A + η * B = p
+ScalarMonotone.EndOfPaper.shortfall_attainment.{u_1} {Ω : Type u_1} [MeasurableSpace Ω] {μ : Measure Ω}
+  [IsProbabilityMeasure μ] {X : Ω → ℝ} {p a : ℝ} (hp : 0 < p) (hXm : Measurable X) (hXi : Integrable X μ)
+  (hlo : μ.real {ω | a < X ω} ≤ p) (hhi : p ≤ μ.real {ω | a ≤ X ω}) :
+  IsGreatest (dualCandidates μ X p) (shortfallObjective μ X p a) ∧
+    ∀ (b : ℝ), shortfallObjective μ X p a ≤ shortfallObjective μ X p b
+ScalarMonotone.EndOfPaper.quantile_excess_area (μ : Measure ℝ) [IsProbabilityMeasure μ] (hμ : Integrable (fun x => x) μ)
+  {q : ℝ → ℝ} (hq : Measurable q) (hsel : ∀ u ∈ Ioo 0 1, q u ∈ tailQuantile μ u) {p a : ℝ} (hp : p ∈ Ioo 0 1)
+  (ha : a ∈ tailQuantile μ p) : (∫ (u : ℝ) in 0 ..p, q u) - p * a = ∫ (x : ℝ), max (x - a) 0 ∂μ
+ScalarMonotone.EndOfPaper.hardyScalar_quantile_variational (μ : Measure ℝ) [IsProbabilityMeasure μ]
+  (hμ : Integrable (fun x => x) μ) {q : ℝ → ℝ} (hq : Measurable q) (hsel : ∀ u ∈ Ioo 0 1, q u ∈ tailQuantile μ u)
+  {p : ℝ} (hp : p ∈ Ioo 0 1) :
+  IsLeast (range (shortfallObjective μ (fun x => x) p)) (hardyScalar q p) ∧
+    IsGreatest (dualCandidates μ (fun x => x) p) (hardyScalar q p)
+ScalarMonotone.EndOfPaper.hardyScalar_quantile_eq_dualShortfall (μ : Measure ℝ) [IsProbabilityMeasure μ]
+  (hμ : Integrable (fun x => x) μ) {q : ℝ → ℝ} (hq : Measurable q) (hsel : ∀ u ∈ Ioo 0 1, q u ∈ tailQuantile μ u)
+  {p : ℝ} (hp : p ∈ Ioo 0 1) : hardyScalar q p = dualShortfall μ (fun x => x) p
+ScalarMonotone.EndOfPaper.superadditiveTransform_eq_mass_of_axes {n : ℕ} {F : CoordinateVector n → ℝ}
+  (hF : AggregationAxioms F) (hbound : ∀ (x : CoordinateVector n), 0 ≤ x → F x ≤ coordinateMass x)
+  (haxis : ∀ (i : Fin n) (t : ℝ), 0 ≤ t → F (coordinateAxis i t) = t) {a : CoordinateVector n} (ha : 0 ≤ a) :
+  superadditiveTransform F a = coordinateMass a
+ScalarMonotone.EndOfPaper.superadditiveTransform_eq_self {n : ℕ} {F : CoordinateVector n → ℝ} (hF : AggregationAxioms F)
+  (hadd : ∀ (x y : CoordinateVector n), 0 ≤ x → 0 ≤ y → F x + F y ≤ F (x + y)) {a : CoordinateVector n} (ha : 0 ≤ a) :
+  superadditiveTransform F a = F a
+ScalarMonotone.EndOfPaper.median_subset_sum_bound (r ℓ : ℕ) (x : Fin (2 * r + 1) → ℝ) (hx : 0 ≤ x)
+  (I : Finset (Fin (2 * r + 1))) (hI : I.card = r + ℓ) : ↑ℓ * scalarMedian r x ≤ ∑ i ∈ I, x i
+ScalarMonotone.EndOfPaper.median_transform_subset_upper (r ℓ : ℕ) (hℓ : 0 < ℓ) (I : Finset (Fin (2 * r + 1)))
+  (hI : I.card = r + ℓ) {a : Fin (2 * r + 1) → ℝ} (ha : 0 ≤ a) :
+  superadditiveTransform (scalarMedian r) a ≤ (∑ i ∈ I, a i) / ↑ℓ
+ScalarMonotone.EndOfPaper.median_transform_common_upper (r : ℕ) {b : ℝ} (hb : 0 ≤ b) :
+  (superadditiveTransform (scalarMedian r) fun x => b) ≤ ↑(2 * r + 1) / ↑(r + 1) * b
+ScalarMonotone.EndOfPaper.aggregation_step_bound {n : ℕ} {F : CoordinateVector n → ℝ} (hF : AggregationAxioms F)
+  (v : List (CoordinateVector n)) (hv : ∀ x ∈ v, 0 ≤ x) : (List.map F v).sum ≤ superadditiveTransform F v.sum
+ScalarMonotone.EndOfPaper.aggregation_finset_bound.{u_1} {n : ℕ} {ι : Type u_1} [DecidableEq ι]
+  {F : CoordinateVector n → ℝ} (hF : AggregationAxioms F) (s : Finset ι) (v : ι → CoordinateVector n)
+  (hv : ∀ i ∈ s, 0 ≤ v i) : ∑ i ∈ s, F (v i) ≤ superadditiveTransform F (∑ i ∈ s, v i)
+ScalarMonotone.EndOfPaper.superadditiveTransform_concaveOn {n : ℕ} {F : CoordinateVector n → ℝ}
+  (hF : AggregationAxioms F) : ConcaveOn ℝ {a | 0 ≤ a} (superadditiveTransform F)
+ScalarMonotone.EndOfPaper.concave_integral_upper.{u_1} {Ω : Type u_1} [MeasurableSpace Ω] {μ : Measure Ω}
+  [IsProbabilityMeasure μ] {g : ℝ → ℝ} {s : Set ℝ} (hg : ConcaveOn ℝ s g) (hgc : ContinuousOn g s) (hs : IsClosed s)
+  {X : Ω → ℝ} (hXs : ∀ᵐ (ω : Ω) ∂μ, X ω ∈ s) (hXi : Integrable X μ) (hgi : Integrable (fun ω => g (X ω)) μ) :
+  ∫ (ω : Ω), g (X ω) ∂μ ≤ g (∫ (ω : Ω), X ω ∂μ)
+ScalarMonotone.EndOfPaper.hardyScalar_power_profile {κ p : ℝ} (hκ : 1 < κ) (hp : 0 < p) :
+  hardyScalar (fun u => u ^ (-1 / κ)) p = κ / (κ - 1) * p ^ (-1 / κ)
+ScalarMonotone.EndOfPaper.hardyScalar_exponential_profile {p : ℝ} (hp : 0 < p) :
+  hardyScalar (fun u => -Real.log u) p = 1 - Real.log p
+BUILD_AND_RECORDED_COVERAGE_ACCEPTED
+Exit code: 0

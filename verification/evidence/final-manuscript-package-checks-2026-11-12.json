@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-12",
+  "pdf_sha256": "5fec3a621fa4d5379f3e55516217d5a0a1f18bce88ab45bfeda7a7506431352f",
+  "pdf_pages": 66,
+  "metadata_exit_code": 0,
+  "coverage_exit_code": 0,
+  "python": "3.12.3",
+  "tests": {
+    "command": "python3 -m unittest discover -s tests -v",
+    "exit_code": 0,
+    "run": 33,
+    "passed": 32,
+    "skipped": 1,
+    "skip_reason": "Native Windows runner regression requires Windows; this standalone check ran on Linux."
+  },
+  "pdf_locations_checked": 118,
+  "lean_declaration_source_links_checked": 2382,
+  "lean_sources_unchanged_from_recorded_author_review": true,
+  "new_compiler_success_claimed": false,
+  "compiler_evidence": "Historical successful compiler receipts are preserved. The current native compile check was still running when this PDF synchronization receipt was written; remote CI is checked separately."
+}

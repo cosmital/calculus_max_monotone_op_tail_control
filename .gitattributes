@@ -1,0 +1,3 @@
+# Preserve exact audited bytes and SHA256SUMS across Windows/Linux clones.
+* -text
+*.pdf binary

@@ -1,0 +1,8 @@
+$ C:\Users\cosme\AppData\Local\Programs\Python\Python313\python.exe -m unittest discover -s tests -p test_tools.py -k source_collection -v
+test_source_collection_keeps_nested_project_sources_and_prunes_cache (test_tools.ToolTests.test_source_collection_keeps_nested_project_sources_and_prunes_cache) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.049s
+
+OK
+Exit code: 0

@@ -1,0 +1,716 @@
+{
+  "pdf": "manuscript/monotone_calculus.pdf",
+  "pdf_sha256": "5fec3a621fa4d5379f3e55516217d5a0a1f18bce88ab45bfeda7a7506431352f",
+  "page_count": 66,
+  "location_evidence": "Final 12 November 2026 PDF: rebuilt AUX labels, all 62 extracted numbered headings, and SyncTeX locations for unnumbered assertions. See MANUSCRIPT_SYNC.json.",
+  "claims": {
+    "statement:1.1": {
+      "pdf_page": 6,
+      "pdf_reference": "Definition 1.1",
+      "short_description": "Monotonicity, maximality, and the compatible-point characterization in both orientations.",
+      "correspondence_sha256": "1e2309af2b214445db382bc9bf66fe5b2a606c4f8d97d8d99bc401eeaa77442a"
+    },
+    "prop:minty": {
+      "pdf_page": 6,
+      "pdf_reference": "Proposition 1.2",
+      "short_description": "Scalar Minty representation",
+      "correspondence_sha256": "a703f3f662c562cf6e6847b1a43617f4d510ae96e3258d13c7d2011bf0d097c1"
+    },
+    "prop:pointwisemaximality": {
+      "pdf_page": 7,
+      "pdf_reference": "Proposition 1.3",
+      "short_description": "Pointwise characterization of maximality",
+      "correspondence_sha256": "a5cde3c62d1422b43f887f7610834515d2b1c497d31200b72a1ce1ecd800525c"
+    },
+    "def:completedrestriction": {
+      "pdf_page": 7,
+      "pdf_reference": "Definition 1.4",
+      "short_description": "Maximal completion and completed restriction",
+      "correspondence_sha256": "2048c278fbc2e47d6b9cd3fb9744316a3b981c3d2b6ed86a46133a7e63189fdf"
+    },
+    "ex:survival": {
+      "pdf_page": 8,
+      "pdf_reference": "Example 1.5",
+      "short_description": "Survival and tail quantile operators",
+      "correspondence_sha256": "9c324e6f6d1b168397afd7faaedf9299bb5efdb1027c3b747fce0d502c5362b4"
+    },
+    "prop:sums": {
+      "pdf_page": 8,
+      "pdf_reference": "Proposition 1.6",
+      "short_description": "Sums and domain–range characterization",
+      "correspondence_sha256": "6b7182805486b88549829100a418d1514e66bc61e52d89ff1a0557471e8cc8c3"
+    },
+    "prop:composition": {
+      "pdf_page": 9,
+      "pdf_reference": "Proposition 1.7",
+      "short_description": "Composition",
+      "correspondence_sha256": "8cf5baff7985a7988a23f4f8c7a77afa0f8fddd249d76e46b81938fdc201badf"
+    },
+    "lem:logmaximal": {
+      "pdf_page": 10,
+      "pdf_reference": "Lemma 1.8",
+      "short_description": "Maximality under logarithms",
+      "correspondence_sha256": "d51f39c5f898a4cac438356a1532e0c699d673cc45fb9a24168c00da35ee86cf"
+    },
+    "prop:products": {
+      "pdf_page": 10,
+      "pdf_reference": "Proposition 1.9",
+      "short_description": "Nonnegative products",
+      "correspondence_sha256": "12e99bd0a27af894ec9e2be96e6d6facf6aa6861b762890b400b77ec065dfd2a"
+    },
+    "ex:zero": {
+      "pdf_page": 12,
+      "pdf_reference": "Example 1.10",
+      "short_description": "A zero-degeneracy obstruction",
+      "correspondence_sha256": "23e4e48bf686ac845f60a36bf56613ef92c775f0dce594efcf47c530db317a21"
+    },
+    "def:order": {
+      "pdf_page": 12,
+      "pdf_reference": "Definition 1.11",
+      "short_description": "Pointwise resolvent order",
+      "correspondence_sha256": "8f73fc9b8ce3817bf93737750986febe5eced31aa4200497bc179f761d943112"
+    },
+    "prop:comparison": {
+      "pdf_page": 12,
+      "pdf_reference": "Proposition 1.12",
+      "short_description": "Separated-graph characterization",
+      "correspondence_sha256": "53a855a446b98f5d25987b4f23c39cd5b7eebefa487424562b751edeb2b941f9"
+    },
+    "lem:resolventvalue": {
+      "pdf_page": 13,
+      "pdf_reference": "Lemma 1.13",
+      "short_description": "Resolvent comparison with an operator value",
+      "correspondence_sha256": "c212925100e672df5a31aee3dec681bde6de0608912bc39e2b37be002439d860"
+    },
+    "def:intervalorder": {
+      "pdf_page": 14,
+      "pdf_reference": "Definition 1.14",
+      "short_description": "Order on intervals",
+      "correspondence_sha256": "fdce0a238277c0db6e0fa1c4337b85eef8cc2fc962051f779f21c603da4b89f1"
+    },
+    "prop:orderdomains": {
+      "pdf_page": 14,
+      "pdf_reference": "Proposition 1.15",
+      "short_description": "Domains and ranges under comparison",
+      "correspondence_sha256": "352a2f90645a2ef0394df98349368d2738f50bd91b93a6efdb363f2c310b41a2"
+    },
+    "prop:inversion": {
+      "pdf_page": 15,
+      "pdf_reference": "Proposition 1.16",
+      "short_description": "Inversion and elementary compatibility",
+      "correspondence_sha256": "bcaa0533e08f52e9b46b334cb4d35623f523afa2313733db6f32aea494f17dfd"
+    },
+    "lem:survivalcomparison": {
+      "pdf_page": 16,
+      "pdf_reference": "Lemma 1.17",
+      "short_description": "Survival comparison",
+      "correspondence_sha256": "d2320b004970086911051ba2fbd68ccd37d4fa803c9060729725385b7921dfa1"
+    },
+    "thm:lattice": {
+      "pdf_page": 16,
+      "pdf_reference": "Theorem 1.18",
+      "short_description": "Conditional completeness",
+      "correspondence_sha256": "de8fefba54947067812eb6886957e972f46e02c253be6f9b8979e423b3016bf8"
+    },
+    "lem:inverseextrema": {
+      "pdf_page": 17,
+      "pdf_reference": "Lemma 1.19",
+      "short_description": "Inversion and extrema",
+      "correspondence_sha256": "bee7889389c898f0b46190c7b45c33e7c75fc8ad76bb84ca6af7e5393a1ce0a2"
+    },
+    "prop:extremaoperations": {
+      "pdf_page": 17,
+      "pdf_reference": "Proposition 1.20",
+      "short_description": "Order bounds for extrema",
+      "correspondence_sha256": "afcb6d8708163d4ec29b094f96bed3674580cc8cbe35eadac826d104c0195640"
+    },
+    "def:intervalextrema": {
+      "pdf_page": 18,
+      "pdf_reference": "Definition 1.21",
+      "short_description": "Infimum and supremum of intervals",
+      "correspondence_sha256": "1750c25e8177be6e89cbdc6cea13e20ffa4449a3343304eaf6df8931968451d6"
+    },
+    "prop:finitevalues": {
+      "pdf_page": 19,
+      "pdf_reference": "Proposition 1.22",
+      "short_description": "Domains, ranges, and values of finite extrema",
+      "correspondence_sha256": "324a36eedd97bd612d4b40356703782b40c734b7b0ef849b096351733b4e8753"
+    },
+    "prop:latticemedian": {
+      "pdf_page": 21,
+      "pdf_reference": "Proposition 1.23",
+      "short_description": "Lattice median",
+      "correspondence_sha256": "54579b815f9e473e8b3d9b2bfb81760be29c9f78935e9520752414e696867c21"
+    },
+    "prop:finiteextremaoperations": {
+      "pdf_page": 21,
+      "pdf_reference": "Proposition 1.24",
+      "short_description": "Finite algebraic identities",
+      "correspondence_sha256": "6e428037901602f4b3831e9b447ee9207aa1b8390e8fab1f817fcac5f4556f42"
+    },
+    "prop:extremacomposition": {
+      "pdf_page": 22,
+      "pdf_reference": "Proposition 1.25",
+      "short_description": "Composition and extrema",
+      "correspondence_sha256": "e10b934d83572f47f1b09121bf051280be7fd67e62c39d149710efa6a4365178"
+    },
+    "prop:probability": {
+      "pdf_page": 25,
+      "pdf_reference": "Proposition 1.26",
+      "short_description": "Sums and nonnegative products",
+      "correspondence_sha256": "8a564af11d64edfc4edd911048e13d5e121c01fee46fb3dce40c05c968805a20"
+    },
+    "cor:centered": {
+      "pdf_page": 26,
+      "pdf_reference": "Corollary 1.27",
+      "short_description": "Centered sums and products",
+      "correspondence_sha256": "b56cead04431e9f88f688f31cf47e459e2ba14c9b8f3db07927900353d1f69c9"
+    },
+    "prop:envelopes": {
+      "pdf_page": 26,
+      "pdf_reference": "Proposition 1.28",
+      "short_description": "Weighted parallel-sum envelopes",
+      "correspondence_sha256": "c436f14bdd35183fc3bf823fa9d4981ca78ee4073706b04ab5442e2db2e7515d"
+    },
+    "ex:productmultilevel": {
+      "pdf_page": 27,
+      "pdf_reference": "Example 1.29",
+      "short_description": "Multilevel concentration for a product",
+      "correspondence_sha256": "8519bf8154016d28db5a2498cc57678cf1783f21eb06635b496930250e8b80ee"
+    },
+    "def:aumannintegral": {
+      "pdf_page": 28,
+      "pdf_reference": "Definition 1.30",
+      "short_description": "Aumann integral",
+      "correspondence_sha256": "acbb9a681f562f8ab3060e8266b5fb93991c66cc05a5ef8fe0d99c5f96cf9d2c"
+    },
+    "def:area": {
+      "pdf_page": 29,
+      "pdf_reference": "Definition 1.31",
+      "short_description": "Scalar integration",
+      "correspondence_sha256": "a84fde417ef8733a976d88a8ad987c3dd39fe091bc2348711c5b9f42be5e7fca"
+    },
+    "prop:area": {
+      "pdf_page": 29,
+      "pdf_reference": "Proposition 1.32",
+      "short_description": "Inverse-area identity",
+      "correspondence_sha256": "0dd79e3372bbfc619428dc46e6f08de003e13ba2462acd0ad66d1f2592029a75"
+    },
+    "cor:moments": {
+      "pdf_page": 30,
+      "pdf_reference": "Corollary 1.33",
+      "short_description": "Moments",
+      "correspondence_sha256": "2731791f882fc8a7728d98ccee48e2abc69c8e284f90471393b7aea9c4423d38"
+    },
+    "prop:pivots": {
+      "pdf_page": 30,
+      "pdf_reference": "Corollary 1.34",
+      "short_description": "Change of pivot to the mean",
+      "correspondence_sha256": "fcfa42337a0bd475d95b15a563e986f5e247d9e2e13b32c36c03f5c30b26f40e"
+    },
+    "def:familyintegral": {
+      "pdf_page": 31,
+      "pdf_reference": "Definition 1.35",
+      "short_description": "Integration of a family",
+      "correspondence_sha256": "efcab7d6ef91d3f42d86fe38f02ab5170680e2489e68dacd7fa37bddf64223e8"
+    },
+    "thm:familyintegral": {
+      "pdf_page": 31,
+      "pdf_reference": "Proposition 1.36",
+      "short_description": "Aumann integration of a monotone family",
+      "correspondence_sha256": "57322f5b5feda79ce5703cabe2f5fa814252d88a39d5c4d223e97a28342b6c47"
+    },
+    "def:hardytransform": {
+      "pdf_page": 32,
+      "pdf_reference": "Definition 2.1",
+      "short_description": "Hardy transform",
+      "correspondence_sha256": "dc921a2756bb567e95a09cbb538826e748cfa39154c293ed3fd1ff089ef7232a"
+    },
+    "prop:hardycalculus": {
+      "pdf_page": 33,
+      "pdf_reference": "Proposition 2.2",
+      "short_description": "Order and algebraic properties of the Hardy transform",
+      "correspondence_sha256": "f95b10e9bbfdff6a0d37833dc34c383c86343bf352d6c90bbecd069aa8ae8bc6"
+    },
+    "lem:hardyconvexity": {
+      "pdf_page": 33,
+      "pdf_reference": "Lemma 2.3",
+      "short_description": "Convexity and concavity of the Hardy transform",
+      "correspondence_sha256": "a017be95db375ca639f118750d45fdfddb1dd055436bb48075a22dfb9f1f255d"
+    },
+    "lem:hardyvariational": {
+      "pdf_page": 34,
+      "pdf_reference": "Lemma 2.4",
+      "short_description": "Variational formulas for the Hardy transform",
+      "correspondence_sha256": "6888c463df7e72464a04e23144108b87c6da52c1298549eb33bb675798015bbb"
+    },
+    "ex:normtransform": {
+      "pdf_page": 36,
+      "pdf_reference": "Example 2.5",
+      "short_description": "The sharp transform of an ℓq norm is ℓ1, giving the sharp Hardy tail bound for n ≥ 1.",
+      "correspondence_sha256": "90489fe497dce4ae808cc885491e407422ad3b570ba155472b195499895ee56d"
+    },
+    "prop:mediantransform": {
+      "pdf_page": 37,
+      "pdf_reference": "Proposition 2.6",
+      "short_description": "Superadditive transformation of an odd median",
+      "correspondence_sha256": "0004196d0f72f09dbf9c6bdb8eb6fc2ab542f3b97b8fd34647ff8fe8429da24b"
+    },
+    "lem:aggregationarea": {
+      "pdf_page": 37,
+      "pdf_reference": "Lemma 2.7",
+      "short_description": "Area inequality for monotone aggregation",
+      "correspondence_sha256": "f5e2d1d154bcb73dfb535f4870e02d386b849d2922fb0e7630cc371c86710a08"
+    },
+    "prop:hardytailaggregation": {
+      "pdf_page": 38,
+      "pdf_reference": "Proposition 2.8",
+      "short_description": "Aggregation of Hardy tail profiles",
+      "correspondence_sha256": "d58a8f9400cdb4b55c08e87152de10290a4bff24d8fbf3c5701e24ccd6350ae0"
+    },
+    "prop:hardyprofiles": {
+      "pdf_page": 40,
+      "pdf_reference": "Proposition 2.9",
+      "short_description": "Hardy bounds from convex transformations",
+      "correspondence_sha256": "aa5194595ab11033281808bcb0f1e8faae2c7f2c77af4f7a1dd155ac18c42235"
+    },
+    "prop:convextransforms": {
+      "pdf_page": 40,
+      "pdf_reference": "Proposition 2.10",
+      "short_description": "Power and exponential convex transformations",
+      "correspondence_sha256": "2d90b4e09c22f6807328e712602b9fcdb8cdda75f3149c2006f6f150fe5a849c"
+    },
+    "thm:hardytailaggregationsharp": {
+      "pdf_page": 41,
+      "pdf_reference": "Theorem 2.11",
+      "short_description": "Sharpness of Hardy tail aggregation",
+      "correspondence_sha256": "f362ee25b1dba7ff5a1069bdb356ca660b1850ce30e7934e0a2be2754f1b10f7"
+    },
+    "cor:hardymedian": {
+      "pdf_page": 42,
+      "pdf_reference": "Corollary 2.12",
+      "short_description": "Sharp Hardy bound for an odd median",
+      "correspondence_sha256": "0d08584b9f277f6bd31eba55cdb442703537cca469da02b90f3c4e91265035e7"
+    },
+    "ex:heterogeneousestimators": {
+      "pdf_page": 43,
+      "pdf_reference": "Example 2.13",
+      "short_description": "Heterogeneous estimators: median and normalized sum",
+      "correspondence_sha256": "d7f87cc8f3c4f595f88389fdbbd4507cd821a7279ab1248e4b25eb49230bec86"
+    },
+    "prop:hardyoptimality": {
+      "pdf_page": 44,
+      "pdf_reference": "Proposition 2.14",
+      "short_description": "Universal quantile envelope as a lattice supremum",
+      "correspondence_sha256": "33d570e6f26b9306938f15033125882546183413de6acf8575eced55e6b5690d"
+    },
+    "def:geometrichardytransform": {
+      "pdf_page": 46,
+      "pdf_reference": "Definition 3.1",
+      "short_description": "Geometric Hardy transform",
+      "correspondence_sha256": "786203241baa75587401f1f060f08d4bff33f73ae41815dfc9aee650ca243203"
+    },
+    "ex:local-geometric-zero-jump": {
+      "pdf_page": 47,
+      "pdf_reference": "Example 3.2",
+      "short_description": "A zero-induced jump of the geometric average",
+      "correspondence_sha256": "79cbe406705c65f7dccb12dbec60ecbc14d7cdc1a9617bd4a166eee29091544b"
+    },
+    "lem:hardy-geometric-comparison": {
+      "pdf_page": 48,
+      "pdf_reference": "Lemma 3.3",
+      "short_description": "The geometric Hardy profile lies between the original and arithmetic Hardy profiles.",
+      "correspondence_sha256": "9e2034fffaa47e9006b9d6a95708f2708a5b49d884eba346bf79001ac97eb5e3"
+    },
+    "lem:local-polya-knopp": {
+      "pdf_page": 49,
+      "pdf_reference": "Lemma 3.4",
+      "short_description": "Pólya–Knopp inequality",
+      "correspondence_sha256": "1cf0da6a1ef2c79123530a66dd55e295bcc9b8fdd825685daf3a1f4b8b55cc9b"
+    },
+    "lem:local-endpoint": {
+      "pdf_page": 49,
+      "pdf_reference": "Lemma 3.5",
+      "short_description": "Logarithmic endpoint control",
+      "correspondence_sha256": "7868965ea5f7a5fb4add55b34e66097fd1d29079945b49ce77e19506639c9904"
+    },
+    "the:concentration_bounded_variations": {
+      "pdf_page": 50,
+      "pdf_reference": "Theorem 3.6",
+      "short_description": "Geometric Hardy profile and moment bounds for multiplicative random Lipschitz controls.",
+      "correspondence_sha256": "417f47c911c2a0790edd4701243af2456a6ba7bec31689c199edf556e064bab0"
+    },
+    "prop:local-moment-sharpness": {
+      "pdf_page": 51,
+      "pdf_reference": "Proposition 3.7",
+      "short_description": "Lower bound for the moment scale",
+      "correspondence_sha256": "0df1f30cb5ed97c93d620bc63df8997336633fa08a92b713acda50a2d493a753"
+    },
+    "remark:centering_and_unequal_probability_levels": {
+      "pdf_page": 54,
+      "pdf_reference": "Remark 3.8",
+      "short_description": "Centering and unequal probability levels",
+      "correspondence_sha256": "35ffc6354dc850c36ca93bb0ba2a3958130bdc8262c4d169e243c16517f0d215"
+    },
+    "prop:local-network": {
+      "pdf_page": 55,
+      "pdf_reference": "Proposition 3.9",
+      "short_description": "Network tail profiles",
+      "correspondence_sha256": "43fe05c792a1f3a717c13565a3085d2d72cc87597798ae6ec69e493ea9afbdeb"
+    },
+    "example:subgaussian_concentration_and_depth": {
+      "pdf_page": 56,
+      "pdf_reference": "Example 3.10",
+      "short_description": "Subgaussian concentration and depth",
+      "correspondence_sha256": "7cef456310771a650b5830a4bf174673b46f414a5f0d36cb6280a46f21be0012"
+    },
+    "example:power_tails": {
+      "pdf_page": 56,
+      "pdf_reference": "Example 3.11",
+      "short_description": "Power tails",
+      "correspondence_sha256": "7209202867a3aede2578bca4eb9b8508098f072da6f94171b8a278d06882075f"
+    },
+    "lem:powergeometric": {
+      "pdf_page": 58,
+      "pdf_reference": "Lemma A.1",
+      "short_description": "Power–geometric limit",
+      "correspondence_sha256": "f5d86382ed1341d310ec7fe7085cf5c47801e6bca66abdacf1c1aa0dff58cf04"
+    },
+    "note:graph_topology": {
+      "pdf_page": 6,
+      "pdf_reference": "After Proposition 1.2",
+      "short_description": "Graph topology, interval domains/ranges/fibers, and inversion",
+      "correspondence_sha256": "900123248193386ebdba3492e06f6149bded2edc7490b70ab118085550ff1bdf"
+    },
+    "eq:parallel": {
+      "pdf_page": 24,
+      "pdf_reference": "Equation (1.33)",
+      "short_description": "Ordinary and parallel algebra definitions, associativity, commutativity, domain/range identities",
+      "correspondence_sha256": "fe8148d3c4d86885e5c7f6f18dd544594cbce22dbf40510d89e04184e2bb01c2"
+    },
+    "note:distributive_lattice": {
+      "pdf_page": 17,
+      "pdf_reference": "After Lemma 1.19",
+      "short_description": "Finite distributive lattice identities",
+      "correspondence_sha256": "be3f8ea53e275ec8ba73496ac2c87a60e66f13f711c7af1cb6f0a789c309643f"
+    },
+    "note:extrema_examples": {
+      "pdf_page": 20,
+      "pdf_reference": "After Proposition 1.22",
+      "short_description": "Vertical-graph and infinite-step extrema examples",
+      "correspondence_sha256": "d4af06d0d6c4c973b3a6c04cf3256a648a1692f8072e1ec3d54f7ae9407bffde"
+    },
+    "eq:expectationarea": {
+      "pdf_page": 30,
+      "pdf_reference": "Equation (1.44)",
+      "short_description": "Nonnegative tail-area and signed quantile expectation formulas",
+      "correspondence_sha256": "1ab8d52838cb16976de3ca1e7bd9ad2087417a3c0e8f784cc946f87a5d4eca03"
+    },
+    "eq:superadditivetransform": {
+      "pdf_page": 35,
+      "pdf_reference": "Equation (2.4)",
+      "short_description": "Superadditive transform and least-majorant properties",
+      "correspondence_sha256": "4430b7b51778732e84cecd66ce815b0d0b947c5c26e2f0ff5783a83436499170"
+    },
+    "eq:hardyaggregation": {
+      "pdf_page": 38,
+      "pdf_reference": "Equation (2.9)",
+      "short_description": "Deterministic Hardy aggregation inequality",
+      "correspondence_sha256": "93888f44d6177987d6c8b8c17415fca07ead65f36804103ed16ce3d5ea14ff80"
+    },
+    "eq:hardytailtransform": {
+      "pdf_page": 38,
+      "pdf_reference": "Equation (2.12)",
+      "short_description": "Hardy tail-envelope transform definition",
+      "correspondence_sha256": "f5ad4367e565c0f05410d25b1d7232d987a90ead0de1056cd8b8d33e8c312cb9"
+    },
+    "eq:tailaggregation": {
+      "pdf_page": 39,
+      "pdf_reference": "Equation (2.13)",
+      "short_description": "General aggregated survival-envelope bound",
+      "correspondence_sha256": "b58f2c3a29149748d9e6c0ac0415ec917dc3d2e02e51c5ab4c80fd5c9bc30746"
+    },
+    "eq:commontailaggregation": {
+      "pdf_page": 39,
+      "pdf_reference": "Equation (2.14)",
+      "short_description": "Common-envelope homogeneous aggregation bound",
+      "correspondence_sha256": "5ff239b1831100759a62a318fddaccaeae83c80aaf52651ef18f37739eeeb518"
+    },
+    "eq:hardytailsum": {
+      "pdf_page": 39,
+      "pdf_reference": "Equation (2.15)",
+      "short_description": "Hardy survival bound for sums",
+      "correspondence_sha256": "89c8c64c0242b2f14d7c26ea9d0162a8bb57819f99ae36106bd3dea3b37318e6"
+    },
+    "note:comonotone_quantile": {
+      "pdf_page": 41,
+      "pdf_reference": "After Proposition 2.10",
+      "short_description": "Comonotone aggregate quantile identity",
+      "correspondence_sha256": "a6b0aaa25b9498e3cf8dee6f9689bfc6b15a16d71f61887bf6c35379a80808cb"
+    },
+    "eq:comonotonequantilesharp": {
+      "pdf_page": 41,
+      "pdf_reference": "Equation (2.21)",
+      "short_description": "Pointwise comonotone quantile sharpness",
+      "correspondence_sha256": "756271a5d10c4010a4e47bca6044b0601635f37840b5d10e6f2c9810af1ea050"
+    },
+    "note:replication_counterexample": {
+      "pdf_page": 45,
+      "pdf_reference": "After Proposition 2.14",
+      "short_description": "Bernoulli example showing replication is essential",
+      "correspondence_sha256": "ab2955c52a42832f77ae9e9bf47f62ef0df4532189cc7d5bf8f0e19c4d842943"
+    },
+    "eq:hardyprofileidentities": {
+      "pdf_page": 39,
+      "pdf_reference": "Equation (2.16)",
+      "short_description": "Exact scalar Hardy averages for power and exponential profiles",
+      "correspondence_sha256": "c0065de263e54279eaef71eff58b0382f0f1489fb1005e4419adfa99a6de8da4"
+    },
+    "eq:hardyregularizedprofiles": {
+      "pdf_page": 39,
+      "pdf_reference": "Equation (2.17)",
+      "short_description": "Exact scaled inverse Hardy envelopes",
+      "correspondence_sha256": "af0e0f2c0f2b07dbfc858691cb1466c743372bae0c72522b16454ecbcb48bec5"
+    },
+    "note:log_power_convexity_limit": {
+      "pdf_page": 57,
+      "pdf_reference": "After Example 3.11",
+      "short_description": "Equivalence of logarithmic convexity and limiting power convexity",
+      "correspondence_sha256": "af7b2546a6fba02ab34f4d6f6c34ffccce1486f33661ca6036e7fb1b03423eaf"
+    },
+    "note:constant_limit_e": {
+      "pdf_page": 57,
+      "pdf_reference": "After Example 3.11",
+      "short_description": "Limit of the power-envelope constant to e",
+      "correspondence_sha256": "3742aa820d299563618d42edad1718214c5be6cfb01c56c9fc2e16bc6cc43178"
+    },
+    "eq:productcompatibility": {
+      "pdf_page": 11,
+      "pdf_reference": "Equation (1.9)",
+      "short_description": "Compatible-point criterion used for product maximality",
+      "correspondence_sha256": "5bd215b41a7543b63bddd154bf6fb660fa12ae9c2b077cab64160d3b1336e347"
+    },
+    "eq:hull_p_m": {
+      "pdf_page": 13,
+      "pdf_reference": "Equation (1.13)",
+      "short_description": "Upward and downward interval hulls",
+      "correspondence_sha256": "27c1b1d58cc9bfc8392a6a2dda1118f3cf7c889cd5e684781ad63302f1b0c29f"
+    },
+    "eq:universal_property_sup": {
+      "pdf_page": 17,
+      "pdf_reference": "Equation (1.23)",
+      "short_description": "Universal property of the supremum in increasing resolvent order",
+      "correspondence_sha256": "c0d0c49839ad8761cce89f67737b72d41a7b77c6504af5ecbb8f3ee4133d2472"
+    },
+    "eq:rangeenvelopes": {
+      "pdf_page": 19,
+      "pdf_reference": "Equation (1.29)",
+      "short_description": "Ranges of finite envelopes of continuous scalar functions of one orientation",
+      "correspondence_sha256": "6a30938536a2aa0604fa2bdeb965c152572f027c3f9a08829c3f8ba011ff1500"
+    },
+    "eq:moment": {
+      "pdf_page": 30,
+      "pdf_reference": "Equation (1.46)",
+      "short_description": "Extended moment bound from a capped operator survival envelope",
+      "correspondence_sha256": "40b04f89482beee144793a1917e9dfc30caf5e6dec4531b53598d907d228b0b2"
+    },
+    "eq:independentcopy": {
+      "pdf_page": 31,
+      "pdf_reference": "Equation (1.48)",
+      "short_description": "Median-to-copy and copy-to-pivot tail comparisons",
+      "correspondence_sha256": "9214eac937747dc48ff31803e57030984a5d89ce6a304340a22643d6530ad3bd"
+    },
+    "eq:hardy": {
+      "pdf_page": 32,
+      "pdf_reference": "Equation (2.2)",
+      "short_description": "Scalar value of the completed Hardy transform on its domain interior",
+      "correspondence_sha256": "90bdca9cb30e2ae10e37b97fb9e28ca89655be6cb20f28547d11eef04eac97e3"
+    },
+    "eq:medianlinearupper": {
+      "pdf_page": 61,
+      "pdf_reference": "Equation (A.1)",
+      "short_description": "Odd-median subset-sum upper bound",
+      "correspondence_sha256": "7355fdbdfc4d9c8a493c687daba1c75525c93c1fe436ea7177aa9eb35af9a4a6"
+    },
+    "eq:mediantruncation": {
+      "pdf_page": 61,
+      "pdf_reference": "Equation (A.2)",
+      "short_description": "Exact truncation identity at the minimizing median-transform level",
+      "correspondence_sha256": "3d3702f5bb5b27191d8b68644dd7edcbca3d807bcca9f45ef6a7ee13adfb0455"
+    },
+    "eq:hardytailvariational": {
+      "pdf_page": 38,
+      "pdf_reference": "Equation (2.11)",
+      "short_description": "Original-space feasible-weight formula for Hardy tail averages",
+      "correspondence_sha256": "0e729bb18bca0a77ce62db9d1496052cb3c660457724e8a95ce95acf7b19cbca"
+    },
+    "eq:hardy-geometric-product": {
+      "pdf_page": 49,
+      "pdf_reference": "Equation (3.3)",
+      "short_description": "Geometric Hardy averaging commutes with completed products",
+      "correspondence_sha256": "b897c60ed3cb21d6ac2fe67047e804d6dbb4ff401f974cf9bc045a7f02a2a679"
+    },
+    "eq:hardy-geometric-dilation": {
+      "pdf_page": 49,
+      "pdf_reference": "Equation (3.4)",
+      "short_description": "Geometric Hardy averaging commutes with completed positive dilations",
+      "correspondence_sha256": "63cbbbe20666649d86e5833d12a293f10beedce8975d673caa8a7161fc9f2ffa"
+    },
+    "eq:local-logarithmic-mean": {
+      "pdf_page": 52,
+      "pdf_reference": "Equation (3.13)",
+      "short_description": "Logarithmic control means bounded by marginal quantile areas",
+      "correspondence_sha256": "9fb236ab6b60fb4703be13ef3f8a0d3ae05f9898d15d57a150fead88b65f769b"
+    },
+    "eq:local-two-parameter": {
+      "pdf_page": 53,
+      "pdf_reference": "Equation (3.14)",
+      "short_description": "Two-parameter randomized Lipschitz tail estimate with budget a+2b",
+      "correspondence_sha256": "472cd1620af2e490b1576c68419ac8c395a1d29c9a61f072b81946806a5bd689"
+    },
+    "eq:local-optimized": {
+      "pdf_page": 53,
+      "pdf_reference": "Equation (3.15)",
+      "short_description": "Optimized lower-quantile estimate over unequal probability levels",
+      "correspondence_sha256": "7d17023c06b1fb63e656a9bfe36b3f98adcf3422a174bf8c2bc148a6e30e1e81"
+    },
+    "eq:local-sharper": {
+      "pdf_page": 53,
+      "pdf_reference": "Equation (3.16)",
+      "short_description": "Completed sharper randomized Lipschitz bound with dilation 3",
+      "correspondence_sha256": "4f1a272d174110868ec3788ae8a88fb5545c3910d82e50eaa03e1ed1eb6f6e8b"
+    },
+    "eq:local-network": {
+      "pdf_page": 55,
+      "pdf_reference": "Equation (3.19)",
+      "short_description": "Random feed-forward network definition and normalization",
+      "correspondence_sha256": "ba72a56845d09a7cb023fbbb3cd7385eb460ee02878f9c26edc50db66ee8b882"
+    },
+    "eq:local-network-two-point": {
+      "pdf_page": 55,
+      "pdf_reference": "Equation (3.21)",
+      "short_description": "Two-point network modulus with the stated dimension factor",
+      "correspondence_sha256": "4544d86766c357d45bd4de34682ecc458284e43c5190105a1180e6b301dea471"
+    },
+    "note:composition_self_counterexample": {
+      "pdf_page": 10,
+      "pdf_reference": "After Proposition 1.7",
+      "short_description": "The maximal zero-ray operator has a nonmonotone self-composition",
+      "correspondence_sha256": "89a919e71513cb7f23cc34191d1ac4a3ccd9e3e684575d8bd42446fd93714d07"
+    },
+    "note:vertical_orientation_incompatibility": {
+      "pdf_page": 12,
+      "pdf_reference": "After Definition 1.11",
+      "short_description": "Opposite resolvent-order conventions on vertical graphs",
+      "correspondence_sha256": "936724035911ab6f9abd0350be0988fb0927c720952750b7f1f54bdd31a6e26e"
+    },
+    "note:interval_order_examples": {
+      "pdf_page": 14,
+      "pdf_reference": "After Definition 1.14",
+      "short_description": "Partial order and endpoint-sensitive interval examples",
+      "correspondence_sha256": "99a0b27b996c5df4278a5432be99009281f7bfb037461048b0f573c0e3a1b003"
+    },
+    "note:continuous_scalar_order": {
+      "pdf_page": 14,
+      "pdf_reference": "After Lemma 1.13",
+      "short_description": "Resolvent order agrees with ordinary pointwise comparison for continuous full-domain monotone scalar functions",
+      "correspondence_sha256": "57b22560e704d9e475a19727aa27a86e63bd89b7ace561af48fde51bf5b844a2"
+    },
+    "note:log_zero_exception": {
+      "pdf_page": 10,
+      "pdf_reference": "After Lemma 1.8",
+      "short_description": "The logarithm of the identically zero maximal graph is empty and not maximal",
+      "correspondence_sha256": "73eddf7100eebe7680a1287e3dfdc0c2614a158e9ee28978afa7756ec7b06b6b"
+    },
+    "note:family_hardy_dilations": {
+      "pdf_page": 32,
+      "pdf_reference": "After Proposition 1.36",
+      "short_description": "Hardy averaging is the completed Aumann integral of restricted dilations",
+      "correspondence_sha256": "6866efa89b277119550d7a9c77effc3969b73287c57ad689d4f7c4163e178469"
+    },
+    "note:locally_integrable_hardy": {
+      "pdf_page": 32,
+      "pdf_reference": "After Definition 2.1",
+      "short_description": "Compatible Hardy transforms of integrable restrictions define the locally integrable extension",
+      "correspondence_sha256": "8d21451db0abc97c6ab51f664f9c1fb9bf26254f618c002fd9771c4c4b3bb20a"
+    },
+    "note:aggregation_constructor": {
+      "pdf_page": 37,
+      "pdf_reference": "After Proposition 2.6",
+      "short_description": "Continuous monotone aggregation of interval endpoints defines a maximal decreasing operator",
+      "correspondence_sha256": "a38b71b242ec2f87e316c58393be5352d766e4a5c473974988d65054145044f2"
+    },
+    "note:quasinorm_superadditivity": {
+      "pdf_page": 36,
+      "pdf_reference": "In Example 2.5",
+      "short_description": "For 0<q<=1 the nonnegative l^q quasi-norm is superadditive and equals its sharp transform",
+      "correspondence_sha256": "df95b3c3554d882b7338e7beadcc74a9f9821bd6773ef995dae65b121342925f"
+    },
+    "note:exponential_boundary_counterexample": {
+      "pdf_page": 46,
+      "pdf_reference": "After Proposition 2.14",
+      "short_description": "Exponentiating the completed zero profile gives a nonclosed value (0,1] at 1",
+      "correspondence_sha256": "cc81074ca701e5f5bb15558b45558cecc4a633a863b953e6f67c80f047e46ce8"
+    },
+    "note:moment_lower_constant_optimality": {
+      "pdf_page": 51,
+      "pdf_reference": "After Proposition 3.7",
+      "short_description": "The universal lower coefficient 2^(-1/r) is optimal for r>=1",
+      "correspondence_sha256": "a672db73207a489cc98493c8fe503445b7d7b9fc67976e3b3abda828a7147d9e"
+    },
+    "note:gaussian_input_profile": {
+      "pdf_page": 4,
+      "pdf_reference": "Introduction",
+      "short_description": "Standard Gaussian input admits the uniform profile 2 sqrt(log(2/u))",
+      "correspondence_sha256": "6d21f9fd1cf9cc72749c201f2987fa8d7de94043849090da6866969a3f6400af"
+    },
+    "note:network_power_geometric_bound": {
+      "pdf_page": 57,
+      "pdf_reference": "In Example 3.11",
+      "short_description": "G(m+c id^(-alpha))(v)<=exp(alpha)(m+c v^(-alpha))",
+      "correspondence_sha256": "6a2b900c0cfd420272024c9397d62a3984fb3e7ae06e677f9e27cf62c53d5cbe"
+    },
+    "note:finite_extrema_graph_union": {
+      "pdf_page": 17,
+      "pdf_reference": "After Lemma 1.19",
+      "short_description": "Every graph point of either finite extremum belongs to an input graph",
+      "correspondence_sha256": "1f5dbc80c2f80609a6df8d21729279fc8c41500d7fe8bba017d1bc9fe35139be"
+    },
+    "note:extrema_orientation_variants": {
+      "pdf_page": 18,
+      "pdf_reference": "After Proposition 1.20",
+      "short_description": "Extrema inequalities for orientation-changing and order-reversing maps",
+      "correspondence_sha256": "64a29318fe730c3cf27e2ad502e1c6b20ee372a3fb97b951feb0cebf652fac33"
+    },
+    "note:interval_extrema_hulls": {
+      "pdf_page": 18,
+      "pdf_reference": "After Definition 1.21",
+      "short_description": "Four hull identities for finite interval infima and suprema",
+      "correspondence_sha256": "b2fc346c98edb8ed00816ef2a6c13e804d70df13fad6fcb1b915b0b5753b9c72"
+    },
+    "note:convex_selection_singleton": {
+      "pdf_page": 33,
+      "pdf_reference": "After Proposition 2.2",
+      "short_description": "Convex or concave interior selections are continuous and force singleton values",
+      "correspondence_sha256": "300ea925bdcc955f7c57c3e2c7f38df3e6a0b76c329c6688bbd947b8bf113bdc"
+    },
+    "note:shortfall_one_sided_derivatives": {
+      "pdf_page": 34,
+      "pdf_reference": "After Lemma 2.4",
+      "short_description": "One-sided derivatives of the expected-shortfall objective",
+      "correspondence_sha256": "37f249bc3d6efa03482486d3c0d5685f1237dc242afe1a281764e331f41bbaa1"
+    },
+    "note:shortfall_subdifferential": {
+      "pdf_page": 34,
+      "pdf_reference": "After Lemma 2.4",
+      "short_description": "The convex subdifferential is the interval 1-p^(-1) S[X](a)",
+      "correspondence_sha256": "d00a9c7e7e6ccf3afb28471cf899e8826966c618a42c4b4b40abdac32f11419e"
+    },
+    "note:hypersimplex_vertices": {
+      "pdf_page": 62,
+      "pdf_reference": "Appendix A.5, proof of Proposition 2.6",
+      "short_description": "The hypersimplex is the convex hull of fixed-cardinality zero-one vectors",
+      "correspondence_sha256": "df3b91abcd94f6bfbd0ef24d7d3abfede4666b86de4bb64605ea5ddbc7a48f66"
+    }
+  }
+}

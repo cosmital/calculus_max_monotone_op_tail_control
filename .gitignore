@@ -1,0 +1,24 @@
+.lake/
+.elan/
+*.olean
+*.ilean
+*.olean.server
+*.olean.private
+__pycache__/
+*.py[cod]
+verification/current/
+ReaderCheck_*.lean
+.DS_Store
+Thumbs.db
+*.aux
+*.log
+*.out
+*.toc
+
+# Private article sources and development archives stay local.
+*.tex
+*.bib
+historical/
+verification/*
+!verification/evidence/
+dist/

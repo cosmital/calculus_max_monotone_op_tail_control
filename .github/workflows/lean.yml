@@ -1,0 +1,38 @@
+name: Lean sources and whole-paper coverage
+
+"on": [push, pull_request, workflow_dispatch]
+
+permissions:
+  contents: read
+
+jobs:
+  supplied-lean-declarations:
+    name: Compile Lean proofs and audit axioms
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: leanprover/lean-action@v1
+        with:
+          auto-config: false
+          build: false
+          test: false
+          use-mathlib-cache: true
+      - name: Build every supplied library and run the axiom audits
+        run: python3 tools/verify.py --compile --fresh
+      - name: Preserve actual verification output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: supplied-source-verification
+          path: verification/current/
+          if-no-files-found: warn
+
+  whole-paper-coverage:
+    name: Check author-reviewed manuscript correspondence
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test Python verification utilities
+        run: python3 -m unittest discover -s tests -v
+      - name: Reject incomplete or uncertified coverage
+        run: python3 tools/verify.py --coverage

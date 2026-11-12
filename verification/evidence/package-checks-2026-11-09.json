@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "status": "METADATA_ONLY_OK",
+    "numbered_items": 62,
+    "supplemental_items": 56,
+    "source_modules": 335,
+    "note": "No mathematical proof is validated by this metadata gate."
+  },
+  "coverage": {
+    "status": "COVERAGE_REVIEW_RECORDED",
+    "note": "This records human semantic review; it does not mechanize that review."
+  },
+  "tooling_tests": 33,
+  "tooling_test_seconds": 286.993,
+  "tooling_test_exit_code": 0,
+  "release_exit_code": 0,
+  "final_source_collection_regression_exit_code": 0,
+  "pdf_sha256": "84c1f27956d69c9ae457d4c5a98a40514f9af8fd1fb635c1bda7f96d4eafeb51",
+  "distribution": "PDF only; no .tex/.bib files, caches or private development archives.",
+  "lean_source_changes": "Obsolete documentation/status comments and one audit output string only; mathematical proofs and audit logic unchanged.",
+  "remote_ci": "Not run; no GitHub upload or remote release performed."
+}

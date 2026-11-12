@@ -1,0 +1,40 @@
+$ C:\Users\cosme\AppData\Local\Programs\Python\Python313\python.exe -m unittest discover -s tests -v
+test_changed_pdf_or_correspondence_is_rejected (test_pdf_release.PDFReleaseTests.test_changed_pdf_or_correspondence_is_rejected) ... ok
+test_export_has_no_private_tex_archives_or_dangling_tex_links (test_pdf_release.PDFReleaseTests.test_export_has_no_private_tex_archives_or_dangling_tex_links) ... ok
+test_pdf_only_copy_runs_metadata_and_author_coverage (test_pdf_release.PDFReleaseTests.test_pdf_only_copy_runs_metadata_and_author_coverage) ... ok
+test_revoked_review_and_changed_lean_sources_are_rejected (test_pdf_release.PDFReleaseTests.test_revoked_review_and_changed_lean_sources_are_rejected) ... ok
+test_appendix_numbering (test_tools.ToolTests.test_appendix_numbering) ... ok
+test_arbitrary_product_not_hidden_by_old_cubic_proof (test_tools.ToolTests.test_arbitrary_product_not_hidden_by_old_cubic_proof) ... ok
+test_author_acceptance_is_explicitly_recorded (test_tools.ToolTests.test_author_acceptance_is_explicitly_recorded) ... ok
+test_checked_packet_rejects_changed_bodies_wrong_order_and_failed_receipt (test_tools.ToolTests.test_checked_packet_rejects_changed_bodies_wrong_order_and_failed_receipt) ... ok
+test_comment_stripping_preserves_escaped_string (test_tools.ToolTests.test_comment_stripping_preserves_escaped_string) ... ok
+test_compilation_includes_all_reader_and_audit_files (test_tools.ToolTests.test_compilation_includes_all_reader_and_audit_files) ... ok
+test_compilation_rejects_sources_changed_during_checks (test_tools.ToolTests.test_compilation_rejects_sources_changed_during_checks) ... ok
+test_compile_command_failure_is_propagated (test_tools.ToolTests.test_compile_command_failure_is_propagated) ... ok
+test_coverage_rejects_incomplete_source (test_tools.ToolTests.test_coverage_rejects_incomplete_source) ... ok
+test_dictionary_declarations_exist_in_inventory (test_tools.ToolTests.test_dictionary_declarations_exist_in_inventory) ... ok
+test_distributable_checksums_exclude_ignored_run_artifacts (test_tools.ToolTests.test_distributable_checksums_exclude_ignored_run_artifacts) ... ok
+test_failed_command_history_is_retained (test_tools.ToolTests.test_failed_command_history_is_retained) ... ok
+test_following_moment_claims_are_preserved_outside_corollary (test_tools.ToolTests.test_following_moment_claims_are_preserved_outside_corollary) ... ok
+test_following_quantile_assertions_preserved (test_tools.ToolTests.test_following_quantile_assertions_preserved) ... ok
+test_metadata_inventory (test_tools.ToolTests.test_metadata_inventory) ... ok
+test_missing_compiler_is_not_success (test_tools.ToolTests.test_missing_compiler_is_not_success) ... ok
+test_nested_comments_are_not_proof_tokens (test_tools.ToolTests.test_nested_comments_are_not_proof_tokens) ... ok
+test_real_placeholder_survives_scan (test_tools.ToolTests.test_real_placeholder_survives_scan) ... ok
+test_refresh_preserves_review_and_pdf_pages_without_parent_aux (test_tools.ToolTests.test_refresh_preserves_review_and_pdf_pages_without_parent_aux) ... ok
+test_refresh_refuses_unreconciled_manuscript_without_overwriting_review (test_tools.ToolTests.test_refresh_refuses_unreconciled_manuscript_without_overwriting_review) ... ok
+test_source_collection_keeps_nested_project_sources_and_prunes_cache (test_tools.ToolTests.test_source_collection_keeps_nested_project_sources_and_prunes_cache) ... ok
+test_source_hashes_match_current_math (test_tools.ToolTests.test_source_hashes_match_current_math) ... ok
+test_staged_structure_is_indexed_without_comment_or_string_decoys (test_tools.ToolTests.test_staged_structure_is_indexed_without_comment_or_string_decoys) ... ok
+test_superseded_changevariables_is_not_current_coverage (test_tools.ToolTests.test_superseded_changevariables_is_not_current_coverage) ... ok
+test_supplemental_approval_does_not_replace_missing_proof_mapping (test_tools.ToolTests.test_supplemental_approval_does_not_replace_missing_proof_mapping) ... ok
+test_unicode_supplemental_coverage_is_read_as_utf8 (test_tools.ToolTests.test_unicode_supplemental_coverage_is_read_as_utf8) ... ok
+test_unlabelled_items_have_keys (test_tools.ToolTests.test_unlabelled_items_have_keys) ... ok
+test_unterminated_comment_rejected (test_tools.ToolTests.test_unterminated_comment_rejected) ... ok
+test_concurrent_checks_keep_separate_complete_logs (test_windows_runner.WindowsRunnerLogTests.test_concurrent_checks_keep_separate_complete_logs) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 286.993s
+
+OK
+Exit code: 0
